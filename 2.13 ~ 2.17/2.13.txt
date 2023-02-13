@@ -1,0 +1,90 @@
+강사님 연락 bdwrtr2021@google.com
+git 공부 -> https://opentutorials.org/module/3733
+
+github 주소 -> https://github.com/KangHoJ/hojeong-project.git
+token -> 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
+token을 가진 내 주소 -> https://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@github.com/KangHoJ/hojeong-project.git
+
+
+< jupyter notebook markdown 단축키 >
+a - > 윗줄 셀 추가
+b -> 아랫줄 셀 추가
+dd -> 셀 삭제 
+shift + enter -> 셀 실행 후 커서 아래로 
+shift + m -> 현재셀과 아래셀 합치기 
+c -> 셀 복사 
+m-> 마크다운 변경
+y -> 코드로 변경 
+* * , ** ** -> 채 변경
+<br> -> 줄 띄어쓰기 
+-  ->불릿 포인트(점 찍기 )
+> -> 인용구 입력
+[링크 설명](링크 주소) -> 링크 표시할떄
+--- -> 수평선 역할 
+ctrl +b  ->탐색기 숨기거나 보이게 하거나 가능
+ctrl + / -> 주석처리
+ctrl + shifg + -    ->두개의 셀로 구분
+
+< 2/13 깃 설정>
+1. 만드려는 폴더에서 우클릭후 git bash here 클릭
+2. git config --global user.name "Ho Jeong"
+3. git config --global user.email "rkdghwjd1999@gmail.com"
+4. git init
+5. git status로 변경사항 확인가능
+6. git add. 로 추가
+7. git commit -m "버전에 남길 메세지" 로 저장시점(commit) 생성 
+8. git log --graph 로 이전에 대한 commit 목록 확인 가능
+
+<깃 허브>
+1. github주소 복사 , token 주소 복사 , 합치기 (https://token주소 + @ + 깃허브 주소 )
+2.  https://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@github.com/KangHoJ/hojeong-project.git -> 만들어진 주소 
+3. git remote add origin  https://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@github.com/KangHoJ/hojeong-project.git -> 주소 추가 
+4. git remote -v   -> 주소가 잘 추가 되었는지
+5. git push -u origin main  -> 최초 명령어
+
+<앞으로 해야할것 (코드 올리기) >
+1. 폴더 우클릭 , git bash here햣
+3. git add.  -> 버전으로 만들 파일을 추가 
+4. git status 
+5. git commit -m "메시지"
+6. git push origin 
+
+
+<파이썬 기본 >
+- print(a+'\n'+a+'\n'+b) -> 변수 a,b,c 줄바꿈으로 출력 
+- int(변환할것) -> 정수 타입으로 변환하기 
+- float(변환할것) -> 실수 타입으로 변환하기 
+- print('가장 시끄러운 층은 = {}층 '.format(a)) -> format으로 숫자 집어넣기
+- 1.2345e10 -> 1.2345*10^10
+- del 변수 -> 변수 삭제 
+- type() -> 타입을 볼 수 있음
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
