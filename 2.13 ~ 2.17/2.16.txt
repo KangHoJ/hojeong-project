@@ -1,0 +1,99 @@
+<반복문>
+
+for 문 정의
+-> 시퀀스 자료형의 항목들을 순서대로 요소를 하나씩 꺼냄
+
+<반복문 예제>
+
+
+# 도움 받아서 풀었던 문제
+<삼각자 형태 만들기 >
+방법1 	number = int(input("자연수 하나 입력해주세요"))
+	for i in range(number,0,-1):
+     		print('{}\t'.format(i)*i)
+
+방법2	# 도움 받아서 풀었던 문제
+	number = int(input("자연수 하나 입력해주세요"))
+	for i in range(number ,0 , -1):
+    		for j in range(i): 
+            			print(i,end='\t') 
+    		print() # 2번쨰 for문 끝나고 줄바꿈해줌 
+
+
+# 겨우 풀었던 문제 
+< 구멍뚫린 네모 만들기>
+방법 1    for i in range(10,0,-1):
+    		if i == 10 or i == 1:
+        			print('{}'.format(a)*10)
+    		else:
+        			print('{}'.format(a)*1 + " " * 8 + '{}'.format(a)*1)
+
+방법 2    for i in range(10):
+  		  if i ==0 or i==9:
+        			print('* ' * 10)
+    		else:
+       			print('*                 *')
+
+
+# 못풀었던 문제 정답
+< 숫자 입력받아서 다 더하는거 출력하기 >
+even = int(input("숫자를 입력하시오"))
+result = 1
+str = '1'
+
+for i in range(3,even+1,2):
+    result +=i
+    str += ' + {}'.format(i)
+str += ' = {} '.format(result)
+print(str)
+
+
+<계승 구하기>
+number = int(input("계승을 구할 숫자를 입력하세요"))
+result = 1
+for i in range(1,number+1,1):
+    result *= i
+
+print(result)
+
+<자연수 더하기>
+number = int(input("자연수를 입력해주세요"))
+result =0
+for i in range(1,number+1,1):
+    result +=i
+    
+print(result)
+
+
+<구구단>
+number = int(input("구구단을 알려드립니다.숫자를 입력하세요"))
+
+for i in range(1,10,1):
+    number * i
+    print('{} * {} = {}'.format(number,i,number * i))
+
+while 문
+<숫자출력>
+i = 2
+while i <= 100 :
+    print('{}\t'.format(i), end = " ")
+    i +=2
+
+
+
+<구구단>
+number = int(input("구구단을 알려드립니다.숫자를 입력하세요"))
+
+i = 0
+while i <10:
+    number * i
+    print('{} * {} = {}'.format(number,i,number * i))
+    i +=1
+
+
+
+
+
+
+
+
