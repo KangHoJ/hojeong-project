@@ -213,6 +213,19 @@ values (4,100,'iphone') ,(4,101,'ipad');                    # orders 에 있는 
 
 
 
+CREATE TABLE `users` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `email` varchar(255) COLLATE utf8_bin NOT NULL,
+    `password` varchar(255) COLLATE utf8_bin NOT NULL,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin
+AUTO_INCREMENT=1 ;  
+
+## users라는 테이블을 만든다
+
+select * from users   # jupyter 코드에서 만드는거 실행 하면 새로 생기는거 확인 가능
+
+
 
 
 
