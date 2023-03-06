@@ -1,14 +1,14 @@
-desc mysql.user; #    .은 테이블을 접근가능(user라는 테이블안에 field들 볼 수 있음)
+desc mysql.user; #   .은 테이블을 접근가능(user라는 테이블안에 field들 볼 수 있음)
 show columns from mysql.user;        # my sql DB의 user 테이블 columns 확인
 show full columns from mysql.user;   # my sql DB의 user 테이블 모든 columns 확인 
-select user , host from mysql.user;  # my sql DB user,host columns 확인
+select user , host , Password from mysql.user;  # my sql DB user,host columns 확인
 
 #---------------------------------DDL->create(생성)----------------------------------------------
 create user 'test'@'localhost'identified by '1234'; 
 # host 열에 localhost(접근주소)추가하고,user열에 test추가하고 password 1234 인 테이블 만듬
 create user 'anywhere'@'%'identified by '1234'; 
 # 어디서든 접속가능한 사용자를 만듬
-create user 'test2'@'192.168.0.%'identified by '1234';  
+create user 'test3'@'192.168.0.%'identified by '1234';  
 # 192.168.0 에만 접속가능한 사용자
 
 create or replace user 'test'@'localhost' identified by '1234'; 
@@ -44,18 +44,20 @@ show databases;                        # DB 조회
 create database `test.test`;           # DB 생성
 drop database `test.test`;             # DB 삭제
 
-create database python;                # python DB 생성
-USE python;                            # 앞으로 python DB 안에만 찾을거다 (범위 축소)
+create database python2;                # python DB 생성
+USE python2;                            # 앞으로 python DB 안에만 찾을거다 (범위 축소)
 select database();                     # 현재 사용중인 데이터베이스 확인
 
 
 
 #----------------테이블 조작(생성,삭제,조회)-----------------------------
 show tables;                           # 현재 사용중인 데이터베이스중 어떤 테이블이 있는지 조회
-create Table table1(column1 varchar(100));
+create Table table1(column1 varchar(100),column2 varchar(100));
 # 이름은 column1을열로 가지는 table1을 만들기 크기는 100
+show columns from table1; # 만들어진 table1 칼럼 조회
 rename table table1 To table2;         # table1 -> table2 이름 변경
 drop Table table2;                     # table2 삭제 
+
 
 
 CREATE TABLE test_table (           
@@ -63,16 +65,18 @@ test_column1 INT,
 test_column2 INT,
 test_column3 INT
 );                                     #column1 , column2 , column3 필드열을 가지는 test_table 만듬
-DESC test_table;                       # test_table 테이블 필드 조회
+DESC test_table2;                       # test_table 테이블 필드 조회
+rename table test_table to test_table2; # 테이블 이름 변경 
 
-alter Table test_table              
+
+alter Table test_table2           
 add (
 test_column5 int,
 test_column6 int,
 test_column7 int
 );   							       # columns5,6,7 추가   					
 
-alter Table test_table               
+alter Table test_table2          
 drop test_column1;                     # test_column1 삭제
 
 
@@ -99,12 +103,13 @@ desc test_table;
 
 #-----------------------자동 생성 ----------------------------
 CREATE TABLE test ( id INT AUTO_INCREMENT PRIMARY KEY );
-INSERT INTO test VALUES ();            # insert into '(필드)''테이블' values ('값')
+INSERT INTO test VALUES ();            # insert into '(필드)''테이블' values ('값') -> 생성
 # id라는 column 밖에 없어서 test 앞에 column 쓰는건 생략 가능하고 , AUTO_INCREMENT 되어 있으므로 값은 알아서 생성
 
+show table status;                     # 테이블의 상태를 보여줌 
 desc test;                             # test 테이블 조회
 SELECT * FROM test;                    # 데이터 조회(*은 모든 필드를 조회한다는뜻)
-show table status                      # 테이블의 상태를 보여줌 
+
 
 INSERT INTO test VALUES (15);          # 이미 있는값을 뺴고는 지정해서 추가도 가능하다 
 delete from test where id = 101;       # test 테이블에서 id 가 101 인 것만 삭제(where을 안쓰면 전체 다 삭제)
@@ -128,7 +133,7 @@ insert into table1 values('a','aa','aaa');                     # 모두 다 같�
 insert into table1 ( column1, column2 ) values ( 'b', 'bb' );  # 하나는 null로 채워짐
 
 update table1 set column1 = 'z';                               # column1 값 수정(전체)
-update table1 set column1 = 'x' where column2 ='aa';           #column2 가 aa인것만 colum1 x로 바꿔라 
+update table1 set column1 = 'x' where column2 ='aa';           # column2 가 aa인것만 colum1 x로 바꿔라 
 update table1 set column1 ='y' , column2='yy' where column3 = 'aaa';
 
 delete from table1 where column1 ='y';
@@ -142,12 +147,16 @@ device_info varchar(40),
 os_info varchar(40),
 session_id varchar(80));
 
+desc hojeong;
+select * from hojeong;
+
 
 insert into hojeong(ipaddress,iptime_first,before_url,device_info)
 values ( 'asdf','2023-02-23 11:33:29','localhost','pc'),
 	   ( 'asdf','2023-02-23 11:33:29','localhost','iphone');
 
 desc hojeong;
+select * from hojeong;
 
 insert into hojeong(ipaddress,iptime_first,before_url,device_info)
 values ( 'aaaaaaaaaaaaaaaaa','2023-02-23 11:33:29','localhost','pc');
