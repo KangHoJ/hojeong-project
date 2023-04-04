@@ -1,0 +1,2376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f5404b673e69286ec36c5ecb1dc86ceb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f5404b673e69286ec36c5ecb1dc86ceb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f5404b673e69286ec36c5ecb1dc86ceb = L.map(
+                "map_f5404b673e69286ec36c5ecb1dc86ceb",
+                {
+                    center: [37.468251, 126.886212],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_82287006fe4e6f2d99ff89b27412708f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f5404b673e69286ec36c5ecb1dc86ceb);
+        
+    
+            var marker_cluster_02403ca0a4272a049f24d21623bbe471 = L.markerClusterGroup(
+                {}
+            );
+            map_f5404b673e69286ec36c5ecb1dc86ceb.addLayer(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+            var marker_0684c50135b9be0f83bc1a5d7789cf04 = L.marker(
+                [37.547247302145, 127.015735735182],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_cbf1e4950d091d8657633c2ed50d683a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c97528688482e0e4cff2dc15150be4e = $(`<div id="html_6c97528688482e0e4cff2dc15150be4e" style="width: 100.0%; height: 100.0%;">와우치킨</div>`)[0];
+            popup_cbf1e4950d091d8657633c2ed50d683a.setContent(html_6c97528688482e0e4cff2dc15150be4e);
+        
+
+        marker_0684c50135b9be0f83bc1a5d7789cf04.bindPopup(popup_cbf1e4950d091d8657633c2ed50d683a)
+        ;
+
+        
+    
+    
+            var marker_431af276ce6ea95dd56191c9260ac837 = L.marker(
+                [37.5624360670438, 127.030635496369],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_fd94e6b84279d3859671560e7a7fe09c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9ec1abfbd150ad286773f3b6ee722de = $(`<div id="html_a9ec1abfbd150ad286773f3b6ee722de" style="width: 100.0%; height: 100.0%;">왕십리별곡</div>`)[0];
+            popup_fd94e6b84279d3859671560e7a7fe09c.setContent(html_a9ec1abfbd150ad286773f3b6ee722de);
+        
+
+        marker_431af276ce6ea95dd56191c9260ac837.bindPopup(popup_fd94e6b84279d3859671560e7a7fe09c)
+        ;
+
+        
+    
+    
+            var marker_8b68b20873d6e28629fd95cc315e42be = L.marker(
+                [37.5654034325872, 127.053202027427],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_349d660920e2d04de0febc5bd3505bda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e75c4d1c6634b77f5b8b0f00945958c8 = $(`<div id="html_e75c4d1c6634b77f5b8b0f00945958c8" style="width: 100.0%; height: 100.0%;">놀부치킨</div>`)[0];
+            popup_349d660920e2d04de0febc5bd3505bda.setContent(html_e75c4d1c6634b77f5b8b0f00945958c8);
+        
+
+        marker_8b68b20873d6e28629fd95cc315e42be.bindPopup(popup_349d660920e2d04de0febc5bd3505bda)
+        ;
+
+        
+    
+    
+            var marker_3d717644d73fd719615978bff7a13188 = L.marker(
+                [37.5492991807942, 127.051764800579],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_ca0a1155db87c3a607618c38b53061ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e844ae7016229a9194a78296b228180e = $(`<div id="html_e844ae7016229a9194a78296b228180e" style="width: 100.0%; height: 100.0%;">목우촌</div>`)[0];
+            popup_ca0a1155db87c3a607618c38b53061ca.setContent(html_e844ae7016229a9194a78296b228180e);
+        
+
+        marker_3d717644d73fd719615978bff7a13188.bindPopup(popup_ca0a1155db87c3a607618c38b53061ca)
+        ;
+
+        
+    
+    
+            var marker_ba0d13784ec9698831fe30e8e52e532a = L.marker(
+                [37.5582670779904, 127.032081669145],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c91deef3696f366bd17f45eb526256cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b807a74f9d77ddfd916f4bed4122956 = $(`<div id="html_9b807a74f9d77ddfd916f4bed4122956" style="width: 100.0%; height: 100.0%;">페리카나행당동점</div>`)[0];
+            popup_c91deef3696f366bd17f45eb526256cc.setContent(html_9b807a74f9d77ddfd916f4bed4122956);
+        
+
+        marker_ba0d13784ec9698831fe30e8e52e532a.bindPopup(popup_c91deef3696f366bd17f45eb526256cc)
+        ;
+
+        
+    
+    
+            var marker_0df057c2258dd006671efaca9d211149 = L.marker(
+                [37.5518903627794, 127.033510915987],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_ca552047aa676a79563667cef8fa4f8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d4c368a5c1cfb7c06b20625c3d9bd48 = $(`<div id="html_7d4c368a5c1cfb7c06b20625c3d9bd48" style="width: 100.0%; height: 100.0%;">교촌치킨</div>`)[0];
+            popup_ca552047aa676a79563667cef8fa4f8f.setContent(html_7d4c368a5c1cfb7c06b20625c3d9bd48);
+        
+
+        marker_0df057c2258dd006671efaca9d211149.bindPopup(popup_ca552047aa676a79563667cef8fa4f8f)
+        ;
+
+        
+    
+    
+            var marker_df325493550dbdee5fa0b7bcf8a3221c = L.marker(
+                [37.5540685266481, 127.02010521549],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_23b114c97ff8f5ad923153ef523f6b4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a2da6ad687f14c4bf1a8ebf4cb3df14 = $(`<div id="html_9a2da6ad687f14c4bf1a8ebf4cb3df14" style="width: 100.0%; height: 100.0%;">강정의달인</div>`)[0];
+            popup_23b114c97ff8f5ad923153ef523f6b4f.setContent(html_9a2da6ad687f14c4bf1a8ebf4cb3df14);
+        
+
+        marker_df325493550dbdee5fa0b7bcf8a3221c.bindPopup(popup_23b114c97ff8f5ad923153ef523f6b4f)
+        ;
+
+        
+    
+    
+            var marker_82c8297cc00393d32dca9d20b501794f = L.marker(
+                [37.5564676869043, 127.035715421913],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_75b7c26f13180233798c8159418ba4d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cba4ea99f5dcda0e3968cad8a9792ec = $(`<div id="html_2cba4ea99f5dcda0e3968cad8a9792ec" style="width: 100.0%; height: 100.0%;">BHC치킨</div>`)[0];
+            popup_75b7c26f13180233798c8159418ba4d2.setContent(html_2cba4ea99f5dcda0e3968cad8a9792ec);
+        
+
+        marker_82c8297cc00393d32dca9d20b501794f.bindPopup(popup_75b7c26f13180233798c8159418ba4d2)
+        ;
+
+        
+    
+    
+            var marker_beb6e510cebe69a31cf4aa0889e9d389 = L.marker(
+                [37.5602875620924, 127.040069164692],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_e8f959ef1047a909c85b5b650d7f2b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_358663e730335824378af1e2d36f6a84 = $(`<div id="html_358663e730335824378af1e2d36f6a84" style="width: 100.0%; height: 100.0%;">도담치킨</div>`)[0];
+            popup_e8f959ef1047a909c85b5b650d7f2b2d.setContent(html_358663e730335824378af1e2d36f6a84);
+        
+
+        marker_beb6e510cebe69a31cf4aa0889e9d389.bindPopup(popup_e8f959ef1047a909c85b5b650d7f2b2d)
+        ;
+
+        
+    
+    
+            var marker_051f882387b0606c2f177d5563738530 = L.marker(
+                [37.5626096225848, 127.034221383036],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_13b3547d42f3175ad7b7e6636d84bafc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c3599c0e7a810e71de68d295c9cf6f5 = $(`<div id="html_2c3599c0e7a810e71de68d295c9cf6f5" style="width: 100.0%; height: 100.0%;">왕십리통골뱅이</div>`)[0];
+            popup_13b3547d42f3175ad7b7e6636d84bafc.setContent(html_2c3599c0e7a810e71de68d295c9cf6f5);
+        
+
+        marker_051f882387b0606c2f177d5563738530.bindPopup(popup_13b3547d42f3175ad7b7e6636d84bafc)
+        ;
+
+        
+    
+    
+            var marker_99d5fc1e0779e501253a8f3af0ae36a7 = L.marker(
+                [37.5632351240378, 127.03028556884],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_6776ae305a637d71567bd0cc40a7df1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f2dff7f1712428795a16a462bbc3ac4 = $(`<div id="html_9f2dff7f1712428795a16a462bbc3ac4" style="width: 100.0%; height: 100.0%;">페리카나</div>`)[0];
+            popup_6776ae305a637d71567bd0cc40a7df1f.setContent(html_9f2dff7f1712428795a16a462bbc3ac4);
+        
+
+        marker_99d5fc1e0779e501253a8f3af0ae36a7.bindPopup(popup_6776ae305a637d71567bd0cc40a7df1f)
+        ;
+
+        
+    
+    
+            var marker_85199cfe89de74badec3aeccc208e258 = L.marker(
+                [37.5439215759801, 127.015632350742],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_cb0ff0f85531d26d732641c6a765ee6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77a1a213e5e0c58aad1eb77f1db5d222 = $(`<div id="html_77a1a213e5e0c58aad1eb77f1db5d222" style="width: 100.0%; height: 100.0%;">깐부치킨</div>`)[0];
+            popup_cb0ff0f85531d26d732641c6a765ee6a.setContent(html_77a1a213e5e0c58aad1eb77f1db5d222);
+        
+
+        marker_85199cfe89de74badec3aeccc208e258.bindPopup(popup_cb0ff0f85531d26d732641c6a765ee6a)
+        ;
+
+        
+    
+    
+            var marker_a3b9fb54c67d22965af06e3a25c10e70 = L.marker(
+                [37.5654371588229, 127.030709803069],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_4a0deb801e811c0f74260aaebacaefca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63f4c6aafe58193de3d1230d6dbe2aed = $(`<div id="html_63f4c6aafe58193de3d1230d6dbe2aed" style="width: 100.0%; height: 100.0%;">고향식당</div>`)[0];
+            popup_4a0deb801e811c0f74260aaebacaefca.setContent(html_63f4c6aafe58193de3d1230d6dbe2aed);
+        
+
+        marker_a3b9fb54c67d22965af06e3a25c10e70.bindPopup(popup_4a0deb801e811c0f74260aaebacaefca)
+        ;
+
+        
+    
+    
+            var marker_986fed574cc2bd511cb9deaa7e6cbe81 = L.marker(
+                [37.5479213463331, 127.048500373641],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_fd03001595e96e01b7a0f3863e136851 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f2fd02150211c545fb1a48bc5a9e7e6 = $(`<div id="html_2f2fd02150211c545fb1a48bc5a9e7e6" style="width: 100.0%; height: 100.0%;">킴스치킨</div>`)[0];
+            popup_fd03001595e96e01b7a0f3863e136851.setContent(html_2f2fd02150211c545fb1a48bc5a9e7e6);
+        
+
+        marker_986fed574cc2bd511cb9deaa7e6cbe81.bindPopup(popup_fd03001595e96e01b7a0f3863e136851)
+        ;
+
+        
+    
+    
+            var marker_1c7bb3ee97943323a43cf55eb234d014 = L.marker(
+                [37.537414806906, 127.055196734547],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_e80d99197a3063da1ec799cbb3f1b5d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d09d602356c4803ae0154bc2fe3c6c67 = $(`<div id="html_d09d602356c4803ae0154bc2fe3c6c67" style="width: 100.0%; height: 100.0%;">둘둘치킨뚝섬점</div>`)[0];
+            popup_e80d99197a3063da1ec799cbb3f1b5d5.setContent(html_d09d602356c4803ae0154bc2fe3c6c67);
+        
+
+        marker_1c7bb3ee97943323a43cf55eb234d014.bindPopup(popup_e80d99197a3063da1ec799cbb3f1b5d5)
+        ;
+
+        
+    
+    
+            var marker_596869809a38d027407ec94877cc8bbe = L.marker(
+                [37.5624360670438, 127.030635496369],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_6e21a08ec6e939fa41c7c5b2b9534119 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6955cf34c8119e534a67419d38856752 = $(`<div id="html_6955cf34c8119e534a67419d38856752" style="width: 100.0%; height: 100.0%;">왕십리별곡치킨</div>`)[0];
+            popup_6e21a08ec6e939fa41c7c5b2b9534119.setContent(html_6955cf34c8119e534a67419d38856752);
+        
+
+        marker_596869809a38d027407ec94877cc8bbe.bindPopup(popup_6e21a08ec6e939fa41c7c5b2b9534119)
+        ;
+
+        
+    
+    
+            var marker_c50c21acde6f4493e9b1f8299a397930 = L.marker(
+                [37.5645083752463, 127.035023181647],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_e4d59b8260e46013d24cef6607d8ca59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48bc6bbf55e83c1bfd74ca976a7a6316 = $(`<div id="html_48bc6bbf55e83c1bfd74ca976a7a6316" style="width: 100.0%; height: 100.0%;">코리엔탈깻잎두마리치킨</div>`)[0];
+            popup_e4d59b8260e46013d24cef6607d8ca59.setContent(html_48bc6bbf55e83c1bfd74ca976a7a6316);
+        
+
+        marker_c50c21acde6f4493e9b1f8299a397930.bindPopup(popup_e4d59b8260e46013d24cef6607d8ca59)
+        ;
+
+        
+    
+    
+            var marker_ea52ea3ffeb0aca02bf334e7849b7363 = L.marker(
+                [37.5658979442053, 127.045238123934],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_549f363ac4a55775a7718a29ffdab5d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bc00fea670bf1a05110275cccfe42de = $(`<div id="html_9bc00fea670bf1a05110275cccfe42de" style="width: 100.0%; height: 100.0%;">멕시카나</div>`)[0];
+            popup_549f363ac4a55775a7718a29ffdab5d8.setContent(html_9bc00fea670bf1a05110275cccfe42de);
+        
+
+        marker_ea52ea3ffeb0aca02bf334e7849b7363.bindPopup(popup_549f363ac4a55775a7718a29ffdab5d8)
+        ;
+
+        
+    
+    
+            var marker_a6524e354bbeb40090f44d0b5dd509d3 = L.marker(
+                [37.5484439693729, 127.047384673125],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_5a2260861e13806f08f6a3ca1cd32b5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b96fdc69d182c3a8f0aa8bd44d841e17 = $(`<div id="html_b96fdc69d182c3a8f0aa8bd44d841e17" style="width: 100.0%; height: 100.0%;">홍천숯닭</div>`)[0];
+            popup_5a2260861e13806f08f6a3ca1cd32b5c.setContent(html_b96fdc69d182c3a8f0aa8bd44d841e17);
+        
+
+        marker_a6524e354bbeb40090f44d0b5dd509d3.bindPopup(popup_5a2260861e13806f08f6a3ca1cd32b5c)
+        ;
+
+        
+    
+    
+            var marker_ff8fc143fc63585b62f05fc61ceaf07f = L.marker(
+                [37.5484137350422, 127.026007442704],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_f03cdf62ca761becf1ef39b7f8bc4a40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09b7e9c78dde733db2b7e947f1cf7413 = $(`<div id="html_09b7e9c78dde733db2b7e947f1cf7413" style="width: 100.0%; height: 100.0%;">쌀통닭금호1호점</div>`)[0];
+            popup_f03cdf62ca761becf1ef39b7f8bc4a40.setContent(html_09b7e9c78dde733db2b7e947f1cf7413);
+        
+
+        marker_ff8fc143fc63585b62f05fc61ceaf07f.bindPopup(popup_f03cdf62ca761becf1ef39b7f8bc4a40)
+        ;
+
+        
+    
+    
+            var marker_0d326f66863a70ae4d3d13d1d8909d3a = L.marker(
+                [37.5460691575316, 127.024691281934],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_8a1a086def3e208f74b157f817294aad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_530b517f7301a5c8c692de6f9a3e1a41 = $(`<div id="html_530b517f7301a5c8c692de6f9a3e1a41" style="width: 100.0%; height: 100.0%;">거성치킨</div>`)[0];
+            popup_8a1a086def3e208f74b157f817294aad.setContent(html_530b517f7301a5c8c692de6f9a3e1a41);
+        
+
+        marker_0d326f66863a70ae4d3d13d1d8909d3a.bindPopup(popup_8a1a086def3e208f74b157f817294aad)
+        ;
+
+        
+    
+    
+            var marker_19c097442b2aee2e4ad8a955ce33cd36 = L.marker(
+                [37.5494743547034, 127.031165532556],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c974570355b6441d906ceba72e83945a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e48089e4415a4d7b08d52cd7403863c = $(`<div id="html_7e48089e4415a4d7b08d52cd7403863c" style="width: 100.0%; height: 100.0%;">처갓집양념치킨</div>`)[0];
+            popup_c974570355b6441d906ceba72e83945a.setContent(html_7e48089e4415a4d7b08d52cd7403863c);
+        
+
+        marker_19c097442b2aee2e4ad8a955ce33cd36.bindPopup(popup_c974570355b6441d906ceba72e83945a)
+        ;
+
+        
+    
+    
+            var marker_1c7daec5e30ac1152b633440158090e3 = L.marker(
+                [37.565667998826, 127.041324507835],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_ca3e41a607783ab5474f107f2ced9833 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9af304f74be4b67b39972eb990509861 = $(`<div id="html_9af304f74be4b67b39972eb990509861" style="width: 100.0%; height: 100.0%;">명가옛날통닭</div>`)[0];
+            popup_ca3e41a607783ab5474f107f2ced9833.setContent(html_9af304f74be4b67b39972eb990509861);
+        
+
+        marker_1c7daec5e30ac1152b633440158090e3.bindPopup(popup_ca3e41a607783ab5474f107f2ced9833)
+        ;
+
+        
+    
+    
+            var marker_3e96221aecdf490242f45dc60b77c06b = L.marker(
+                [37.5658979442053, 127.045238123934],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_f5a9c456bb9cdaa705940ae1ac04f9ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9db39ce3ca9d5edaad2a771c9977d6a = $(`<div id="html_d9db39ce3ca9d5edaad2a771c9977d6a" style="width: 100.0%; height: 100.0%;">멕시카나치킨</div>`)[0];
+            popup_f5a9c456bb9cdaa705940ae1ac04f9ff.setContent(html_d9db39ce3ca9d5edaad2a771c9977d6a);
+        
+
+        marker_3e96221aecdf490242f45dc60b77c06b.bindPopup(popup_f5a9c456bb9cdaa705940ae1ac04f9ff)
+        ;
+
+        
+    
+    
+            var marker_87feb54e4f0424e1959da92c7edba1e1 = L.marker(
+                [37.5389362026702, 127.053898889144],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_1f777730e892dfde64fde1cb46fff676 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0676a92804fd3f5c8521d3bcb7744bc1 = $(`<div id="html_0676a92804fd3f5c8521d3bcb7744bc1" style="width: 100.0%; height: 100.0%;">꼬꼬누리</div>`)[0];
+            popup_1f777730e892dfde64fde1cb46fff676.setContent(html_0676a92804fd3f5c8521d3bcb7744bc1);
+        
+
+        marker_87feb54e4f0424e1959da92c7edba1e1.bindPopup(popup_1f777730e892dfde64fde1cb46fff676)
+        ;
+
+        
+    
+    
+            var marker_25ae67b753b4d4592a1fc834dbf9c351 = L.marker(
+                [37.5634271728003, 127.033927849865],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_b86a2f7c31a658917b6d783ce3628493 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a4042c98d518fb9510482c76ce99075 = $(`<div id="html_0a4042c98d518fb9510482c76ce99075" style="width: 100.0%; height: 100.0%;">썬던치킨</div>`)[0];
+            popup_b86a2f7c31a658917b6d783ce3628493.setContent(html_0a4042c98d518fb9510482c76ce99075);
+        
+
+        marker_25ae67b753b4d4592a1fc834dbf9c351.bindPopup(popup_b86a2f7c31a658917b6d783ce3628493)
+        ;
+
+        
+    
+    
+            var marker_e827a8369a648c271568898b388d4b9b = L.marker(
+                [37.5381264890786, 127.049564024333],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_cff00f555a7001a2200c80a47b356a87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfa8c42fd2eb30e1092cc3f2b48b13e5 = $(`<div id="html_dfa8c42fd2eb30e1092cc3f2b48b13e5" style="width: 100.0%; height: 100.0%;">BHC치킨</div>`)[0];
+            popup_cff00f555a7001a2200c80a47b356a87.setContent(html_dfa8c42fd2eb30e1092cc3f2b48b13e5);
+        
+
+        marker_e827a8369a648c271568898b388d4b9b.bindPopup(popup_cff00f555a7001a2200c80a47b356a87)
+        ;
+
+        
+    
+    
+            var marker_e5f2baa842adcc3fbf3eecdf7fb20f69 = L.marker(
+                [37.5537794717801, 127.020018458745],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_8848697ccb37c7a26ae58fc738d81fad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_140e42767a82229d794010a978e46bb2 = $(`<div id="html_140e42767a82229d794010a978e46bb2" style="width: 100.0%; height: 100.0%;">페리카나금호로타리점</div>`)[0];
+            popup_8848697ccb37c7a26ae58fc738d81fad.setContent(html_140e42767a82229d794010a978e46bb2);
+        
+
+        marker_e5f2baa842adcc3fbf3eecdf7fb20f69.bindPopup(popup_8848697ccb37c7a26ae58fc738d81fad)
+        ;
+
+        
+    
+    
+            var marker_eb28b40ff3be358b0c62cf6125aa1a64 = L.marker(
+                [37.5678142965708, 127.025041727898],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_895607b335d39fbc3953a11e9f62fad0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73c034933f2fc7ab12fd9dbd3a1fbc7e = $(`<div id="html_73c034933f2fc7ab12fd9dbd3a1fbc7e" style="width: 100.0%; height: 100.0%;">깐부치킨왕십리뉴타운점</div>`)[0];
+            popup_895607b335d39fbc3953a11e9f62fad0.setContent(html_73c034933f2fc7ab12fd9dbd3a1fbc7e);
+        
+
+        marker_eb28b40ff3be358b0c62cf6125aa1a64.bindPopup(popup_895607b335d39fbc3953a11e9f62fad0)
+        ;
+
+        
+    
+    
+            var marker_59a083b91120019bb73459d632e92b05 = L.marker(
+                [37.5602886662353, 127.040204974862],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_aa4bc6289a0dd7ae93b01c7bb31d978d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6d7ea534632c0788433c96a8093ef65 = $(`<div id="html_a6d7ea534632c0788433c96a8093ef65" style="width: 100.0%; height: 100.0%;">맛닭꼬한양대점</div>`)[0];
+            popup_aa4bc6289a0dd7ae93b01c7bb31d978d.setContent(html_a6d7ea534632c0788433c96a8093ef65);
+        
+
+        marker_59a083b91120019bb73459d632e92b05.bindPopup(popup_aa4bc6289a0dd7ae93b01c7bb31d978d)
+        ;
+
+        
+    
+    
+            var marker_79c5b9edb57a6aa9a85ccb127ba65d30 = L.marker(
+                [37.5547774697043, 127.027384625788],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_e7c205b17c4411a540fce4ed91a84409 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9ec70170ea74924f5529090ab91c206 = $(`<div id="html_b9ec70170ea74924f5529090ab91c206" style="width: 100.0%; height: 100.0%;">처갓집양념치킨</div>`)[0];
+            popup_e7c205b17c4411a540fce4ed91a84409.setContent(html_b9ec70170ea74924f5529090ab91c206);
+        
+
+        marker_79c5b9edb57a6aa9a85ccb127ba65d30.bindPopup(popup_e7c205b17c4411a540fce4ed91a84409)
+        ;
+
+        
+    
+    
+            var marker_ad042029715e3afd3c8c38f7f0e20fe2 = L.marker(
+                [37.5604561837012, 127.028736967537],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_4fd6742ec185251e417005c3fe979c68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea633e8bf0c458420ffd72e083f33451 = $(`<div id="html_ea633e8bf0c458420ffd72e083f33451" style="width: 100.0%; height: 100.0%;">큰집닭강정</div>`)[0];
+            popup_4fd6742ec185251e417005c3fe979c68.setContent(html_ea633e8bf0c458420ffd72e083f33451);
+        
+
+        marker_ad042029715e3afd3c8c38f7f0e20fe2.bindPopup(popup_4fd6742ec185251e417005c3fe979c68)
+        ;
+
+        
+    
+    
+            var marker_95e24d67c7102a4cbd88b8bf5fd9347e = L.marker(
+                [37.5469668242169, 127.046339703057],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_9c0421aca37abdd9e6f16de813349c59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcf04b2809ea53bc3a130510a5e6b079 = $(`<div id="html_fcf04b2809ea53bc3a130510a5e6b079" style="width: 100.0%; height: 100.0%;">맥스치킨</div>`)[0];
+            popup_9c0421aca37abdd9e6f16de813349c59.setContent(html_fcf04b2809ea53bc3a130510a5e6b079);
+        
+
+        marker_95e24d67c7102a4cbd88b8bf5fd9347e.bindPopup(popup_9c0421aca37abdd9e6f16de813349c59)
+        ;
+
+        
+    
+    
+            var marker_24ea383813b25c23d24da45b02277329 = L.marker(
+                [37.5665447401941, 127.024062147888],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_6e1eb2fc2df09a1b77ba388c2588bd4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2445ecf8256457961d65c829ca4e4e0d = $(`<div id="html_2445ecf8256457961d65c829ca4e4e0d" style="width: 100.0%; height: 100.0%;">네네치킨</div>`)[0];
+            popup_6e1eb2fc2df09a1b77ba388c2588bd4d.setContent(html_2445ecf8256457961d65c829ca4e4e0d);
+        
+
+        marker_24ea383813b25c23d24da45b02277329.bindPopup(popup_6e1eb2fc2df09a1b77ba388c2588bd4d)
+        ;
+
+        
+    
+    
+            var marker_3c2e82f5b4997f9553c9c79c43d8ce61 = L.marker(
+                [37.5458518163005, 127.054467852317],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_7ac7bec2a512e1e0603a656bb24470a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daefa7fdf2f949ecc4db5e5032414b8f = $(`<div id="html_daefa7fdf2f949ecc4db5e5032414b8f" style="width: 100.0%; height: 100.0%;">오븐에빠진닭성수점</div>`)[0];
+            popup_7ac7bec2a512e1e0603a656bb24470a7.setContent(html_daefa7fdf2f949ecc4db5e5032414b8f);
+        
+
+        marker_3c2e82f5b4997f9553c9c79c43d8ce61.bindPopup(popup_7ac7bec2a512e1e0603a656bb24470a7)
+        ;
+
+        
+    
+    
+            var marker_a7be5a2ef70f6d26a02f7dc27b5184c3 = L.marker(
+                [37.5672413776766, 127.03206743226],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_5be7cf7b2a363f4bd0450d44b16a38aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_600159dc9a7fb93a927d6fb2619ce0e9 = $(`<div id="html_600159dc9a7fb93a927d6fb2619ce0e9" style="width: 100.0%; height: 100.0%;">처갓집양념치킨</div>`)[0];
+            popup_5be7cf7b2a363f4bd0450d44b16a38aa.setContent(html_600159dc9a7fb93a927d6fb2619ce0e9);
+        
+
+        marker_a7be5a2ef70f6d26a02f7dc27b5184c3.bindPopup(popup_5be7cf7b2a363f4bd0450d44b16a38aa)
+        ;
+
+        
+    
+    
+            var marker_a3d125deef026b269e9b2dd140c00c32 = L.marker(
+                [37.5636356879397, 127.034083625949],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_063237a8befd72d319da5a069ff5f56b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_367b27a5a9ec5bc768c25a8e0318ed85 = $(`<div id="html_367b27a5a9ec5bc768c25a8e0318ed85" style="width: 100.0%; height: 100.0%;">센터치킨</div>`)[0];
+            popup_063237a8befd72d319da5a069ff5f56b.setContent(html_367b27a5a9ec5bc768c25a8e0318ed85);
+        
+
+        marker_a3d125deef026b269e9b2dd140c00c32.bindPopup(popup_063237a8befd72d319da5a069ff5f56b)
+        ;
+
+        
+    
+    
+            var marker_a82e720ddb068a062183a2d8e346557e = L.marker(
+                [37.5456684606712, 127.042893398502],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_3c590a57b1c365059c0842fb0a6a6a7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5e1bb1c8411600b9ed33553f48405c1 = $(`<div id="html_f5e1bb1c8411600b9ed33553f48405c1" style="width: 100.0%; height: 100.0%;">깐부치킨</div>`)[0];
+            popup_3c590a57b1c365059c0842fb0a6a6a7b.setContent(html_f5e1bb1c8411600b9ed33553f48405c1);
+        
+
+        marker_a82e720ddb068a062183a2d8e346557e.bindPopup(popup_3c590a57b1c365059c0842fb0a6a6a7b)
+        ;
+
+        
+    
+    
+            var marker_d2b42f198e8d2b32033e47a7a349774c = L.marker(
+                [37.5637414309658, 127.041530304215],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_d1593217f88a9cd9795e1bac4de71a75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5672dc50e75620f81ce2dce4d2856df8 = $(`<div id="html_5672dc50e75620f81ce2dce4d2856df8" style="width: 100.0%; height: 100.0%;">호식이두마리치킨</div>`)[0];
+            popup_d1593217f88a9cd9795e1bac4de71a75.setContent(html_5672dc50e75620f81ce2dce4d2856df8);
+        
+
+        marker_d2b42f198e8d2b32033e47a7a349774c.bindPopup(popup_d1593217f88a9cd9795e1bac4de71a75)
+        ;
+
+        
+    
+    
+            var marker_022ec9fafbc2ea60996a1d6e0e9034dd = L.marker(
+                [37.5468748710154, 127.024058368463],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_869c10eb74abbf281f5c0ddfe1e7cd1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a38f926da988888319f488b072285aae = $(`<div id="html_a38f926da988888319f488b072285aae" style="width: 100.0%; height: 100.0%;">노랑통닭</div>`)[0];
+            popup_869c10eb74abbf281f5c0ddfe1e7cd1f.setContent(html_a38f926da988888319f488b072285aae);
+        
+
+        marker_022ec9fafbc2ea60996a1d6e0e9034dd.bindPopup(popup_869c10eb74abbf281f5c0ddfe1e7cd1f)
+        ;
+
+        
+    
+    
+            var marker_0110e4eebd83f909e02e0031d2b0c364 = L.marker(
+                [37.5624464703285, 127.03080514677],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_370a3e2a6454d43e1cc0da70287ca2ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2de30dbf6b740c1895ccd2bf074103f = $(`<div id="html_e2de30dbf6b740c1895ccd2bf074103f" style="width: 100.0%; height: 100.0%;">꾸브라꼬숯불두마리치킨</div>`)[0];
+            popup_370a3e2a6454d43e1cc0da70287ca2ee.setContent(html_e2de30dbf6b740c1895ccd2bf074103f);
+        
+
+        marker_0110e4eebd83f909e02e0031d2b0c364.bindPopup(popup_370a3e2a6454d43e1cc0da70287ca2ee)
+        ;
+
+        
+    
+    
+            var marker_bab78008a3708c3be6a5747e98e3ee30 = L.marker(
+                [37.5648133637417, 127.035958755641],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_4d375f98b853fcbcfbc3ce9f6bde071d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e832803d203337c11925626b5d6e07e = $(`<div id="html_5e832803d203337c11925626b5d6e07e" style="width: 100.0%; height: 100.0%;">교촌1991</div>`)[0];
+            popup_4d375f98b853fcbcfbc3ce9f6bde071d.setContent(html_5e832803d203337c11925626b5d6e07e);
+        
+
+        marker_bab78008a3708c3be6a5747e98e3ee30.bindPopup(popup_4d375f98b853fcbcfbc3ce9f6bde071d)
+        ;
+
+        
+    
+    
+            var marker_2eb167f6ee942a8e94635e96f7b2ca9b = L.marker(
+                [37.5605094681591, 127.027547810471],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_37d9a15c31a356c672ed2541b099d065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7336d901764681c6c4b83613cb748858 = $(`<div id="html_7336d901764681c6c4b83613cb748858" style="width: 100.0%; height: 100.0%;">BHC치킨</div>`)[0];
+            popup_37d9a15c31a356c672ed2541b099d065.setContent(html_7336d901764681c6c4b83613cb748858);
+        
+
+        marker_2eb167f6ee942a8e94635e96f7b2ca9b.bindPopup(popup_37d9a15c31a356c672ed2541b099d065)
+        ;
+
+        
+    
+    
+            var marker_cb996ae602b335bdeb96009e6d9c22f4 = L.marker(
+                [37.5440307839256, 127.056606990811],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_29e659a9f7bddd73f9df39481ac53e37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f6a846816b0bd6bbe247e1f9cf8ec19 = $(`<div id="html_8f6a846816b0bd6bbe247e1f9cf8ec19" style="width: 100.0%; height: 100.0%;">마니커치킨</div>`)[0];
+            popup_29e659a9f7bddd73f9df39481ac53e37.setContent(html_8f6a846816b0bd6bbe247e1f9cf8ec19);
+        
+
+        marker_cb996ae602b335bdeb96009e6d9c22f4.bindPopup(popup_29e659a9f7bddd73f9df39481ac53e37)
+        ;
+
+        
+    
+    
+            var marker_065e5f923d450d5799deba4ad24d6af5 = L.marker(
+                [37.5373155626869, 127.054055148218],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_2991224be8cf7aa9f6f9a9ac02ab148c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1254913a3402590ddcd37dae9c31d894 = $(`<div id="html_1254913a3402590ddcd37dae9c31d894" style="width: 100.0%; height: 100.0%;">호식이두마리치킨</div>`)[0];
+            popup_2991224be8cf7aa9f6f9a9ac02ab148c.setContent(html_1254913a3402590ddcd37dae9c31d894);
+        
+
+        marker_065e5f923d450d5799deba4ad24d6af5.bindPopup(popup_2991224be8cf7aa9f6f9a9ac02ab148c)
+        ;
+
+        
+    
+    
+            var marker_0d558bfbb3de489f3aa59454afd4071e = L.marker(
+                [37.564049548232, 127.052913542061],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_8aa713ee715c49ad1afde390d0565cd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ace60787683dfe5862b8650102fdfe8 = $(`<div id="html_3ace60787683dfe5862b8650102fdfe8" style="width: 100.0%; height: 100.0%;">한국통닭</div>`)[0];
+            popup_8aa713ee715c49ad1afde390d0565cd3.setContent(html_3ace60787683dfe5862b8650102fdfe8);
+        
+
+        marker_0d558bfbb3de489f3aa59454afd4071e.bindPopup(popup_8aa713ee715c49ad1afde390d0565cd3)
+        ;
+
+        
+    
+    
+            var marker_974ec6ccef1984a7981e3e3560296b6f = L.marker(
+                [37.5436394516289, 127.015296575646],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_1efc2bf72d65da7783ac48c44ad411a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e16a688c62f3dfa12ed53a721d53a773 = $(`<div id="html_e16a688c62f3dfa12ed53a721d53a773" style="width: 100.0%; height: 100.0%;">BBQ치킨</div>`)[0];
+            popup_1efc2bf72d65da7783ac48c44ad411a9.setContent(html_e16a688c62f3dfa12ed53a721d53a773);
+        
+
+        marker_974ec6ccef1984a7981e3e3560296b6f.bindPopup(popup_1efc2bf72d65da7783ac48c44ad411a9)
+        ;
+
+        
+    
+    
+            var marker_bf7892d1a9089b8b6195c280949ac319 = L.marker(
+                [37.5648133637417, 127.035958755641],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_bc8c0c8d21a3fde7716a1fb91e80593c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ba8b3b119f723c8310bed2f1b419595 = $(`<div id="html_5ba8b3b119f723c8310bed2f1b419595" style="width: 100.0%; height: 100.0%;">교촌치킨</div>`)[0];
+            popup_bc8c0c8d21a3fde7716a1fb91e80593c.setContent(html_5ba8b3b119f723c8310bed2f1b419595);
+        
+
+        marker_bf7892d1a9089b8b6195c280949ac319.bindPopup(popup_bc8c0c8d21a3fde7716a1fb91e80593c)
+        ;
+
+        
+    
+    
+            var marker_cd89df3b9b361c83a3ba9e37f494bf8e = L.marker(
+                [37.5484137350422, 127.026007442704],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_f67bdc6622a56241421a31ab526a0892 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff19d1d62b4738cb5e42dc8c5dbac89c = $(`<div id="html_ff19d1d62b4738cb5e42dc8c5dbac89c" style="width: 100.0%; height: 100.0%;">도리쌀통닭금호1호점</div>`)[0];
+            popup_f67bdc6622a56241421a31ab526a0892.setContent(html_ff19d1d62b4738cb5e42dc8c5dbac89c);
+        
+
+        marker_cd89df3b9b361c83a3ba9e37f494bf8e.bindPopup(popup_f67bdc6622a56241421a31ab526a0892)
+        ;
+
+        
+    
+    
+            var marker_15a37b47785dad4a9b9a3d9f4e958085 = L.marker(
+                [37.5602768040197, 127.039854247555],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_1f21bcfb977238e85639c710bcc8309d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af73193f65a2014dc896f3362059478d = $(`<div id="html_af73193f65a2014dc896f3362059478d" style="width: 100.0%; height: 100.0%;">누나홀닭</div>`)[0];
+            popup_1f21bcfb977238e85639c710bcc8309d.setContent(html_af73193f65a2014dc896f3362059478d);
+        
+
+        marker_15a37b47785dad4a9b9a3d9f4e958085.bindPopup(popup_1f21bcfb977238e85639c710bcc8309d)
+        ;
+
+        
+    
+    
+            var marker_d57d71602bed7e2ea29513a799ffa124 = L.marker(
+                [37.5606547650504, 127.028779664616],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_a560023bc51e7a954c861be51bd8cf9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5ca2581ec2a1ab2e42404319a5eae54 = $(`<div id="html_d5ca2581ec2a1ab2e42404319a5eae54" style="width: 100.0%; height: 100.0%;">BBQ치킨</div>`)[0];
+            popup_a560023bc51e7a954c861be51bd8cf9d.setContent(html_d5ca2581ec2a1ab2e42404319a5eae54);
+        
+
+        marker_d57d71602bed7e2ea29513a799ffa124.bindPopup(popup_a560023bc51e7a954c861be51bd8cf9d)
+        ;
+
+        
+    
+    
+            var marker_b72a668530830495329b90eb6315ad64 = L.marker(
+                [37.5564711626626, 127.027351294125],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_f3a0d280a560378611e3f3a64d1b8a25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0b7bd70fa22d3ea25bf2172b2e24e9f = $(`<div id="html_f0b7bd70fa22d3ea25bf2172b2e24e9f" style="width: 100.0%; height: 100.0%;">굽네치킨</div>`)[0];
+            popup_f3a0d280a560378611e3f3a64d1b8a25.setContent(html_f0b7bd70fa22d3ea25bf2172b2e24e9f);
+        
+
+        marker_b72a668530830495329b90eb6315ad64.bindPopup(popup_f3a0d280a560378611e3f3a64d1b8a25)
+        ;
+
+        
+    
+    
+            var marker_01240b4dc3faebe4d5f5f0e07bca257c = L.marker(
+                [37.5453191541497, 127.017911204956],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_95b23185b57516e998786440a2177cf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4f65699fb80897790a4bc143e90e95a = $(`<div id="html_f4f65699fb80897790a4bc143e90e95a" style="width: 100.0%; height: 100.0%;">와우치킨</div>`)[0];
+            popup_95b23185b57516e998786440a2177cf0.setContent(html_f4f65699fb80897790a4bc143e90e95a);
+        
+
+        marker_01240b4dc3faebe4d5f5f0e07bca257c.bindPopup(popup_95b23185b57516e998786440a2177cf0)
+        ;
+
+        
+    
+    
+            var marker_2c648cfe51f1aaf9fd3a737eb66437fd = L.marker(
+                [37.5661502269722, 127.053068059822],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_473f93603baef8caa8ff0051d5c3c5ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c52c9272d37fc09f75c39472914c5056 = $(`<div id="html_c52c9272d37fc09f75c39472914c5056" style="width: 100.0%; height: 100.0%;">또바기치킨</div>`)[0];
+            popup_473f93603baef8caa8ff0051d5c3c5ae.setContent(html_c52c9272d37fc09f75c39472914c5056);
+        
+
+        marker_2c648cfe51f1aaf9fd3a737eb66437fd.bindPopup(popup_473f93603baef8caa8ff0051d5c3c5ae)
+        ;
+
+        
+    
+    
+            var marker_12ff076525a0d1c9aadbf9dd387d8916 = L.marker(
+                [37.5597660461968, 127.036884006394],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_e41317df1f714ae3172bbdcd36d8a6e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d075deea49e4ebc77fb091ee2ded0156 = $(`<div id="html_d075deea49e4ebc77fb091ee2ded0156" style="width: 100.0%; height: 100.0%;">치킨팩토리</div>`)[0];
+            popup_e41317df1f714ae3172bbdcd36d8a6e1.setContent(html_d075deea49e4ebc77fb091ee2ded0156);
+        
+
+        marker_12ff076525a0d1c9aadbf9dd387d8916.bindPopup(popup_e41317df1f714ae3172bbdcd36d8a6e1)
+        ;
+
+        
+    
+    
+            var marker_c0bdbee649642163e289845be2d9f6b7 = L.marker(
+                [37.5618702339474, 127.030857887341],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_fe17d0ec76a7299eea08e13bae7e0e71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81190cc4aef4430c0d2d0e25c398b5e5 = $(`<div id="html_81190cc4aef4430c0d2d0e25c398b5e5" style="width: 100.0%; height: 100.0%;">교촌치킨</div>`)[0];
+            popup_fe17d0ec76a7299eea08e13bae7e0e71.setContent(html_81190cc4aef4430c0d2d0e25c398b5e5);
+        
+
+        marker_c0bdbee649642163e289845be2d9f6b7.bindPopup(popup_fe17d0ec76a7299eea08e13bae7e0e71)
+        ;
+
+        
+    
+    
+            var marker_ba42624d4e7a2c08647107b07f7354e8 = L.marker(
+                [37.5627642132699, 127.032193275072],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_0484caa234e0d94eb52c71f4759e6e55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f0177b93689234082c8b89f6d46b160 = $(`<div id="html_1f0177b93689234082c8b89f6d46b160" style="width: 100.0%; height: 100.0%;">깜닭치킨</div>`)[0];
+            popup_0484caa234e0d94eb52c71f4759e6e55.setContent(html_1f0177b93689234082c8b89f6d46b160);
+        
+
+        marker_ba42624d4e7a2c08647107b07f7354e8.bindPopup(popup_0484caa234e0d94eb52c71f4759e6e55)
+        ;
+
+        
+    
+    
+            var marker_e4b1169e6b42608f37ab79543e100e2e = L.marker(
+                [37.5536721093446, 127.02011040604],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_4e273beadcd136ec35e2954788fac10c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fed6e56041755134e79a4462377bf3e1 = $(`<div id="html_fed6e56041755134e79a4462377bf3e1" style="width: 100.0%; height: 100.0%;">둘둘치킨</div>`)[0];
+            popup_4e273beadcd136ec35e2954788fac10c.setContent(html_fed6e56041755134e79a4462377bf3e1);
+        
+
+        marker_e4b1169e6b42608f37ab79543e100e2e.bindPopup(popup_4e273beadcd136ec35e2954788fac10c)
+        ;
+
+        
+    
+    
+            var marker_4759327d5fe6ab032d51ab10ececf853 = L.marker(
+                [37.5488378352945, 127.026081142807],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_84832690b1652a5b9fbd93c9e31752d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cc52979cd66630ae23e0d9b4bfb9f82 = $(`<div id="html_7cc52979cd66630ae23e0d9b4bfb9f82" style="width: 100.0%; height: 100.0%;">교총치킨</div>`)[0];
+            popup_84832690b1652a5b9fbd93c9e31752d0.setContent(html_7cc52979cd66630ae23e0d9b4bfb9f82);
+        
+
+        marker_4759327d5fe6ab032d51ab10ececf853.bindPopup(popup_84832690b1652a5b9fbd93c9e31752d0)
+        ;
+
+        
+    
+    
+            var marker_6e5c146a92a2271306ed33aa89795b05 = L.marker(
+                [37.5369259350812, 127.060554981187],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c23f0aefc74b0b680995cac6452d40ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43792bd851529c14f1519dad73768917 = $(`<div id="html_43792bd851529c14f1519dad73768917" style="width: 100.0%; height: 100.0%;">교촌치킨성수1호점</div>`)[0];
+            popup_c23f0aefc74b0b680995cac6452d40ef.setContent(html_43792bd851529c14f1519dad73768917);
+        
+
+        marker_6e5c146a92a2271306ed33aa89795b05.bindPopup(popup_c23f0aefc74b0b680995cac6452d40ef)
+        ;
+
+        
+    
+    
+            var marker_efc334b51587768393c891023e404913 = L.marker(
+                [37.5635817459074, 127.032997680437],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_728beb565035dee6bc79b4f371e6f3e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1d5eee359d1cb82a10cbaa6c0710dc5 = $(`<div id="html_c1d5eee359d1cb82a10cbaa6c0710dc5" style="width: 100.0%; height: 100.0%;">갈매기의꿈</div>`)[0];
+            popup_728beb565035dee6bc79b4f371e6f3e8.setContent(html_c1d5eee359d1cb82a10cbaa6c0710dc5);
+        
+
+        marker_efc334b51587768393c891023e404913.bindPopup(popup_728beb565035dee6bc79b4f371e6f3e8)
+        ;
+
+        
+    
+    
+            var marker_77353e55b6589934c965b31e167f3f9e = L.marker(
+                [37.5487923289266, 127.022754553992],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_e7bf4a530066c56a72c1b0268209cc70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e1651bc9766ac5936ff1fbee984a823 = $(`<div id="html_6e1651bc9766ac5936ff1fbee984a823" style="width: 100.0%; height: 100.0%;">금호닭</div>`)[0];
+            popup_e7bf4a530066c56a72c1b0268209cc70.setContent(html_6e1651bc9766ac5936ff1fbee984a823);
+        
+
+        marker_77353e55b6589934c965b31e167f3f9e.bindPopup(popup_e7bf4a530066c56a72c1b0268209cc70)
+        ;
+
+        
+    
+    
+            var marker_c3d7e76c51ebe907e01ec2466117924f = L.marker(
+                [37.55531861068, 127.071087516929],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_4a45923cf45cfa82671ccf328a3dc07f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f60eb8bcb0561fdcb842bcf7fd0d0a79 = $(`<div id="html_f60eb8bcb0561fdcb842bcf7fd0d0a79" style="width: 100.0%; height: 100.0%;">둘둘치킨</div>`)[0];
+            popup_4a45923cf45cfa82671ccf328a3dc07f.setContent(html_f60eb8bcb0561fdcb842bcf7fd0d0a79);
+        
+
+        marker_c3d7e76c51ebe907e01ec2466117924f.bindPopup(popup_4a45923cf45cfa82671ccf328a3dc07f)
+        ;
+
+        
+    
+    
+            var marker_9b55410af3ed2133b68001604502eb63 = L.marker(
+                [37.5461051719835, 127.054600450958],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_d5b4696cb9fb226809e8368ce85ad421 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6051613d89be2c37c2a6a27f951cd06d = $(`<div id="html_6051613d89be2c37c2a6a27f951cd06d" style="width: 100.0%; height: 100.0%;">교촌치킨성수역점</div>`)[0];
+            popup_d5b4696cb9fb226809e8368ce85ad421.setContent(html_6051613d89be2c37c2a6a27f951cd06d);
+        
+
+        marker_9b55410af3ed2133b68001604502eb63.bindPopup(popup_d5b4696cb9fb226809e8368ce85ad421)
+        ;
+
+        
+    
+    
+            var marker_769cc0af108a25289f51e092b40c27b6 = L.marker(
+                [37.5609042539908, 127.032828549139],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_45d894cd9a5bb8721c067e31e8ea9ecc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd99fa9497611d6c7884486c321811e0 = $(`<div id="html_cd99fa9497611d6c7884486c321811e0" style="width: 100.0%; height: 100.0%;">슈슈닭강정</div>`)[0];
+            popup_45d894cd9a5bb8721c067e31e8ea9ecc.setContent(html_cd99fa9497611d6c7884486c321811e0);
+        
+
+        marker_769cc0af108a25289f51e092b40c27b6.bindPopup(popup_45d894cd9a5bb8721c067e31e8ea9ecc)
+        ;
+
+        
+    
+    
+            var marker_aeb5a1937dbeef411520406729d7accd = L.marker(
+                [37.5621323375461, 127.04868187505],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_bb9647f7195921f926be62e5a4d72eb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_581e25361cf05eef22b36d6ae9bf8eea = $(`<div id="html_581e25361cf05eef22b36d6ae9bf8eea" style="width: 100.0%; height: 100.0%;">미쳐버린파닭</div>`)[0];
+            popup_bb9647f7195921f926be62e5a4d72eb1.setContent(html_581e25361cf05eef22b36d6ae9bf8eea);
+        
+
+        marker_aeb5a1937dbeef411520406729d7accd.bindPopup(popup_bb9647f7195921f926be62e5a4d72eb1)
+        ;
+
+        
+    
+    
+            var marker_f68c0cfe950d87305a482d86321efdef = L.marker(
+                [37.5589109725708, 127.036996879181],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_8ec1c23c9881f457f319cd37c2995033 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a48a4e12ad639d1d9ae5b5cdfde44da = $(`<div id="html_8a48a4e12ad639d1d9ae5b5cdfde44da" style="width: 100.0%; height: 100.0%;">BBQ치킨</div>`)[0];
+            popup_8ec1c23c9881f457f319cd37c2995033.setContent(html_8a48a4e12ad639d1d9ae5b5cdfde44da);
+        
+
+        marker_f68c0cfe950d87305a482d86321efdef.bindPopup(popup_8ec1c23c9881f457f319cd37c2995033)
+        ;
+
+        
+    
+    
+            var marker_b465ac3c0c24d0fd0d992e75dcb9e644 = L.marker(
+                [37.5606921625978, 127.039962104874],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_b8fa24513b10c96d59a75c3c163aee84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b6ffdb96307c6e3d1ae27b94996eac2 = $(`<div id="html_7b6ffdb96307c6e3d1ae27b94996eac2" style="width: 100.0%; height: 100.0%;">치킨버스</div>`)[0];
+            popup_b8fa24513b10c96d59a75c3c163aee84.setContent(html_7b6ffdb96307c6e3d1ae27b94996eac2);
+        
+
+        marker_b465ac3c0c24d0fd0d992e75dcb9e644.bindPopup(popup_b8fa24513b10c96d59a75c3c163aee84)
+        ;
+
+        
+    
+    
+            var marker_0d62b7316b9d8bef8b6e0f0817757c99 = L.marker(
+                [37.5452407044747, 127.054667950333],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_9cd3d36ac024eafea4515a24d4f120fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f58788d4c768bb5a10da86aee739baad = $(`<div id="html_f58788d4c768bb5a10da86aee739baad" style="width: 100.0%; height: 100.0%;">펀비어킹</div>`)[0];
+            popup_9cd3d36ac024eafea4515a24d4f120fd.setContent(html_f58788d4c768bb5a10da86aee739baad);
+        
+
+        marker_0d62b7316b9d8bef8b6e0f0817757c99.bindPopup(popup_9cd3d36ac024eafea4515a24d4f120fd)
+        ;
+
+        
+    
+    
+            var marker_83c535d0c57d3466bb8e52b19ec2a9ee = L.marker(
+                [37.5589267552007, 127.040041349103],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_5d441a58690d13e744d8f7df98c24f7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1de7af8b0a0ac97fc0720388d4f6510d = $(`<div id="html_1de7af8b0a0ac97fc0720388d4f6510d" style="width: 100.0%; height: 100.0%;">용범이네노상통닭</div>`)[0];
+            popup_5d441a58690d13e744d8f7df98c24f7d.setContent(html_1de7af8b0a0ac97fc0720388d4f6510d);
+        
+
+        marker_83c535d0c57d3466bb8e52b19ec2a9ee.bindPopup(popup_5d441a58690d13e744d8f7df98c24f7d)
+        ;
+
+        
+    
+    
+            var marker_0deadabfeaca2213079eb8be1458e876 = L.marker(
+                [37.547975391578, 127.020943212215],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_5feea84f71cff2370abaf75c85875d62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7ca365a280e72a6c9db6f63b41083ee = $(`<div id="html_d7ca365a280e72a6c9db6f63b41083ee" style="width: 100.0%; height: 100.0%;">페리카나치킨</div>`)[0];
+            popup_5feea84f71cff2370abaf75c85875d62.setContent(html_d7ca365a280e72a6c9db6f63b41083ee);
+        
+
+        marker_0deadabfeaca2213079eb8be1458e876.bindPopup(popup_5feea84f71cff2370abaf75c85875d62)
+        ;
+
+        
+    
+    
+            var marker_bf4851b5e1371a06717b03e6d5f4ae09 = L.marker(
+                [37.5418407365949, 127.017866307104],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_11f3fbb3de076f837ccc885b30d62d84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ff416461467070ef464843971556531 = $(`<div id="html_6ff416461467070ef464843971556531" style="width: 100.0%; height: 100.0%;">하이꼬꼬</div>`)[0];
+            popup_11f3fbb3de076f837ccc885b30d62d84.setContent(html_6ff416461467070ef464843971556531);
+        
+
+        marker_bf4851b5e1371a06717b03e6d5f4ae09.bindPopup(popup_11f3fbb3de076f837ccc885b30d62d84)
+        ;
+
+        
+    
+    
+            var marker_5c30ae50dc468cc5ea85094c15751f8b = L.marker(
+                [37.5471565289764, 127.04083736463],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_3de9d725ee3228035bb9508bc84bf582 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baa3ad13f2a173a466eed14cf70a06d6 = $(`<div id="html_baa3ad13f2a173a466eed14cf70a06d6" style="width: 100.0%; height: 100.0%;">제스티살룬</div>`)[0];
+            popup_3de9d725ee3228035bb9508bc84bf582.setContent(html_baa3ad13f2a173a466eed14cf70a06d6);
+        
+
+        marker_5c30ae50dc468cc5ea85094c15751f8b.bindPopup(popup_3de9d725ee3228035bb9508bc84bf582)
+        ;
+
+        
+    
+    
+            var marker_ea2f2f0374758fd1687b71ed08476d39 = L.marker(
+                [37.5644832296825, 127.034151918009],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c9c9d70518089ffa64a041b71677c5ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b25a37f9c227ffeaa6b015af49029e0a = $(`<div id="html_b25a37f9c227ffeaa6b015af49029e0a" style="width: 100.0%; height: 100.0%;">촌닭직판장</div>`)[0];
+            popup_c9c9d70518089ffa64a041b71677c5ee.setContent(html_b25a37f9c227ffeaa6b015af49029e0a);
+        
+
+        marker_ea2f2f0374758fd1687b71ed08476d39.bindPopup(popup_c9c9d70518089ffa64a041b71677c5ee)
+        ;
+
+        
+    
+    
+            var marker_dd651caef94ab5a321f8d282d2e1ff78 = L.marker(
+                [37.556288309984, 127.038026623061],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_6ef31d376cdf324ed1e381ff783835da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23985c021d93d3f2d24dbe5a076193e8 = $(`<div id="html_23985c021d93d3f2d24dbe5a076193e8" style="width: 100.0%; height: 100.0%;">계동치킨</div>`)[0];
+            popup_6ef31d376cdf324ed1e381ff783835da.setContent(html_23985c021d93d3f2d24dbe5a076193e8);
+        
+
+        marker_dd651caef94ab5a321f8d282d2e1ff78.bindPopup(popup_6ef31d376cdf324ed1e381ff783835da)
+        ;
+
+        
+    
+    
+            var marker_11b2d756d365ee93179f853499165fb7 = L.marker(
+                [37.5589987425969, 127.041138320017],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_066072726ca22be6c3b729fafaf47f4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8ab497ceb13d8c2d2a75114600f7cdf = $(`<div id="html_a8ab497ceb13d8c2d2a75114600f7cdf" style="width: 100.0%; height: 100.0%;">노랑통닭</div>`)[0];
+            popup_066072726ca22be6c3b729fafaf47f4b.setContent(html_a8ab497ceb13d8c2d2a75114600f7cdf);
+        
+
+        marker_11b2d756d365ee93179f853499165fb7.bindPopup(popup_066072726ca22be6c3b729fafaf47f4b)
+        ;
+
+        
+    
+    
+            var marker_ae0bc88c648d26327ece65ac5cc20568 = L.marker(
+                [37.5531181218414, 127.020672221629],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_ec39da7036731edccdef9c0441323bdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27fc66daff758275322db38be209f2ea = $(`<div id="html_27fc66daff758275322db38be209f2ea" style="width: 100.0%; height: 100.0%;">권석영의미스터짱닭치킨</div>`)[0];
+            popup_ec39da7036731edccdef9c0441323bdd.setContent(html_27fc66daff758275322db38be209f2ea);
+        
+
+        marker_ae0bc88c648d26327ece65ac5cc20568.bindPopup(popup_ec39da7036731edccdef9c0441323bdd)
+        ;
+
+        
+    
+    
+            var marker_30ba3cfdb561f88e48d7be1e9310d2f9 = L.marker(
+                [37.5626213536192, 127.0545955239],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_7f855c9f88a154ba1cecbdc12341ea6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab29acf8db2092e48150536d1e182387 = $(`<div id="html_ab29acf8db2092e48150536d1e182387" style="width: 100.0%; height: 100.0%;">우리집치킨</div>`)[0];
+            popup_7f855c9f88a154ba1cecbdc12341ea6e.setContent(html_ab29acf8db2092e48150536d1e182387);
+        
+
+        marker_30ba3cfdb561f88e48d7be1e9310d2f9.bindPopup(popup_7f855c9f88a154ba1cecbdc12341ea6e)
+        ;
+
+        
+    
+    
+            var marker_6c19a6f64bee8ebe6f5187250ce8f2b6 = L.marker(
+                [37.5484604923019, 127.019680692589],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_1fad85517c5669e429ce7437c74c2398 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e72df2f296facc7b0e5d8f5029cacd0d = $(`<div id="html_e72df2f296facc7b0e5d8f5029cacd0d" style="width: 100.0%; height: 100.0%;">계동치킨금호점</div>`)[0];
+            popup_1fad85517c5669e429ce7437c74c2398.setContent(html_e72df2f296facc7b0e5d8f5029cacd0d);
+        
+
+        marker_6c19a6f64bee8ebe6f5187250ce8f2b6.bindPopup(popup_1fad85517c5669e429ce7437c74c2398)
+        ;
+
+        
+    
+    
+            var marker_6f2cb96ed487f7dd2f1580f0ff1d0fe6 = L.marker(
+                [37.5594127536955, 127.033345845418],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_0519cf3fb3d06d1dc2622267e0335879 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a77c0353a9e8ca37fcd2ab67dab8a89 = $(`<div id="html_1a77c0353a9e8ca37fcd2ab67dab8a89" style="width: 100.0%; height: 100.0%;">꼬랑치킨</div>`)[0];
+            popup_0519cf3fb3d06d1dc2622267e0335879.setContent(html_1a77c0353a9e8ca37fcd2ab67dab8a89);
+        
+
+        marker_6f2cb96ed487f7dd2f1580f0ff1d0fe6.bindPopup(popup_0519cf3fb3d06d1dc2622267e0335879)
+        ;
+
+        
+    
+    
+            var marker_d44defc4ae96a1490dac690a57b4eb3c = L.marker(
+                [37.548028222859, 127.021881817565],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_048195ec0e1a46694e99bfeba4cb9d1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3738cad3bbdda565dc9fd3e68abbeeab = $(`<div id="html_3738cad3bbdda565dc9fd3e68abbeeab" style="width: 100.0%; height: 100.0%;">캐리홈치킨</div>`)[0];
+            popup_048195ec0e1a46694e99bfeba4cb9d1b.setContent(html_3738cad3bbdda565dc9fd3e68abbeeab);
+        
+
+        marker_d44defc4ae96a1490dac690a57b4eb3c.bindPopup(popup_048195ec0e1a46694e99bfeba4cb9d1b)
+        ;
+
+        
+    
+    
+            var marker_17a254444205d13590d598ac309068de = L.marker(
+                [37.5614648829051, 127.033070316885],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_5979c8baa4809cd51e5738ff3e3e6bd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89175740be38bea73f3795e9cd07169a = $(`<div id="html_89175740be38bea73f3795e9cd07169a" style="width: 100.0%; height: 100.0%;">알맹치킨</div>`)[0];
+            popup_5979c8baa4809cd51e5738ff3e3e6bd9.setContent(html_89175740be38bea73f3795e9cd07169a);
+        
+
+        marker_17a254444205d13590d598ac309068de.bindPopup(popup_5979c8baa4809cd51e5738ff3e3e6bd9)
+        ;
+
+        
+    
+    
+            var marker_33e02bde86da700b9ad65a7acb6513eb = L.marker(
+                [37.5665447401941, 127.024062147888],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_458d0bc58f5b7a6e75a734f56a447f5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68688ef2b41ffbb987fe1576aa8d9e72 = $(`<div id="html_68688ef2b41ffbb987fe1576aa8d9e72" style="width: 100.0%; height: 100.0%;">누나홀닭</div>`)[0];
+            popup_458d0bc58f5b7a6e75a734f56a447f5a.setContent(html_68688ef2b41ffbb987fe1576aa8d9e72);
+        
+
+        marker_33e02bde86da700b9ad65a7acb6513eb.bindPopup(popup_458d0bc58f5b7a6e75a734f56a447f5a)
+        ;
+
+        
+    
+    
+            var marker_7d17f0771bfbae89675f9e65dab87205 = L.marker(
+                [37.5433039684945, 127.013965688045],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_878eb093e1acf448e0c36a28e635b18a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9bd44927956c439c4db803356be0496 = $(`<div id="html_c9bd44927956c439c4db803356be0496" style="width: 100.0%; height: 100.0%;">푸라닭</div>`)[0];
+            popup_878eb093e1acf448e0c36a28e635b18a.setContent(html_c9bd44927956c439c4db803356be0496);
+        
+
+        marker_7d17f0771bfbae89675f9e65dab87205.bindPopup(popup_878eb093e1acf448e0c36a28e635b18a)
+        ;
+
+        
+    
+    
+            var marker_3ad7740a110bbb997d4b428353fca5e7 = L.marker(
+                [37.5462650233804, 127.047582150892],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c9d59e4856cfeb80d6406ae999ade687 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1684d21561d0fb0c5a489710614fc8aa = $(`<div id="html_1684d21561d0fb0c5a489710614fc8aa" style="width: 100.0%; height: 100.0%;">베리치킨</div>`)[0];
+            popup_c9d59e4856cfeb80d6406ae999ade687.setContent(html_1684d21561d0fb0c5a489710614fc8aa);
+        
+
+        marker_3ad7740a110bbb997d4b428353fca5e7.bindPopup(popup_c9d59e4856cfeb80d6406ae999ade687)
+        ;
+
+        
+    
+    
+            var marker_c1e5b8a0ae2149705a3ffd5b8a3b60b8 = L.marker(
+                [37.5633329311716, 127.031223790278],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_901620f3a32f225abdb3c9ad14336dc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_886433d6f493a541683a0cfb309eb47d = $(`<div id="html_886433d6f493a541683a0cfb309eb47d" style="width: 100.0%; height: 100.0%;">무스치킨</div>`)[0];
+            popup_901620f3a32f225abdb3c9ad14336dc9.setContent(html_886433d6f493a541683a0cfb309eb47d);
+        
+
+        marker_c1e5b8a0ae2149705a3ffd5b8a3b60b8.bindPopup(popup_901620f3a32f225abdb3c9ad14336dc9)
+        ;
+
+        
+    
+    
+            var marker_e15b8e1ee9058ed669f84b72aa800b19 = L.marker(
+                [37.554333737912, 127.019490582944],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_44823cc79b8a1ada2db4d20dbf27b70d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f6b52080836d7649e2c4e786e90bd3e = $(`<div id="html_9f6b52080836d7649e2c4e786e90bd3e" style="width: 100.0%; height: 100.0%;">멕시카나치킨</div>`)[0];
+            popup_44823cc79b8a1ada2db4d20dbf27b70d.setContent(html_9f6b52080836d7649e2c4e786e90bd3e);
+        
+
+        marker_e15b8e1ee9058ed669f84b72aa800b19.bindPopup(popup_44823cc79b8a1ada2db4d20dbf27b70d)
+        ;
+
+        
+    
+    
+            var marker_5322ec16558ab71b32fdcebb0471204b = L.marker(
+                [37.5385808933813, 127.054537042233],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_f7fb16425f83db6c43c891a944f5aece = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0f605a4b1fb404cc9d87973444140b7 = $(`<div id="html_e0f605a4b1fb404cc9d87973444140b7" style="width: 100.0%; height: 100.0%;">소문난장미통닭집</div>`)[0];
+            popup_f7fb16425f83db6c43c891a944f5aece.setContent(html_e0f605a4b1fb404cc9d87973444140b7);
+        
+
+        marker_5322ec16558ab71b32fdcebb0471204b.bindPopup(popup_f7fb16425f83db6c43c891a944f5aece)
+        ;
+
+        
+    
+    
+            var marker_5a2b44135298d9a77a8e5a3c2fb9ad89 = L.marker(
+                [37.5609910408057, 127.045708221839],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_07964d04d042f8213b0f77d6325f4928 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a143aee84408b900b45995fcb78aeff9 = $(`<div id="html_a143aee84408b900b45995fcb78aeff9" style="width: 100.0%; height: 100.0%;">칼포니치킨호프</div>`)[0];
+            popup_07964d04d042f8213b0f77d6325f4928.setContent(html_a143aee84408b900b45995fcb78aeff9);
+        
+
+        marker_5a2b44135298d9a77a8e5a3c2fb9ad89.bindPopup(popup_07964d04d042f8213b0f77d6325f4928)
+        ;
+
+        
+    
+    
+            var marker_1ae30db63e7556d17450d89ae60b15bb = L.marker(
+                [37.5605827453189, 127.043132756152],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c770d9c66340f6e63d4310dca26766b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_752ec49419a0ee2821e8f240da8b1306 = $(`<div id="html_752ec49419a0ee2821e8f240da8b1306" style="width: 100.0%; height: 100.0%;">BHC치킨</div>`)[0];
+            popup_c770d9c66340f6e63d4310dca26766b2.setContent(html_752ec49419a0ee2821e8f240da8b1306);
+        
+
+        marker_1ae30db63e7556d17450d89ae60b15bb.bindPopup(popup_c770d9c66340f6e63d4310dca26766b2)
+        ;
+
+        
+    
+    
+            var marker_73ae766bb24aac4d17f5e74fcf63558c = L.marker(
+                [37.5537936388476, 127.019554247763],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_f640bbd666923281681764e49ee81879 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad761d6407cba9ffb64ce8ba03590691 = $(`<div id="html_ad761d6407cba9ffb64ce8ba03590691" style="width: 100.0%; height: 100.0%;">BBQ치킨</div>`)[0];
+            popup_f640bbd666923281681764e49ee81879.setContent(html_ad761d6407cba9ffb64ce8ba03590691);
+        
+
+        marker_73ae766bb24aac4d17f5e74fcf63558c.bindPopup(popup_f640bbd666923281681764e49ee81879)
+        ;
+
+        
+    
+    
+            var marker_202c8cb893e3537a78d1e043ec54ef08 = L.marker(
+                [37.5452259457741, 127.05507552814],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_8113afab06ea6a6b97235e90b07180fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee50a3c9d7b9af1de619089b7c9b9d29 = $(`<div id="html_ee50a3c9d7b9af1de619089b7c9b9d29" style="width: 100.0%; height: 100.0%;">또래오래</div>`)[0];
+            popup_8113afab06ea6a6b97235e90b07180fe.setContent(html_ee50a3c9d7b9af1de619089b7c9b9d29);
+        
+
+        marker_202c8cb893e3537a78d1e043ec54ef08.bindPopup(popup_8113afab06ea6a6b97235e90b07180fe)
+        ;
+
+        
+    
+    
+            var marker_656ef1df74d040ab6231ebf3462f1648 = L.marker(
+                [37.5551363613058, 127.025014519561],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_556abe61627befb6899e61b494fae17f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2251735545e921c75dc18d5cb8b98d4 = $(`<div id="html_e2251735545e921c75dc18d5cb8b98d4" style="width: 100.0%; height: 100.0%;">지코바양념치킨</div>`)[0];
+            popup_556abe61627befb6899e61b494fae17f.setContent(html_e2251735545e921c75dc18d5cb8b98d4);
+        
+
+        marker_656ef1df74d040ab6231ebf3462f1648.bindPopup(popup_556abe61627befb6899e61b494fae17f)
+        ;
+
+        
+    
+    
+            var marker_493ded9fd4d7066b657f5dc8f4837705 = L.marker(
+                [37.5584362973327, 127.032939679159],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_97f46e18023afe1bcab9c7f5c9cde454 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78c7291c5f28064ddc5d9ed53673fb01 = $(`<div id="html_78c7291c5f28064ddc5d9ed53673fb01" style="width: 100.0%; height: 100.0%;">청년치킨</div>`)[0];
+            popup_97f46e18023afe1bcab9c7f5c9cde454.setContent(html_78c7291c5f28064ddc5d9ed53673fb01);
+        
+
+        marker_493ded9fd4d7066b657f5dc8f4837705.bindPopup(popup_97f46e18023afe1bcab9c7f5c9cde454)
+        ;
+
+        
+    
+    
+            var marker_883341cc92d10c327618f35ceac28c4b = L.marker(
+                [37.5540467500632, 127.01965279132],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_a0666b7dd7b67ea57ca185a266702e05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_461710a31736c616923be21eec3515d4 = $(`<div id="html_461710a31736c616923be21eec3515d4" style="width: 100.0%; height: 100.0%;">닭장수후라이드</div>`)[0];
+            popup_a0666b7dd7b67ea57ca185a266702e05.setContent(html_461710a31736c616923be21eec3515d4);
+        
+
+        marker_883341cc92d10c327618f35ceac28c4b.bindPopup(popup_a0666b7dd7b67ea57ca185a266702e05)
+        ;
+
+        
+    
+    
+            var marker_ff8449fcf7b9fd18102ccc404e4960c7 = L.marker(
+                [37.5439407642177, 127.050995273327],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_26a9aeae457b19a928eec012261a3b3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33de2c0dba272240cc44864bd997df28 = $(`<div id="html_33de2c0dba272240cc44864bd997df28" style="width: 100.0%; height: 100.0%;">코리엔탈깻잎두마리치킨</div>`)[0];
+            popup_26a9aeae457b19a928eec012261a3b3f.setContent(html_33de2c0dba272240cc44864bd997df28);
+        
+
+        marker_ff8449fcf7b9fd18102ccc404e4960c7.bindPopup(popup_26a9aeae457b19a928eec012261a3b3f)
+        ;
+
+        
+    
+    
+            var marker_d4be2e38edc27d56123ffadd937ce5fe = L.marker(
+                [37.5462240209187, 127.061592597946],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_01adb75785b269e91233a018ebaf3404 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d3ad4486b3bb60ad0a136c7e86985cc = $(`<div id="html_0d3ad4486b3bb60ad0a136c7e86985cc" style="width: 100.0%; height: 100.0%;">푸라닭</div>`)[0];
+            popup_01adb75785b269e91233a018ebaf3404.setContent(html_0d3ad4486b3bb60ad0a136c7e86985cc);
+        
+
+        marker_d4be2e38edc27d56123ffadd937ce5fe.bindPopup(popup_01adb75785b269e91233a018ebaf3404)
+        ;
+
+        
+    
+    
+            var marker_d4b897af2a0b63f7a8cf32284825996f = L.marker(
+                [37.5647577611541, 127.05246312013],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_75f5853702212c71039628aefd94f08b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d3babef602663980f7e6e61aa8bb53b = $(`<div id="html_7d3babef602663980f7e6e61aa8bb53b" style="width: 100.0%; height: 100.0%;">교촌치킨</div>`)[0];
+            popup_75f5853702212c71039628aefd94f08b.setContent(html_7d3babef602663980f7e6e61aa8bb53b);
+        
+
+        marker_d4b897af2a0b63f7a8cf32284825996f.bindPopup(popup_75f5853702212c71039628aefd94f08b)
+        ;
+
+        
+    
+    
+            var marker_573f9b5d1202b015e07b5583238510ce = L.marker(
+                [37.5410744329787, 127.014572155026],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_bb9f5e50fcb1c2f15d5d3d60b71bdf42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3574894cd9dfab439d137c7cb4e611ca = $(`<div id="html_3574894cd9dfab439d137c7cb4e611ca" style="width: 100.0%; height: 100.0%;">호식이두마리치킨</div>`)[0];
+            popup_bb9f5e50fcb1c2f15d5d3d60b71bdf42.setContent(html_3574894cd9dfab439d137c7cb4e611ca);
+        
+
+        marker_573f9b5d1202b015e07b5583238510ce.bindPopup(popup_bb9f5e50fcb1c2f15d5d3d60b71bdf42)
+        ;
+
+        
+    
+    
+            var marker_0c485598f88555dd66300a3d2fcc23fc = L.marker(
+                [37.5466977269906, 127.025520522662],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_2170458071ebee4bbc2b8ba52170a6d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54a61e59f2831a6aa497eb050027effc = $(`<div id="html_54a61e59f2831a6aa497eb050027effc" style="width: 100.0%; height: 100.0%;">깐부치킨</div>`)[0];
+            popup_2170458071ebee4bbc2b8ba52170a6d7.setContent(html_54a61e59f2831a6aa497eb050027effc);
+        
+
+        marker_0c485598f88555dd66300a3d2fcc23fc.bindPopup(popup_2170458071ebee4bbc2b8ba52170a6d7)
+        ;
+
+        
+    
+    
+            var marker_61c45086eb16dc3dc4364f40968dd47c = L.marker(
+                [37.5573153237255, 127.030294380758],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_f7fc1f8797c0252411f5387a39a0d024 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_468ae3793a4092a51d3294d7e8d21c42 = $(`<div id="html_468ae3793a4092a51d3294d7e8d21c42" style="width: 100.0%; height: 100.0%;">가마로강정</div>`)[0];
+            popup_f7fc1f8797c0252411f5387a39a0d024.setContent(html_468ae3793a4092a51d3294d7e8d21c42);
+        
+
+        marker_61c45086eb16dc3dc4364f40968dd47c.bindPopup(popup_f7fc1f8797c0252411f5387a39a0d024)
+        ;
+
+        
+    
+    
+            var marker_2b7337a4705a6a84531bf5eb74d7c16e = L.marker(
+                [37.558821708098, 127.037099894268],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c84c516df11c80e586e5abfef1d24c40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6932febd1638abe9e4b3ae740b4d31b = $(`<div id="html_a6932febd1638abe9e4b3ae740b4d31b" style="width: 100.0%; height: 100.0%;">닭스</div>`)[0];
+            popup_c84c516df11c80e586e5abfef1d24c40.setContent(html_a6932febd1638abe9e4b3ae740b4d31b);
+        
+
+        marker_2b7337a4705a6a84531bf5eb74d7c16e.bindPopup(popup_c84c516df11c80e586e5abfef1d24c40)
+        ;
+
+        
+    
+    
+            var marker_acbeb360f98e0c5cf1821aed58a7f4d4 = L.marker(
+                [37.5609878424396, 127.033133076039],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_09a0d21d2719f355bbb30eca13261054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec488e3d5d945dadfdafbf61ebb3e23f = $(`<div id="html_ec488e3d5d945dadfdafbf61ebb3e23f" style="width: 100.0%; height: 100.0%;">낭만치맥</div>`)[0];
+            popup_09a0d21d2719f355bbb30eca13261054.setContent(html_ec488e3d5d945dadfdafbf61ebb3e23f);
+        
+
+        marker_acbeb360f98e0c5cf1821aed58a7f4d4.bindPopup(popup_09a0d21d2719f355bbb30eca13261054)
+        ;
+
+        
+    
+    
+            var marker_05ddb59e2aa04fa75362d704b5e6bfa6 = L.marker(
+                [37.5470209460658, 127.019937195425],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_a3e4d74792a432084b03a38c11c823c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_299a817ab5d653d662f6f3cbf9f89c91 = $(`<div id="html_299a817ab5d653d662f6f3cbf9f89c91" style="width: 100.0%; height: 100.0%;">처갓집양념치킨</div>`)[0];
+            popup_a3e4d74792a432084b03a38c11c823c0.setContent(html_299a817ab5d653d662f6f3cbf9f89c91);
+        
+
+        marker_05ddb59e2aa04fa75362d704b5e6bfa6.bindPopup(popup_a3e4d74792a432084b03a38c11c823c0)
+        ;
+
+        
+    
+    
+            var marker_343c630eb61cbf143ca73c47a36cfafa = L.marker(
+                [37.5437359090273, 127.062574347958],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_f6af865a1d75e578b97adee49023fb1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f42e0b0f197e11e20e9ec0ec7e12ccd = $(`<div id="html_9f42e0b0f197e11e20e9ec0ec7e12ccd" style="width: 100.0%; height: 100.0%;">BBQ치킨</div>`)[0];
+            popup_f6af865a1d75e578b97adee49023fb1b.setContent(html_9f42e0b0f197e11e20e9ec0ec7e12ccd);
+        
+
+        marker_343c630eb61cbf143ca73c47a36cfafa.bindPopup(popup_f6af865a1d75e578b97adee49023fb1b)
+        ;
+
+        
+    
+    
+            var marker_eeb39dbe2d29f81e28213207a5abbba2 = L.marker(
+                [37.5699062713465, 127.03730813389],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_a5fcb943d3d3b41dcf22e62782cb4011 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed4c2d496f9564c4adb1d02464dde2d1 = $(`<div id="html_ed4c2d496f9564c4adb1d02464dde2d1" style="width: 100.0%; height: 100.0%;">BBQ치킨</div>`)[0];
+            popup_a5fcb943d3d3b41dcf22e62782cb4011.setContent(html_ed4c2d496f9564c4adb1d02464dde2d1);
+        
+
+        marker_eeb39dbe2d29f81e28213207a5abbba2.bindPopup(popup_a5fcb943d3d3b41dcf22e62782cb4011)
+        ;
+
+        
+    
+    
+            var marker_acdf19a90197add18408803a67aa491f = L.marker(
+                [37.5645170147018, 127.034977792883],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c74e5b21afe2263fd5f110ba72c05edd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00e56bf15feed9533b1b159193b295c3 = $(`<div id="html_00e56bf15feed9533b1b159193b295c3" style="width: 100.0%; height: 100.0%;">BHC치킨</div>`)[0];
+            popup_c74e5b21afe2263fd5f110ba72c05edd.setContent(html_00e56bf15feed9533b1b159193b295c3);
+        
+
+        marker_acdf19a90197add18408803a67aa491f.bindPopup(popup_c74e5b21afe2263fd5f110ba72c05edd)
+        ;
+
+        
+    
+    
+            var marker_f959ad4476e5fdbeedc81b8ae263d2d2 = L.marker(
+                [37.5375902903247, 127.05460612616],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_d71d83fbb2c31a630866da4fd62a0743 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac37bc6d3a36945679e2d875c478f193 = $(`<div id="html_ac37bc6d3a36945679e2d875c478f193" style="width: 100.0%; height: 100.0%;">참참치킨</div>`)[0];
+            popup_d71d83fbb2c31a630866da4fd62a0743.setContent(html_ac37bc6d3a36945679e2d875c478f193);
+        
+
+        marker_f959ad4476e5fdbeedc81b8ae263d2d2.bindPopup(popup_d71d83fbb2c31a630866da4fd62a0743)
+        ;
+
+        
+    
+    
+            var marker_be8f3d3189e2260ad8eec552d4195bf8 = L.marker(
+                [37.5548889531305, 127.020162379948],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_4c12dfb7788dc0ee690a4a3d4c707d41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a35e5726359e6e3fe3c7225d039539ed = $(`<div id="html_a35e5726359e6e3fe3c7225d039539ed" style="width: 100.0%; height: 100.0%;">자담치킨</div>`)[0];
+            popup_4c12dfb7788dc0ee690a4a3d4c707d41.setContent(html_a35e5726359e6e3fe3c7225d039539ed);
+        
+
+        marker_be8f3d3189e2260ad8eec552d4195bf8.bindPopup(popup_4c12dfb7788dc0ee690a4a3d4c707d41)
+        ;
+
+        
+    
+    
+            var marker_113c6f770c75b44723ef3902c0ffabff = L.marker(
+                [37.5494689144477, 127.050461187574],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_6585dce554068f5996d9bd356a5ab0a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9898512f010c07df1b5148a97fa0433 = $(`<div id="html_a9898512f010c07df1b5148a97fa0433" style="width: 100.0%; height: 100.0%;">60계서울</div>`)[0];
+            popup_6585dce554068f5996d9bd356a5ab0a9.setContent(html_a9898512f010c07df1b5148a97fa0433);
+        
+
+        marker_113c6f770c75b44723ef3902c0ffabff.bindPopup(popup_6585dce554068f5996d9bd356a5ab0a9)
+        ;
+
+        
+    
+    
+            var marker_d297097f7ed7cd1e4e93c1e71906fd1a = L.marker(
+                [37.5632421375039, 127.053353891379],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_91a9679022c9dcccc23c36af579cf572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_882c2d22207dc2480df5cd6a04c9b22a = $(`<div id="html_882c2d22207dc2480df5cd6a04c9b22a" style="width: 100.0%; height: 100.0%;">내꼬닭</div>`)[0];
+            popup_91a9679022c9dcccc23c36af579cf572.setContent(html_882c2d22207dc2480df5cd6a04c9b22a);
+        
+
+        marker_d297097f7ed7cd1e4e93c1e71906fd1a.bindPopup(popup_91a9679022c9dcccc23c36af579cf572)
+        ;
+
+        
+    
+    
+            var marker_cbd9ee19d4fb35f0a0905e43c86f7ed4 = L.marker(
+                [37.5482294390878, 127.020068491623],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_fa0fefcbedd55da6bb908bb664a8f915 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd62953ee25c9c52632c13f03c8072ba = $(`<div id="html_cd62953ee25c9c52632c13f03c8072ba" style="width: 100.0%; height: 100.0%;">금호동닭강정</div>`)[0];
+            popup_fa0fefcbedd55da6bb908bb664a8f915.setContent(html_cd62953ee25c9c52632c13f03c8072ba);
+        
+
+        marker_cbd9ee19d4fb35f0a0905e43c86f7ed4.bindPopup(popup_fa0fefcbedd55da6bb908bb664a8f915)
+        ;
+
+        
+    
+    
+            var marker_e3b85c5a0f1e7be49809ecf60ce74a13 = L.marker(
+                [37.5402702164123, 127.055081495055],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_20fbf2bc1ed502a8a2b94ce4c7bf6fdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93de540598fc297786933e83caa15464 = $(`<div id="html_93de540598fc297786933e83caa15464" style="width: 100.0%; height: 100.0%;">생활맥주</div>`)[0];
+            popup_20fbf2bc1ed502a8a2b94ce4c7bf6fdd.setContent(html_93de540598fc297786933e83caa15464);
+        
+
+        marker_e3b85c5a0f1e7be49809ecf60ce74a13.bindPopup(popup_20fbf2bc1ed502a8a2b94ce4c7bf6fdd)
+        ;
+
+        
+    
+    
+            var marker_c3de0eb5774205e43ee481f6bdd4ca70 = L.marker(
+                [37.5563423671538, 127.038025928139],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_18b4f5ea6d79ce4320a390049925e540 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4393218976452b69e1b6d6f1179634c4 = $(`<div id="html_4393218976452b69e1b6d6f1179634c4" style="width: 100.0%; height: 100.0%;">엄마네꼬꼬</div>`)[0];
+            popup_18b4f5ea6d79ce4320a390049925e540.setContent(html_4393218976452b69e1b6d6f1179634c4);
+        
+
+        marker_c3de0eb5774205e43ee481f6bdd4ca70.bindPopup(popup_18b4f5ea6d79ce4320a390049925e540)
+        ;
+
+        
+    
+    
+            var marker_53f30b59aa1d2fa0701f3f6997ddbe91 = L.marker(
+                [37.5639552749735, 127.052394049578],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c164632ebf671793ca879e33ce46556c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b378a6653f6fb099ebd50184ee001c20 = $(`<div id="html_b378a6653f6fb099ebd50184ee001c20" style="width: 100.0%; height: 100.0%;">바우치킨</div>`)[0];
+            popup_c164632ebf671793ca879e33ce46556c.setContent(html_b378a6653f6fb099ebd50184ee001c20);
+        
+
+        marker_53f30b59aa1d2fa0701f3f6997ddbe91.bindPopup(popup_c164632ebf671793ca879e33ce46556c)
+        ;
+
+        
+    
+    
+            var marker_8e031c4f0202e04a504d8613c91b334c = L.marker(
+                [37.5475568893873, 127.042427899133],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_43ef4f2510f14cfe484cb01dcdcb65ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4d878a213678e1072382eaf90a52879 = $(`<div id="html_c4d878a213678e1072382eaf90a52879" style="width: 100.0%; height: 100.0%;">란돌프서울숲</div>`)[0];
+            popup_43ef4f2510f14cfe484cb01dcdcb65ff.setContent(html_c4d878a213678e1072382eaf90a52879);
+        
+
+        marker_8e031c4f0202e04a504d8613c91b334c.bindPopup(popup_43ef4f2510f14cfe484cb01dcdcb65ff)
+        ;
+
+        
+    
+    
+            var marker_735f09440479d249e26fe8a915db5b43 = L.marker(
+                [37.5463201336104, 127.054439303854],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_b195b8fa50b45ad8f0860d453db0ca8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcff274777aa449faa27b34fd48b4509 = $(`<div id="html_bcff274777aa449faa27b34fd48b4509" style="width: 100.0%; height: 100.0%;">생활맥주</div>`)[0];
+            popup_b195b8fa50b45ad8f0860d453db0ca8f.setContent(html_bcff274777aa449faa27b34fd48b4509);
+        
+
+        marker_735f09440479d249e26fe8a915db5b43.bindPopup(popup_b195b8fa50b45ad8f0860d453db0ca8f)
+        ;
+
+        
+    
+    
+            var marker_598f4f46b725b817558730456c049a44 = L.marker(
+                [37.5484403965157, 127.022691247414],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_38786b4709f3b55464bd8ebffd579c5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_875c11606b2ae5a029ae720ee76e22ac = $(`<div id="html_875c11606b2ae5a029ae720ee76e22ac" style="width: 100.0%; height: 100.0%;">금남시장뽀빠이치킨2호직영점</div>`)[0];
+            popup_38786b4709f3b55464bd8ebffd579c5a.setContent(html_875c11606b2ae5a029ae720ee76e22ac);
+        
+
+        marker_598f4f46b725b817558730456c049a44.bindPopup(popup_38786b4709f3b55464bd8ebffd579c5a)
+        ;
+
+        
+    
+    
+            var marker_0862b1360aba4c2fd8d8b30d0eb9fda3 = L.marker(
+                [37.5609042539908, 127.032828549139],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_c3eeda5b9bff9dbfba5c83d5c1b88619 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd9fb6f3a223efc71e966355c9c39ed9 = $(`<div id="html_cd9fb6f3a223efc71e966355c9c39ed9" style="width: 100.0%; height: 100.0%;">스컹크</div>`)[0];
+            popup_c3eeda5b9bff9dbfba5c83d5c1b88619.setContent(html_cd9fb6f3a223efc71e966355c9c39ed9);
+        
+
+        marker_0862b1360aba4c2fd8d8b30d0eb9fda3.bindPopup(popup_c3eeda5b9bff9dbfba5c83d5c1b88619)
+        ;
+
+        
+    
+    
+            var marker_f2c8c13d9b1744981760e08e7d79f93a = L.marker(
+                [37.5453542047124, 127.054213859156],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_3e1c3891556e2c73e3db664d78c9b227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb0158ef9284e683ac089cd85dcf44d5 = $(`<div id="html_bb0158ef9284e683ac089cd85dcf44d5" style="width: 100.0%; height: 100.0%;">성수펍</div>`)[0];
+            popup_3e1c3891556e2c73e3db664d78c9b227.setContent(html_bb0158ef9284e683ac089cd85dcf44d5);
+        
+
+        marker_f2c8c13d9b1744981760e08e7d79f93a.bindPopup(popup_3e1c3891556e2c73e3db664d78c9b227)
+        ;
+
+        
+    
+    
+            var marker_0169dbc95fb2bad72a9253df920185ba = L.marker(
+                [37.5665447401941, 127.024062147888],
+                {}
+            ).addTo(marker_cluster_02403ca0a4272a049f24d21623bbe471);
+        
+    
+        var popup_48636825176cc6d0a4b57d8f552a6c45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75bd5833de7e8c0611cc09d6cef9eea7 = $(`<div id="html_75bd5833de7e8c0611cc09d6cef9eea7" style="width: 100.0%; height: 100.0%;">부어치킨</div>`)[0];
+            popup_48636825176cc6d0a4b57d8f552a6c45.setContent(html_75bd5833de7e8c0611cc09d6cef9eea7);
+        
+
+        marker_0169dbc95fb2bad72a9253df920185ba.bindPopup(popup_48636825176cc6d0a4b57d8f552a6c45)
+        ;
+
+        
+    
+</script>
+</html>

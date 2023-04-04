@@ -1,0 +1,4722 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c2c9a7b07423a40c14918114ca4086c2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c2c9a7b07423a40c14918114ca4086c2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c2c9a7b07423a40c14918114ca4086c2 = L.map(
+                "map_c2c9a7b07423a40c14918114ca4086c2",
+                {
+                    center: [37.468251, 126.886212],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3383d01446dfaf4429bd7ab5698fdc81 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c2c9a7b07423a40c14918114ca4086c2);
+        
+    
+            var marker_cluster_e76e237a221f6466eb46371641d646ca = L.markerClusterGroup(
+                {}
+            );
+            map_c2c9a7b07423a40c14918114ca4086c2.addLayer(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+            var marker_a4bcfd8645e7992e2f7d69971cc7bc44 = L.marker(
+                [37.5429557, 127.0504631],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_2aabb498e2be06b2e7c0973781cd645d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95a26c3597a28b211c84fc4952a1151b = $(`<div id="html_95a26c3597a28b211c84fc4952a1151b" style="width: 100.0%; height: 100.0%;">서울경동초등학교</div>`)[0];
+                popup_2aabb498e2be06b2e7c0973781cd645d.setContent(html_95a26c3597a28b211c84fc4952a1151b);
+            
+        
+
+        marker_a4bcfd8645e7992e2f7d69971cc7bc44.bindPopup(popup_2aabb498e2be06b2e7c0973781cd645d)
+        ;
+
+        
+    
+    
+            var marker_b7685c84f6bb0d48428ca90008446655 = L.marker(
+                [37.540067, 127.058268],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_b6c3539eff22394e0e024c19a1ef6c3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bba4999be30474b9f6f7af7aef09bc0d = $(`<div id="html_bba4999be30474b9f6f7af7aef09bc0d" style="width: 100.0%; height: 100.0%;">서울경수초등학교</div>`)[0];
+                popup_b6c3539eff22394e0e024c19a1ef6c3c.setContent(html_bba4999be30474b9f6f7af7aef09bc0d);
+            
+        
+
+        marker_b7685c84f6bb0d48428ca90008446655.bindPopup(popup_b6c3539eff22394e0e024c19a1ef6c3c)
+        ;
+
+        
+    
+    
+            var marker_d6d5c7f9d5bba89aa7260f7ef1dc2ebf = L.marker(
+                [37.5403883, 127.0468669],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_482019be4e17d7f387396eed75c4c5a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71a1cffcf3a2a6580c6a4b0befe7a27d = $(`<div id="html_71a1cffcf3a2a6580c6a4b0befe7a27d" style="width: 100.0%; height: 100.0%;">서울경일초등학교</div>`)[0];
+                popup_482019be4e17d7f387396eed75c4c5a0.setContent(html_71a1cffcf3a2a6580c6a4b0befe7a27d);
+            
+        
+
+        marker_d6d5c7f9d5bba89aa7260f7ef1dc2ebf.bindPopup(popup_482019be4e17d7f387396eed75c4c5a0)
+        ;
+
+        
+    
+    
+            var marker_7b6027ede1b934151ad95b36d5881de4 = L.marker(
+                [37.5574688, 127.0234901],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_6eaa6b57875fb95048477823eeff66cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b7909e3b6861c5b132818648aaaabdd = $(`<div id="html_0b7909e3b6861c5b132818648aaaabdd" style="width: 100.0%; height: 100.0%;">서울금북초등학교</div>`)[0];
+                popup_6eaa6b57875fb95048477823eeff66cb.setContent(html_0b7909e3b6861c5b132818648aaaabdd);
+            
+        
+
+        marker_7b6027ede1b934151ad95b36d5881de4.bindPopup(popup_6eaa6b57875fb95048477823eeff66cb)
+        ;
+
+        
+    
+    
+            var marker_ec29f2777f623e8cfdcc2a740de46620 = L.marker(
+                [37.5463323, 127.0174743],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_63a75d0ac992d518390e8410e9fe6005 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7f6de0bdc5066f999e9a6dc114da9b0 = $(`<div id="html_b7f6de0bdc5066f999e9a6dc114da9b0" style="width: 100.0%; height: 100.0%;">서울금옥초등학교</div>`)[0];
+                popup_63a75d0ac992d518390e8410e9fe6005.setContent(html_b7f6de0bdc5066f999e9a6dc114da9b0);
+            
+        
+
+        marker_ec29f2777f623e8cfdcc2a740de46620.bindPopup(popup_63a75d0ac992d518390e8410e9fe6005)
+        ;
+
+        
+    
+    
+            var marker_165a72501ec49265192b45e19916bf61 = L.marker(
+                [37.5525373, 127.0201047],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_8f043c38a7c48a570480e99775740952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff09aa75b5fe6ba678a1c316e77bdfc1 = $(`<div id="html_ff09aa75b5fe6ba678a1c316e77bdfc1" style="width: 100.0%; height: 100.0%;">서울금호초등학교</div>`)[0];
+                popup_8f043c38a7c48a570480e99775740952.setContent(html_ff09aa75b5fe6ba678a1c316e77bdfc1);
+            
+        
+
+        marker_165a72501ec49265192b45e19916bf61.bindPopup(popup_8f043c38a7c48a570480e99775740952)
+        ;
+
+        
+    
+    
+            var marker_c2f3c42c2008ecae04c197ff01f89838 = L.marker(
+                [37.5688411, 127.0357138],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_4cf10d856e3c31e2a74fe9957c7523fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_394670e42b5abde768b41f913f537bed = $(`<div id="html_394670e42b5abde768b41f913f537bed" style="width: 100.0%; height: 100.0%;">서울동명초등학교</div>`)[0];
+                popup_4cf10d856e3c31e2a74fe9957c7523fd.setContent(html_394670e42b5abde768b41f913f537bed);
+            
+        
+
+        marker_c2f3c42c2008ecae04c197ff01f89838.bindPopup(popup_4cf10d856e3c31e2a74fe9957c7523fd)
+        ;
+
+        
+    
+    
+            var marker_074ad0133f2e467fa73f7d2382987b80 = L.marker(
+                [37.5459681, 127.0125058],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_6561625f0396a2b20f4a6193e1463466 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e6308d66b536a13835a6d8572fa73f8 = $(`<div id="html_6e6308d66b536a13835a6d8572fa73f8" style="width: 100.0%; height: 100.0%;">서울동호초등학교</div>`)[0];
+                popup_6561625f0396a2b20f4a6193e1463466.setContent(html_6e6308d66b536a13835a6d8572fa73f8);
+            
+        
+
+        marker_074ad0133f2e467fa73f7d2382987b80.bindPopup(popup_6561625f0396a2b20f4a6193e1463466)
+        ;
+
+        
+    
+    
+            var marker_39ca5d9e4e5943a10ba114803e6be520 = L.marker(
+                [37.5678414, 127.0425188],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_3cf4054eb9f71c4438a0d9ccce7269fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f09ed7c844911ba321e0dc3e5a9f99be = $(`<div id="html_f09ed7c844911ba321e0dc3e5a9f99be" style="width: 100.0%; height: 100.0%;">서울마장초등학교</div>`)[0];
+                popup_3cf4054eb9f71c4438a0d9ccce7269fe.setContent(html_f09ed7c844911ba321e0dc3e5a9f99be);
+            
+        
+
+        marker_39ca5d9e4e5943a10ba114803e6be520.bindPopup(popup_3cf4054eb9f71c4438a0d9ccce7269fe)
+        ;
+
+        
+    
+    
+            var marker_19bcf78e3c0e44d49e7fde78fb6e966e = L.marker(
+                [37.5628695, 127.0295202],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_9655eb2a69bb554d40a868914a0fda8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0abcb3486cccbfea87629b097303dc5 = $(`<div id="html_a0abcb3486cccbfea87629b097303dc5" style="width: 100.0%; height: 100.0%;">서울무학초등학교</div>`)[0];
+                popup_9655eb2a69bb554d40a868914a0fda8b.setContent(html_a0abcb3486cccbfea87629b097303dc5);
+            
+        
+
+        marker_19bcf78e3c0e44d49e7fde78fb6e966e.bindPopup(popup_9655eb2a69bb554d40a868914a0fda8b)
+        ;
+
+        
+    
+    
+            var marker_1954846efea98458ef379240532865cc = L.marker(
+                [37.5628932, 127.0478174],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_9a0c88c6ba72513b74a00d49187fc4a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e935dbc165760571f9a1c527c4e6d3f = $(`<div id="html_1e935dbc165760571f9a1c527c4e6d3f" style="width: 100.0%; height: 100.0%;">서울사근초등학교</div>`)[0];
+                popup_9a0c88c6ba72513b74a00d49187fc4a6.setContent(html_1e935dbc165760571f9a1c527c4e6d3f);
+            
+        
+
+        marker_1954846efea98458ef379240532865cc.bindPopup(popup_9a0c88c6ba72513b74a00d49187fc4a6)
+        ;
+
+        
+    
+    
+            var marker_7ed6284ac78dd51b16b1e19619c264c4 = L.marker(
+                [37.544122, 127.063378],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_add2efd376eedba5548af8f9db7cbaf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e57c3c068e058373883280030b0eeec3 = $(`<div id="html_e57c3c068e058373883280030b0eeec3" style="width: 100.0%; height: 100.0%;">서울성수초등학교</div>`)[0];
+                popup_add2efd376eedba5548af8f9db7cbaf3.setContent(html_e57c3c068e058373883280030b0eeec3);
+            
+        
+
+        marker_7ed6284ac78dd51b16b1e19619c264c4.bindPopup(popup_add2efd376eedba5548af8f9db7cbaf3)
+        ;
+
+        
+    
+    
+            var marker_4d98b71371a639380e176325259161dc = L.marker(
+                [37.5542158, 127.0694688],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_4fd75bfb1dcfcb7906a6c40baa334c54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b7a1f2517c05125d68172278f2e0f13 = $(`<div id="html_9b7a1f2517c05125d68172278f2e0f13" style="width: 100.0%; height: 100.0%;">서울송원초등학교</div>`)[0];
+                popup_4fd75bfb1dcfcb7906a6c40baa334c54.setContent(html_9b7a1f2517c05125d68172278f2e0f13);
+            
+        
+
+        marker_4d98b71371a639380e176325259161dc.bindPopup(popup_4fd75bfb1dcfcb7906a6c40baa334c54)
+        ;
+
+        
+    
+    
+            var marker_d57f7f58fd002a86e465b06ffce08331 = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_8f5e9bbe5e7692b9c95b7edb5a1c09cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_501c05b7a1abffa350e0185f48170c5e = $(`<div id="html_501c05b7a1abffa350e0185f48170c5e" style="width: 100.0%; height: 100.0%;">서울숭신초등학교</div>`)[0];
+                popup_8f5e9bbe5e7692b9c95b7edb5a1c09cf.setContent(html_501c05b7a1abffa350e0185f48170c5e);
+            
+        
+
+        marker_d57f7f58fd002a86e465b06ffce08331.bindPopup(popup_8f5e9bbe5e7692b9c95b7edb5a1c09cf)
+        ;
+
+        
+    
+    
+            var marker_1f35a5d4e18226a189a05b2405a50bd2 = L.marker(
+                [37.5459839, 127.021758],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_c5d2c98213cf3bb0593cab90deafe7e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efd4cdc961156d3fd0efd9068ef70c70 = $(`<div id="html_efd4cdc961156d3fd0efd9068ef70c70" style="width: 100.0%; height: 100.0%;">서울옥수초등학교</div>`)[0];
+                popup_c5d2c98213cf3bb0593cab90deafe7e7.setContent(html_efd4cdc961156d3fd0efd9068ef70c70);
+            
+        
+
+        marker_1f35a5d4e18226a189a05b2405a50bd2.bindPopup(popup_c5d2c98213cf3bb0593cab90deafe7e7)
+        ;
+
+        
+    
+    
+            var marker_ec6323fc0029ca89eeee6426c8fd334d = L.marker(
+                [37.5415941, 127.0156888],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_9ee3c0efa5a5064910eb0481722628ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b81e5d0bae89742adb8af3a001664247 = $(`<div id="html_b81e5d0bae89742adb8af3a001664247" style="width: 100.0%; height: 100.0%;">서울옥정초등학교</div>`)[0];
+                popup_9ee3c0efa5a5064910eb0481722628ea.setContent(html_b81e5d0bae89742adb8af3a001664247);
+            
+        
+
+        marker_ec6323fc0029ca89eeee6426c8fd334d.bindPopup(popup_9ee3c0efa5a5064910eb0481722628ea)
+        ;
+
+        
+    
+    
+            var marker_e7b4ba027c8f925e124339e9a7a42ba4 = L.marker(
+                [37.5607574, 127.0533645],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_530b49d3f9c01c28ceea3b022a47e9ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_743d69e294c67907448f53e4148d2c23 = $(`<div id="html_743d69e294c67907448f53e4148d2c23" style="width: 100.0%; height: 100.0%;">서울용답초등학교</div>`)[0];
+                popup_530b49d3f9c01c28ceea3b022a47e9ff.setContent(html_743d69e294c67907448f53e4148d2c23);
+            
+        
+
+        marker_e7b4ba027c8f925e124339e9a7a42ba4.bindPopup(popup_530b49d3f9c01c28ceea3b022a47e9ff)
+        ;
+
+        
+    
+    
+            var marker_21315e0619ed5abf937a5657949dc692 = L.marker(
+                [37.5501489, 127.0337423],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_93bfce7331bc4ab3fa49e2d32abac6f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b7de5fb4ea89ecd65c4741a23ce7477 = $(`<div id="html_8b7de5fb4ea89ecd65c4741a23ce7477" style="width: 100.0%; height: 100.0%;">서울응봉초등학교</div>`)[0];
+                popup_93bfce7331bc4ab3fa49e2d32abac6f7.setContent(html_8b7de5fb4ea89ecd65c4741a23ce7477);
+            
+        
+
+        marker_21315e0619ed5abf937a5657949dc692.bindPopup(popup_93bfce7331bc4ab3fa49e2d32abac6f7)
+        ;
+
+        
+    
+    
+            var marker_2d0807b891e36051c249785a1878a8cf = L.marker(
+                [37.5562315, 127.0346032],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_6e0b82b72d917a7a2c39df8dbc5c2026 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9199279b325c571076748939965a4393 = $(`<div id="html_9199279b325c571076748939965a4393" style="width: 100.0%; height: 100.0%;">서울행당초등학교</div>`)[0];
+                popup_6e0b82b72d917a7a2c39df8dbc5c2026.setContent(html_9199279b325c571076748939965a4393);
+            
+        
+
+        marker_2d0807b891e36051c249785a1878a8cf.bindPopup(popup_6e0b82b72d917a7a2c39df8dbc5c2026)
+        ;
+
+        
+    
+    
+            var marker_5e07a33580a0ba9efaa6c5af17cef651 = L.marker(
+                [37.5575664, 127.0293584],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_409b68a6d71374310b908dab44b4babe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e5f387c9070aa44b6e66962eb627934 = $(`<div id="html_0e5f387c9070aa44b6e66962eb627934" style="width: 100.0%; height: 100.0%;">서울행현초등학교</div>`)[0];
+                popup_409b68a6d71374310b908dab44b4babe.setContent(html_0e5f387c9070aa44b6e66962eb627934);
+            
+        
+
+        marker_5e07a33580a0ba9efaa6c5af17cef651.bindPopup(popup_409b68a6d71374310b908dab44b4babe)
+        ;
+
+        
+    
+    
+            var marker_1568ac2d04efbba893e64d3b41175662 = L.marker(
+                [37.5575372, 127.0503794],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_3f9c48f516dae3177ecbde608ed6dfa8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b20127d20fdf3b7d9f242578adf6661a = $(`<div id="html_b20127d20fdf3b7d9f242578adf6661a" style="width: 100.0%; height: 100.0%;">한양초등학교</div>`)[0];
+                popup_3f9c48f516dae3177ecbde608ed6dfa8.setContent(html_b20127d20fdf3b7d9f242578adf6661a);
+            
+        
+
+        marker_1568ac2d04efbba893e64d3b41175662.bindPopup(popup_3f9c48f516dae3177ecbde608ed6dfa8)
+        ;
+
+        
+    
+    
+            var marker_a18b8a7ba012b1cbabbb44629ce2ff2f = L.marker(
+                [37.5397813, 127.0583587],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_57c8e7cedd4dd3c825de6c9a46e96702 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0acdb279d6c7a1942fb5c60633244976 = $(`<div id="html_0acdb279d6c7a1942fb5c60633244976" style="width: 100.0%; height: 100.0%;">경수중학교</div>`)[0];
+                popup_57c8e7cedd4dd3c825de6c9a46e96702.setContent(html_0acdb279d6c7a1942fb5c60633244976);
+            
+        
+
+        marker_a18b8a7ba012b1cbabbb44629ce2ff2f.bindPopup(popup_57c8e7cedd4dd3c825de6c9a46e96702)
+        ;
+
+        
+    
+    
+            var marker_535783def11bc773ee3581dfd5a3f1db = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_eafd42bf3422ff6f950534febfcc3e2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5515b571444f966f13645436fbdd3771 = $(`<div id="html_5515b571444f966f13645436fbdd3771" style="width: 100.0%; height: 100.0%;">경일중학교</div>`)[0];
+                popup_eafd42bf3422ff6f950534febfcc3e2f.setContent(html_5515b571444f966f13645436fbdd3771);
+            
+        
+
+        marker_535783def11bc773ee3581dfd5a3f1db.bindPopup(popup_eafd42bf3422ff6f950534febfcc3e2f)
+        ;
+
+        
+    
+    
+            var marker_133deec7caa07d4cdc3a39f039903f9a = L.marker(
+                [37.5510767, 127.0338846],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_aec5b87430b251f3731d090b7f700123 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_053b9d6cb42cd84293ef07ef8466679a = $(`<div id="html_053b9d6cb42cd84293ef07ef8466679a" style="width: 100.0%; height: 100.0%;">광희중학교</div>`)[0];
+                popup_aec5b87430b251f3731d090b7f700123.setContent(html_053b9d6cb42cd84293ef07ef8466679a);
+            
+        
+
+        marker_133deec7caa07d4cdc3a39f039903f9a.bindPopup(popup_aec5b87430b251f3731d090b7f700123)
+        ;
+
+        
+    
+    
+            var marker_67a178d6c2b348981355ffb1834b4db4 = L.marker(
+                [37.5626557, 127.0403012],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_f22949bd186e5af4942f66941e13e0c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_967f4d0cffd52b0230547084d5f62abe = $(`<div id="html_967f4d0cffd52b0230547084d5f62abe" style="width: 100.0%; height: 100.0%;">동마중학교</div>`)[0];
+                popup_f22949bd186e5af4942f66941e13e0c4.setContent(html_967f4d0cffd52b0230547084d5f62abe);
+            
+        
+
+        marker_67a178d6c2b348981355ffb1834b4db4.bindPopup(popup_f22949bd186e5af4942f66941e13e0c4)
+        ;
+
+        
+    
+    
+            var marker_36cee86e7f5c62608a90078961a516cc = L.marker(
+                [37.5682297, 127.042205],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_4a9e0eedd3e9ef84630894815350b506 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd4149f9cf45e7b7cdf1acc2e804e172 = $(`<div id="html_cd4149f9cf45e7b7cdf1acc2e804e172" style="width: 100.0%; height: 100.0%;">마장중학교</div>`)[0];
+                popup_4a9e0eedd3e9ef84630894815350b506.setContent(html_cd4149f9cf45e7b7cdf1acc2e804e172);
+            
+        
+
+        marker_36cee86e7f5c62608a90078961a516cc.bindPopup(popup_4a9e0eedd3e9ef84630894815350b506)
+        ;
+
+        
+    
+    
+            var marker_97d40ff613eba580bbb1f8960edea69c = L.marker(
+                [37.5571395, 127.0333298],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_922c96119c33a0c0c41a93e69d1fab1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0ea6b4f2c4f6f01444d50f7b73bd286 = $(`<div id="html_b0ea6b4f2c4f6f01444d50f7b73bd286" style="width: 100.0%; height: 100.0%;">무학중학교</div>`)[0];
+                popup_922c96119c33a0c0c41a93e69d1fab1f.setContent(html_b0ea6b4f2c4f6f01444d50f7b73bd286);
+            
+        
+
+        marker_97d40ff613eba580bbb1f8960edea69c.bindPopup(popup_922c96119c33a0c0c41a93e69d1fab1f)
+        ;
+
+        
+    
+    
+            var marker_547661b452970aa6b026d44d83ca1f58 = L.marker(
+                [37.5471818, 127.0388176],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_30a42a24f71177f1b2ae1383a453d7cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21bfdd4ed7623a7150243053b6ccddcd = $(`<div id="html_21bfdd4ed7623a7150243053b6ccddcd" style="width: 100.0%; height: 100.0%;">성수중학교</div>`)[0];
+                popup_30a42a24f71177f1b2ae1383a453d7cc.setContent(html_21bfdd4ed7623a7150243053b6ccddcd);
+            
+        
+
+        marker_547661b452970aa6b026d44d83ca1f58.bindPopup(popup_30a42a24f71177f1b2ae1383a453d7cc)
+        ;
+
+        
+    
+    
+            var marker_7db904d04bab931d2698037632b0bcfa = L.marker(
+                [37.5391784, 127.0519631],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_f96b47e6a98c9b00bc27fff51f52e9fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7632328451ac5fe4b43e447918d9fd0 = $(`<div id="html_c7632328451ac5fe4b43e447918d9fd0" style="width: 100.0%; height: 100.0%;">성원중학교</div>`)[0];
+                popup_f96b47e6a98c9b00bc27fff51f52e9fd.setContent(html_c7632328451ac5fe4b43e447918d9fd0);
+            
+        
+
+        marker_7db904d04bab931d2698037632b0bcfa.bindPopup(popup_f96b47e6a98c9b00bc27fff51f52e9fd)
+        ;
+
+        
+    
+    
+            var marker_3db8f27da7c91eef56a4b9ee5ea3610a = L.marker(
+                [37.5414774, 127.0125119],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_bc55f3987e957edbb840d82f9e0cf3b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c87674403340efab92efbae2184d69f4 = $(`<div id="html_c87674403340efab92efbae2184d69f4" style="width: 100.0%; height: 100.0%;">옥정중학교</div>`)[0];
+                popup_bc55f3987e957edbb840d82f9e0cf3b9.setContent(html_c87674403340efab92efbae2184d69f4);
+            
+        
+
+        marker_3db8f27da7c91eef56a4b9ee5ea3610a.bindPopup(popup_bc55f3987e957edbb840d82f9e0cf3b9)
+        ;
+
+        
+    
+    
+            var marker_271bdd0a7fe0c22dc291b467da0448b3 = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_1323547995c17de614898d693f6643fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91f30e6f984e7011b39225015f9a1d93 = $(`<div id="html_91f30e6f984e7011b39225015f9a1d93" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속중학교</div>`)[0];
+                popup_1323547995c17de614898d693f6643fd.setContent(html_91f30e6f984e7011b39225015f9a1d93);
+            
+        
+
+        marker_271bdd0a7fe0c22dc291b467da0448b3.bindPopup(popup_1323547995c17de614898d693f6643fd)
+        ;
+
+        
+    
+    
+            var marker_d576f9b74dfb9a543fb0304c42f4b8b5 = L.marker(
+                [37.5544241, 127.041886],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_bc8488fb77dd6844581f91a1441baf4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bd46e22a949ea4ee2d6d1d3163fb762 = $(`<div id="html_5bd46e22a949ea4ee2d6d1d3163fb762" style="width: 100.0%; height: 100.0%;">행당중학교</div>`)[0];
+                popup_bc8488fb77dd6844581f91a1441baf4d.setContent(html_5bd46e22a949ea4ee2d6d1d3163fb762);
+            
+        
+
+        marker_d576f9b74dfb9a543fb0304c42f4b8b5.bindPopup(popup_bc8488fb77dd6844581f91a1441baf4d)
+        ;
+
+        
+    
+    
+            var marker_e79b79b678a474c969f34f11fb495630 = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_3c521eab0768c8c3aaa40fcdf77423aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51aefa43379514dc9c4f84d83ae5372b = $(`<div id="html_51aefa43379514dc9c4f84d83ae5372b" style="width: 100.0%; height: 100.0%;">경일고등학교</div>`)[0];
+                popup_3c521eab0768c8c3aaa40fcdf77423aa.setContent(html_51aefa43379514dc9c4f84d83ae5372b);
+            
+        
+
+        marker_e79b79b678a474c969f34f11fb495630.bindPopup(popup_3c521eab0768c8c3aaa40fcdf77423aa)
+        ;
+
+        
+    
+    
+            var marker_104c0d55f7b58c3529fca2e95b2bb613 = L.marker(
+                [37.5530599, 127.0236268],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_414b8e0152cc5ca2f6b1039bbb2bcab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8516c767b2f1c0a910a847accc9e445c = $(`<div id="html_8516c767b2f1c0a910a847accc9e445c" style="width: 100.0%; height: 100.0%;">금호고등학교</div>`)[0];
+                popup_414b8e0152cc5ca2f6b1039bbb2bcab2.setContent(html_8516c767b2f1c0a910a847accc9e445c);
+            
+        
+
+        marker_104c0d55f7b58c3529fca2e95b2bb613.bindPopup(popup_414b8e0152cc5ca2f6b1039bbb2bcab2)
+        ;
+
+        
+    
+    
+            var marker_ebcdba4dfc6488c20c7dfd0ac4c669cb = L.marker(
+                [37.5605652, 127.0363099],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_3c428db570f95f5e7262f18c9f71f9f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca64924e0fd8ecc5dac138197ab64ef0 = $(`<div id="html_ca64924e0fd8ecc5dac138197ab64ef0" style="width: 100.0%; height: 100.0%;">덕수고등학교</div>`)[0];
+                popup_3c428db570f95f5e7262f18c9f71f9f1.setContent(html_ca64924e0fd8ecc5dac138197ab64ef0);
+            
+        
+
+        marker_ebcdba4dfc6488c20c7dfd0ac4c669cb.bindPopup(popup_3c428db570f95f5e7262f18c9f71f9f1)
+        ;
+
+        
+    
+    
+            var marker_6b79e4d66314e071cff1d61680180229 = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_75be37abe4b32f127241c68d51f82b23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_206801ffa40258854847e35d939519ff = $(`<div id="html_206801ffa40258854847e35d939519ff" style="width: 100.0%; height: 100.0%;">도선고등학교</div>`)[0];
+                popup_75be37abe4b32f127241c68d51f82b23.setContent(html_206801ffa40258854847e35d939519ff);
+            
+        
+
+        marker_6b79e4d66314e071cff1d61680180229.bindPopup(popup_75be37abe4b32f127241c68d51f82b23)
+        ;
+
+        
+    
+    
+            var marker_64d645e2db31c0e24a80151506e450da = L.marker(
+                [37.557398, 127.03352],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_3e5c601e16e779d28f57e4fef01eb952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1c1bc3dbc0f83447b258d91a1aa94c3 = $(`<div id="html_c1c1bc3dbc0f83447b258d91a1aa94c3" style="width: 100.0%; height: 100.0%;">무학여자고등학교</div>`)[0];
+                popup_3e5c601e16e779d28f57e4fef01eb952.setContent(html_c1c1bc3dbc0f83447b258d91a1aa94c3);
+            
+        
+
+        marker_64d645e2db31c0e24a80151506e450da.bindPopup(popup_3e5c601e16e779d28f57e4fef01eb952)
+        ;
+
+        
+    
+    
+            var marker_e8d676b6f12a5b74fc8ff558e7d5b12b = L.marker(
+                [37.547354, 127.0105807],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_5e92aacd43604cc0e2f54c4c28b8419f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b481eca2f4c98ff42ddab09761ec2d9b = $(`<div id="html_b481eca2f4c98ff42ddab09761ec2d9b" style="width: 100.0%; height: 100.0%;">서울방송고등학교</div>`)[0];
+                popup_5e92aacd43604cc0e2f54c4c28b8419f.setContent(html_b481eca2f4c98ff42ddab09761ec2d9b);
+            
+        
+
+        marker_e8d676b6f12a5b74fc8ff558e7d5b12b.bindPopup(popup_5e92aacd43604cc0e2f54c4c28b8419f)
+        ;
+
+        
+    
+    
+            var marker_d9ad8c53ff509a934e62d38e3a11c54c = L.marker(
+                [37.5473571, 127.0381343],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_fbe8d97164b21fbf9d7c5db657e8cf59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9bd62be5fbbc55f00a6b3a187c997ef = $(`<div id="html_f9bd62be5fbbc55f00a6b3a187c997ef" style="width: 100.0%; height: 100.0%;">성수고등학교</div>`)[0];
+                popup_fbe8d97164b21fbf9d7c5db657e8cf59.setContent(html_f9bd62be5fbbc55f00a6b3a187c997ef);
+            
+        
+
+        marker_d9ad8c53ff509a934e62d38e3a11c54c.bindPopup(popup_fbe8d97164b21fbf9d7c5db657e8cf59)
+        ;
+
+        
+    
+    
+            var marker_6a4114338db07c1d21597514f33d5cb5 = L.marker(
+                [37.540543, 127.0514262],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_52a5382bc4649bd993acb5aa289eaebe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34e55ba961d2235c5a6f1ad2d0657ed0 = $(`<div id="html_34e55ba961d2235c5a6f1ad2d0657ed0" style="width: 100.0%; height: 100.0%;">성수공업고등학교</div>`)[0];
+                popup_52a5382bc4649bd993acb5aa289eaebe.setContent(html_34e55ba961d2235c5a6f1ad2d0657ed0);
+            
+        
+
+        marker_6a4114338db07c1d21597514f33d5cb5.bindPopup(popup_52a5382bc4649bd993acb5aa289eaebe)
+        ;
+
+        
+    
+    
+            var marker_b3a70f13f83d546e96b5007ebc2f054c = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_ab08bbdb46442b29ea4d4bcfec06c88d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c503df5227b823cee0d45565cc82b29f = $(`<div id="html_c503df5227b823cee0d45565cc82b29f" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속고등학교</div>`)[0];
+                popup_ab08bbdb46442b29ea4d4bcfec06c88d.setContent(html_c503df5227b823cee0d45565cc82b29f);
+            
+        
+
+        marker_b3a70f13f83d546e96b5007ebc2f054c.bindPopup(popup_ab08bbdb46442b29ea4d4bcfec06c88d)
+        ;
+
+        
+    
+    
+            var marker_1ee48c367f4ed73e81666ae62ed96d34 = L.marker(
+                [37.558667, 127.0498875],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_e0407e55bd315e566172ffb0df78f947 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a6e5b5540dc4f23f0b55e58c9a4043d = $(`<div id="html_5a6e5b5540dc4f23f0b55e58c9a4043d" style="width: 100.0%; height: 100.0%;">한양여자대학교</div>`)[0];
+                popup_e0407e55bd315e566172ffb0df78f947.setContent(html_5a6e5b5540dc4f23f0b55e58c9a4043d);
+            
+        
+
+        marker_1ee48c367f4ed73e81666ae62ed96d34.bindPopup(popup_e0407e55bd315e566172ffb0df78f947)
+        ;
+
+        
+    
+    
+            var marker_fb1dff4a2b688fb34ef04c15b47113c8 = L.marker(
+                [37.557176, 127.04540966],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_17378522375d9f4987582bc6b9aae9a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39af3bda66fba6125f636486c9a7b6fb = $(`<div id="html_39af3bda66fba6125f636486c9a7b6fb" style="width: 100.0%; height: 100.0%;">한양대학교</div>`)[0];
+                popup_17378522375d9f4987582bc6b9aae9a4.setContent(html_39af3bda66fba6125f636486c9a7b6fb);
+            
+        
+
+        marker_fb1dff4a2b688fb34ef04c15b47113c8.bindPopup(popup_17378522375d9f4987582bc6b9aae9a4)
+        ;
+
+        
+    
+    
+            var marker_9dbf1688bc6bfcc87614cc230e796313 = L.marker(
+                [37.557153, 127.0476],
+                {}
+            ).addTo(marker_cluster_e76e237a221f6466eb46371641d646ca);
+        
+    
+        var popup_0e35e88fe48588e5b570690d90c499ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dbef08d762e2e1386fa26a7f6bf5e5d = $(`<div id="html_9dbef08d762e2e1386fa26a7f6bf5e5d" style="width: 100.0%; height: 100.0%;">한양사이버대학교</div>`)[0];
+                popup_0e35e88fe48588e5b570690d90c499ef.setContent(html_9dbef08d762e2e1386fa26a7f6bf5e5d);
+            
+        
+
+        marker_9dbf1688bc6bfcc87614cc230e796313.bindPopup(popup_0e35e88fe48588e5b570690d90c499ef)
+        ;
+
+        
+    
+    
+            var marker_cluster_8dc7bc23c60d35243dd639d437fe3361 = L.markerClusterGroup(
+                {}
+            );
+            map_c2c9a7b07423a40c14918114ca4086c2.addLayer(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+            var marker_0f02ae236a90ca02dc69787d2a812480 = L.marker(
+                [37.5429557, 127.0504631],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_a1bccc8397bff072b943c0485e27eab3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64f3076c99eb5aee828e5d38502fb665 = $(`<div id="html_64f3076c99eb5aee828e5d38502fb665" style="width: 100.0%; height: 100.0%;">서울경동초등학교</div>`)[0];
+                popup_a1bccc8397bff072b943c0485e27eab3.setContent(html_64f3076c99eb5aee828e5d38502fb665);
+            
+        
+
+        marker_0f02ae236a90ca02dc69787d2a812480.bindPopup(popup_a1bccc8397bff072b943c0485e27eab3)
+        ;
+
+        
+    
+    
+            var marker_f11424947d08e539f95839fa6036f476 = L.marker(
+                [37.540067, 127.058268],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_fd44c5387d312e55c899bd84329b877b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8b23fda0315d2b749fb84ba6ba89d4e = $(`<div id="html_b8b23fda0315d2b749fb84ba6ba89d4e" style="width: 100.0%; height: 100.0%;">서울경수초등학교</div>`)[0];
+                popup_fd44c5387d312e55c899bd84329b877b.setContent(html_b8b23fda0315d2b749fb84ba6ba89d4e);
+            
+        
+
+        marker_f11424947d08e539f95839fa6036f476.bindPopup(popup_fd44c5387d312e55c899bd84329b877b)
+        ;
+
+        
+    
+    
+            var marker_234d4001eb7a0c08bca1e1ef2b57ab16 = L.marker(
+                [37.5403883, 127.0468669],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_63b36f1b78ffdd91c5c761a021b1b4ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_904ebf601532ce2ac9526161e7f61bb6 = $(`<div id="html_904ebf601532ce2ac9526161e7f61bb6" style="width: 100.0%; height: 100.0%;">서울경일초등학교</div>`)[0];
+                popup_63b36f1b78ffdd91c5c761a021b1b4ce.setContent(html_904ebf601532ce2ac9526161e7f61bb6);
+            
+        
+
+        marker_234d4001eb7a0c08bca1e1ef2b57ab16.bindPopup(popup_63b36f1b78ffdd91c5c761a021b1b4ce)
+        ;
+
+        
+    
+    
+            var marker_666857ef27ed0f415dad277f856fddcd = L.marker(
+                [37.5574688, 127.0234901],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_60df39cdd57f4047a318b417f9c31a7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89a1c3d624f54e6adc1da970abc57260 = $(`<div id="html_89a1c3d624f54e6adc1da970abc57260" style="width: 100.0%; height: 100.0%;">서울금북초등학교</div>`)[0];
+                popup_60df39cdd57f4047a318b417f9c31a7b.setContent(html_89a1c3d624f54e6adc1da970abc57260);
+            
+        
+
+        marker_666857ef27ed0f415dad277f856fddcd.bindPopup(popup_60df39cdd57f4047a318b417f9c31a7b)
+        ;
+
+        
+    
+    
+            var marker_4c5fd9fd486343cf9a98e691ef0b8813 = L.marker(
+                [37.5463323, 127.0174743],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_b9bfcc0f385c782f6f98c0142737ca54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2b444b7559825c50ba22470ca22b218 = $(`<div id="html_c2b444b7559825c50ba22470ca22b218" style="width: 100.0%; height: 100.0%;">서울금옥초등학교</div>`)[0];
+                popup_b9bfcc0f385c782f6f98c0142737ca54.setContent(html_c2b444b7559825c50ba22470ca22b218);
+            
+        
+
+        marker_4c5fd9fd486343cf9a98e691ef0b8813.bindPopup(popup_b9bfcc0f385c782f6f98c0142737ca54)
+        ;
+
+        
+    
+    
+            var marker_7c14372eaaf0e73ea80f5106352bcd9c = L.marker(
+                [37.5525373, 127.0201047],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_94ebe87076bb2925a752e842d43b0862 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c79e61f1db90b28359346b5ec443d43 = $(`<div id="html_0c79e61f1db90b28359346b5ec443d43" style="width: 100.0%; height: 100.0%;">서울금호초등학교</div>`)[0];
+                popup_94ebe87076bb2925a752e842d43b0862.setContent(html_0c79e61f1db90b28359346b5ec443d43);
+            
+        
+
+        marker_7c14372eaaf0e73ea80f5106352bcd9c.bindPopup(popup_94ebe87076bb2925a752e842d43b0862)
+        ;
+
+        
+    
+    
+            var marker_78a714caf8c401b9694fabcb5c0dbe83 = L.marker(
+                [37.5688411, 127.0357138],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_0f176b91009cd2cb04dcb36a0fc6004b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_919c70183cfda72a6a50bddab524d170 = $(`<div id="html_919c70183cfda72a6a50bddab524d170" style="width: 100.0%; height: 100.0%;">서울동명초등학교</div>`)[0];
+                popup_0f176b91009cd2cb04dcb36a0fc6004b.setContent(html_919c70183cfda72a6a50bddab524d170);
+            
+        
+
+        marker_78a714caf8c401b9694fabcb5c0dbe83.bindPopup(popup_0f176b91009cd2cb04dcb36a0fc6004b)
+        ;
+
+        
+    
+    
+            var marker_af58fc459650f72adf1865165044bfde = L.marker(
+                [37.5459681, 127.0125058],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_e0b04647bd5c38a86c99e925579aec40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b48f08e473665dae1dc7d655ff4751a = $(`<div id="html_9b48f08e473665dae1dc7d655ff4751a" style="width: 100.0%; height: 100.0%;">서울동호초등학교</div>`)[0];
+                popup_e0b04647bd5c38a86c99e925579aec40.setContent(html_9b48f08e473665dae1dc7d655ff4751a);
+            
+        
+
+        marker_af58fc459650f72adf1865165044bfde.bindPopup(popup_e0b04647bd5c38a86c99e925579aec40)
+        ;
+
+        
+    
+    
+            var marker_a378e41cfbabd591a3e06d81c9984c3f = L.marker(
+                [37.5678414, 127.0425188],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_e5b64a60745b087fc5eeeab66435999d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26eaef5f5430461e0ae663625b5da20e = $(`<div id="html_26eaef5f5430461e0ae663625b5da20e" style="width: 100.0%; height: 100.0%;">서울마장초등학교</div>`)[0];
+                popup_e5b64a60745b087fc5eeeab66435999d.setContent(html_26eaef5f5430461e0ae663625b5da20e);
+            
+        
+
+        marker_a378e41cfbabd591a3e06d81c9984c3f.bindPopup(popup_e5b64a60745b087fc5eeeab66435999d)
+        ;
+
+        
+    
+    
+            var marker_52a0e4890f8391497cfb8819cdf8ac29 = L.marker(
+                [37.5628695, 127.0295202],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_043bb9f2ace45738f46858344b6c7e8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d63d832fd598911e314c631223d5b7d = $(`<div id="html_5d63d832fd598911e314c631223d5b7d" style="width: 100.0%; height: 100.0%;">서울무학초등학교</div>`)[0];
+                popup_043bb9f2ace45738f46858344b6c7e8d.setContent(html_5d63d832fd598911e314c631223d5b7d);
+            
+        
+
+        marker_52a0e4890f8391497cfb8819cdf8ac29.bindPopup(popup_043bb9f2ace45738f46858344b6c7e8d)
+        ;
+
+        
+    
+    
+            var marker_8ff08b970e29065f1a67b4c2ce92be5a = L.marker(
+                [37.5628932, 127.0478174],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_c63456c4c69839db85e372aac93235ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38adf35dd61195950ba359f5c9ecee51 = $(`<div id="html_38adf35dd61195950ba359f5c9ecee51" style="width: 100.0%; height: 100.0%;">서울사근초등학교</div>`)[0];
+                popup_c63456c4c69839db85e372aac93235ac.setContent(html_38adf35dd61195950ba359f5c9ecee51);
+            
+        
+
+        marker_8ff08b970e29065f1a67b4c2ce92be5a.bindPopup(popup_c63456c4c69839db85e372aac93235ac)
+        ;
+
+        
+    
+    
+            var marker_f60f20784a62e4832beb5dfc389bef11 = L.marker(
+                [37.544122, 127.063378],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_a283f620704f964df721eb51e85c9344 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc899937e4abaeb977844fd1c19260f3 = $(`<div id="html_bc899937e4abaeb977844fd1c19260f3" style="width: 100.0%; height: 100.0%;">서울성수초등학교</div>`)[0];
+                popup_a283f620704f964df721eb51e85c9344.setContent(html_bc899937e4abaeb977844fd1c19260f3);
+            
+        
+
+        marker_f60f20784a62e4832beb5dfc389bef11.bindPopup(popup_a283f620704f964df721eb51e85c9344)
+        ;
+
+        
+    
+    
+            var marker_0159cddfe29cfb8b180688d71e215f10 = L.marker(
+                [37.5542158, 127.0694688],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_a66088a7527666459d11fc293491cc61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfcff9c5df23d9f44bc6e9719a3a03e8 = $(`<div id="html_bfcff9c5df23d9f44bc6e9719a3a03e8" style="width: 100.0%; height: 100.0%;">서울송원초등학교</div>`)[0];
+                popup_a66088a7527666459d11fc293491cc61.setContent(html_bfcff9c5df23d9f44bc6e9719a3a03e8);
+            
+        
+
+        marker_0159cddfe29cfb8b180688d71e215f10.bindPopup(popup_a66088a7527666459d11fc293491cc61)
+        ;
+
+        
+    
+    
+            var marker_c1d315c109744a8bd14d9cc3db77ad50 = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_99b00acd745dd6a933a73ed303c76331 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6ff79cb1016243109ff92a21f0ae81d = $(`<div id="html_f6ff79cb1016243109ff92a21f0ae81d" style="width: 100.0%; height: 100.0%;">서울숭신초등학교</div>`)[0];
+                popup_99b00acd745dd6a933a73ed303c76331.setContent(html_f6ff79cb1016243109ff92a21f0ae81d);
+            
+        
+
+        marker_c1d315c109744a8bd14d9cc3db77ad50.bindPopup(popup_99b00acd745dd6a933a73ed303c76331)
+        ;
+
+        
+    
+    
+            var marker_039edf1ee797d8d59a2e073174f725b0 = L.marker(
+                [37.5459839, 127.021758],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_4cdcc0e65fd7ebd42510d8e62bc976b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_970be42bc28baeb399d5212a9923bb7e = $(`<div id="html_970be42bc28baeb399d5212a9923bb7e" style="width: 100.0%; height: 100.0%;">서울옥수초등학교</div>`)[0];
+                popup_4cdcc0e65fd7ebd42510d8e62bc976b2.setContent(html_970be42bc28baeb399d5212a9923bb7e);
+            
+        
+
+        marker_039edf1ee797d8d59a2e073174f725b0.bindPopup(popup_4cdcc0e65fd7ebd42510d8e62bc976b2)
+        ;
+
+        
+    
+    
+            var marker_a75df433d8b0ffd170d5b3daa10c8d4c = L.marker(
+                [37.5415941, 127.0156888],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_c0fb804d5f5a328617373897242c04e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b826b73485f3e3717cc93dc594d290ba = $(`<div id="html_b826b73485f3e3717cc93dc594d290ba" style="width: 100.0%; height: 100.0%;">서울옥정초등학교</div>`)[0];
+                popup_c0fb804d5f5a328617373897242c04e1.setContent(html_b826b73485f3e3717cc93dc594d290ba);
+            
+        
+
+        marker_a75df433d8b0ffd170d5b3daa10c8d4c.bindPopup(popup_c0fb804d5f5a328617373897242c04e1)
+        ;
+
+        
+    
+    
+            var marker_a7a65fe2961275018cf0e8e90e8e8092 = L.marker(
+                [37.5607574, 127.0533645],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_198a92bd031680f9b692456a005672c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd4ed80ad9b37195d928cb71450a754f = $(`<div id="html_fd4ed80ad9b37195d928cb71450a754f" style="width: 100.0%; height: 100.0%;">서울용답초등학교</div>`)[0];
+                popup_198a92bd031680f9b692456a005672c5.setContent(html_fd4ed80ad9b37195d928cb71450a754f);
+            
+        
+
+        marker_a7a65fe2961275018cf0e8e90e8e8092.bindPopup(popup_198a92bd031680f9b692456a005672c5)
+        ;
+
+        
+    
+    
+            var marker_f52bc3ce642f696f71651d493f181c39 = L.marker(
+                [37.5501489, 127.0337423],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_3b7538ded0166f4c140bd81c43509724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a299aadbe730b00662b16e084615c67c = $(`<div id="html_a299aadbe730b00662b16e084615c67c" style="width: 100.0%; height: 100.0%;">서울응봉초등학교</div>`)[0];
+                popup_3b7538ded0166f4c140bd81c43509724.setContent(html_a299aadbe730b00662b16e084615c67c);
+            
+        
+
+        marker_f52bc3ce642f696f71651d493f181c39.bindPopup(popup_3b7538ded0166f4c140bd81c43509724)
+        ;
+
+        
+    
+    
+            var marker_b9b7e50e3d97eb3f3f5280b483c6f92c = L.marker(
+                [37.5562315, 127.0346032],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_6e5bc7e3325236ad5115cb44d12427e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac4b23a6272a621a6c1ff1c7f0b68223 = $(`<div id="html_ac4b23a6272a621a6c1ff1c7f0b68223" style="width: 100.0%; height: 100.0%;">서울행당초등학교</div>`)[0];
+                popup_6e5bc7e3325236ad5115cb44d12427e5.setContent(html_ac4b23a6272a621a6c1ff1c7f0b68223);
+            
+        
+
+        marker_b9b7e50e3d97eb3f3f5280b483c6f92c.bindPopup(popup_6e5bc7e3325236ad5115cb44d12427e5)
+        ;
+
+        
+    
+    
+            var marker_8f17cbf5503d0659579070e3055bea95 = L.marker(
+                [37.5575664, 127.0293584],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_7bc1627708c90d25453ac71558217a50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34fcfc41f0a8f24a4125f0d24c994833 = $(`<div id="html_34fcfc41f0a8f24a4125f0d24c994833" style="width: 100.0%; height: 100.0%;">서울행현초등학교</div>`)[0];
+                popup_7bc1627708c90d25453ac71558217a50.setContent(html_34fcfc41f0a8f24a4125f0d24c994833);
+            
+        
+
+        marker_8f17cbf5503d0659579070e3055bea95.bindPopup(popup_7bc1627708c90d25453ac71558217a50)
+        ;
+
+        
+    
+    
+            var marker_4fc53732cb751c0f991df27ff86ba044 = L.marker(
+                [37.5575372, 127.0503794],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_b718ae3789dab3508913bddee141ab73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7904e1a8d753f202229db05559724e6 = $(`<div id="html_c7904e1a8d753f202229db05559724e6" style="width: 100.0%; height: 100.0%;">한양초등학교</div>`)[0];
+                popup_b718ae3789dab3508913bddee141ab73.setContent(html_c7904e1a8d753f202229db05559724e6);
+            
+        
+
+        marker_4fc53732cb751c0f991df27ff86ba044.bindPopup(popup_b718ae3789dab3508913bddee141ab73)
+        ;
+
+        
+    
+    
+            var marker_bc8dd3d41a84e9a329a6e1921d15739e = L.marker(
+                [37.5397813, 127.0583587],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_59eaba51eb726151243da02e63a88894 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86f79228c20e46275b2624deaa9d1dce = $(`<div id="html_86f79228c20e46275b2624deaa9d1dce" style="width: 100.0%; height: 100.0%;">경수중학교</div>`)[0];
+                popup_59eaba51eb726151243da02e63a88894.setContent(html_86f79228c20e46275b2624deaa9d1dce);
+            
+        
+
+        marker_bc8dd3d41a84e9a329a6e1921d15739e.bindPopup(popup_59eaba51eb726151243da02e63a88894)
+        ;
+
+        
+    
+    
+            var marker_61b7abb0ea18554538b43975c0f539b5 = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_c97d86db3e192b1f4b5e77d829b8fb18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fe77c65998fc55227a4f6ebca857cde = $(`<div id="html_8fe77c65998fc55227a4f6ebca857cde" style="width: 100.0%; height: 100.0%;">경일중학교</div>`)[0];
+                popup_c97d86db3e192b1f4b5e77d829b8fb18.setContent(html_8fe77c65998fc55227a4f6ebca857cde);
+            
+        
+
+        marker_61b7abb0ea18554538b43975c0f539b5.bindPopup(popup_c97d86db3e192b1f4b5e77d829b8fb18)
+        ;
+
+        
+    
+    
+            var marker_499d786f08cf8dac8d5bef1bc1413513 = L.marker(
+                [37.5510767, 127.0338846],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_6848b01f83c0f4039c765f6c74d47e3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90bad21e06f4f1d46a3f4ffa4492b7b7 = $(`<div id="html_90bad21e06f4f1d46a3f4ffa4492b7b7" style="width: 100.0%; height: 100.0%;">광희중학교</div>`)[0];
+                popup_6848b01f83c0f4039c765f6c74d47e3a.setContent(html_90bad21e06f4f1d46a3f4ffa4492b7b7);
+            
+        
+
+        marker_499d786f08cf8dac8d5bef1bc1413513.bindPopup(popup_6848b01f83c0f4039c765f6c74d47e3a)
+        ;
+
+        
+    
+    
+            var marker_16d9f0cfef8fed1df24f3b0db8d6f31b = L.marker(
+                [37.5626557, 127.0403012],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_c26ab4092ff0c60fb4bd7a05ed6abb2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8608141caea31c0ee3e17c7af440a74b = $(`<div id="html_8608141caea31c0ee3e17c7af440a74b" style="width: 100.0%; height: 100.0%;">동마중학교</div>`)[0];
+                popup_c26ab4092ff0c60fb4bd7a05ed6abb2e.setContent(html_8608141caea31c0ee3e17c7af440a74b);
+            
+        
+
+        marker_16d9f0cfef8fed1df24f3b0db8d6f31b.bindPopup(popup_c26ab4092ff0c60fb4bd7a05ed6abb2e)
+        ;
+
+        
+    
+    
+            var marker_1a3ed9cdc59f8ba14ba9ad4e97bd5c5a = L.marker(
+                [37.5682297, 127.042205],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_6091330345876ac8a58caef671cf02e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5d9149921bc53a5dc669e25b5ee2481 = $(`<div id="html_d5d9149921bc53a5dc669e25b5ee2481" style="width: 100.0%; height: 100.0%;">마장중학교</div>`)[0];
+                popup_6091330345876ac8a58caef671cf02e4.setContent(html_d5d9149921bc53a5dc669e25b5ee2481);
+            
+        
+
+        marker_1a3ed9cdc59f8ba14ba9ad4e97bd5c5a.bindPopup(popup_6091330345876ac8a58caef671cf02e4)
+        ;
+
+        
+    
+    
+            var marker_3809d3ed824aa31382ff6abbd15fd89e = L.marker(
+                [37.5571395, 127.0333298],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_36a85b0da27ef03d41f877740003e88e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e79dcb194072f2e37361c73babd8c1a = $(`<div id="html_3e79dcb194072f2e37361c73babd8c1a" style="width: 100.0%; height: 100.0%;">무학중학교</div>`)[0];
+                popup_36a85b0da27ef03d41f877740003e88e.setContent(html_3e79dcb194072f2e37361c73babd8c1a);
+            
+        
+
+        marker_3809d3ed824aa31382ff6abbd15fd89e.bindPopup(popup_36a85b0da27ef03d41f877740003e88e)
+        ;
+
+        
+    
+    
+            var marker_50e3c408584dbfb3de4b194ed24bfd0b = L.marker(
+                [37.5471818, 127.0388176],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_bbad31150667e3cb9403e5106d562d4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f74b83f4a3aeb9a2705382b62e862c65 = $(`<div id="html_f74b83f4a3aeb9a2705382b62e862c65" style="width: 100.0%; height: 100.0%;">성수중학교</div>`)[0];
+                popup_bbad31150667e3cb9403e5106d562d4c.setContent(html_f74b83f4a3aeb9a2705382b62e862c65);
+            
+        
+
+        marker_50e3c408584dbfb3de4b194ed24bfd0b.bindPopup(popup_bbad31150667e3cb9403e5106d562d4c)
+        ;
+
+        
+    
+    
+            var marker_1d045f184c1dd6ca24b1af7ff8f83e5e = L.marker(
+                [37.5391784, 127.0519631],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_22df71ece49fbb84f8289d4fb58c2726 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baadc8c119d46afe8b45885179652a84 = $(`<div id="html_baadc8c119d46afe8b45885179652a84" style="width: 100.0%; height: 100.0%;">성원중학교</div>`)[0];
+                popup_22df71ece49fbb84f8289d4fb58c2726.setContent(html_baadc8c119d46afe8b45885179652a84);
+            
+        
+
+        marker_1d045f184c1dd6ca24b1af7ff8f83e5e.bindPopup(popup_22df71ece49fbb84f8289d4fb58c2726)
+        ;
+
+        
+    
+    
+            var marker_43f81f7256fe2c1279f86b47e3902ef8 = L.marker(
+                [37.5414774, 127.0125119],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_3f7262dbd54d4e0632a82e44be2faddb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72f4362f7e4db13950f0478d3ea51120 = $(`<div id="html_72f4362f7e4db13950f0478d3ea51120" style="width: 100.0%; height: 100.0%;">옥정중학교</div>`)[0];
+                popup_3f7262dbd54d4e0632a82e44be2faddb.setContent(html_72f4362f7e4db13950f0478d3ea51120);
+            
+        
+
+        marker_43f81f7256fe2c1279f86b47e3902ef8.bindPopup(popup_3f7262dbd54d4e0632a82e44be2faddb)
+        ;
+
+        
+    
+    
+            var marker_840ed56b3a711ca973483018f703ede7 = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_607a40c8d23160cb4005912340b5db4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66bc0e880a0481f60164dbd32f973eb5 = $(`<div id="html_66bc0e880a0481f60164dbd32f973eb5" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속중학교</div>`)[0];
+                popup_607a40c8d23160cb4005912340b5db4f.setContent(html_66bc0e880a0481f60164dbd32f973eb5);
+            
+        
+
+        marker_840ed56b3a711ca973483018f703ede7.bindPopup(popup_607a40c8d23160cb4005912340b5db4f)
+        ;
+
+        
+    
+    
+            var marker_a0d94daa14d4b97ff6739981eb46da2b = L.marker(
+                [37.5544241, 127.041886],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_95de77a4a54768a21d38a913d6165199 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c93f1fa0d571ff5d6aa99cd58e8bf17 = $(`<div id="html_1c93f1fa0d571ff5d6aa99cd58e8bf17" style="width: 100.0%; height: 100.0%;">행당중학교</div>`)[0];
+                popup_95de77a4a54768a21d38a913d6165199.setContent(html_1c93f1fa0d571ff5d6aa99cd58e8bf17);
+            
+        
+
+        marker_a0d94daa14d4b97ff6739981eb46da2b.bindPopup(popup_95de77a4a54768a21d38a913d6165199)
+        ;
+
+        
+    
+    
+            var marker_1ece4fd6938ef0b014a2af720effcbb8 = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_b3e9b71349eadfb6218b4805d2e892c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9119638fa475c74683f3ccc701d18591 = $(`<div id="html_9119638fa475c74683f3ccc701d18591" style="width: 100.0%; height: 100.0%;">경일고등학교</div>`)[0];
+                popup_b3e9b71349eadfb6218b4805d2e892c0.setContent(html_9119638fa475c74683f3ccc701d18591);
+            
+        
+
+        marker_1ece4fd6938ef0b014a2af720effcbb8.bindPopup(popup_b3e9b71349eadfb6218b4805d2e892c0)
+        ;
+
+        
+    
+    
+            var marker_dc820eed2e115589b275a343502155f3 = L.marker(
+                [37.5530599, 127.0236268],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_0d33716388966c86b281ec725df65925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4be53c3e10fd0769b0cc15ff889cca1 = $(`<div id="html_a4be53c3e10fd0769b0cc15ff889cca1" style="width: 100.0%; height: 100.0%;">금호고등학교</div>`)[0];
+                popup_0d33716388966c86b281ec725df65925.setContent(html_a4be53c3e10fd0769b0cc15ff889cca1);
+            
+        
+
+        marker_dc820eed2e115589b275a343502155f3.bindPopup(popup_0d33716388966c86b281ec725df65925)
+        ;
+
+        
+    
+    
+            var marker_08ea3c59c7210d4526e788a43f1ab0f8 = L.marker(
+                [37.5605652, 127.0363099],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_f0daebcd9d4f58650f4e2f2807407e4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d249a8a81f6a93c49b4e10958c580734 = $(`<div id="html_d249a8a81f6a93c49b4e10958c580734" style="width: 100.0%; height: 100.0%;">덕수고등학교</div>`)[0];
+                popup_f0daebcd9d4f58650f4e2f2807407e4c.setContent(html_d249a8a81f6a93c49b4e10958c580734);
+            
+        
+
+        marker_08ea3c59c7210d4526e788a43f1ab0f8.bindPopup(popup_f0daebcd9d4f58650f4e2f2807407e4c)
+        ;
+
+        
+    
+    
+            var marker_e061acadbfb617dda03445572e0e9e82 = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_69e6dbce29465bbf6ef0ccca0499b475 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f45accd3e79162d567e9bf43465bdf3 = $(`<div id="html_2f45accd3e79162d567e9bf43465bdf3" style="width: 100.0%; height: 100.0%;">도선고등학교</div>`)[0];
+                popup_69e6dbce29465bbf6ef0ccca0499b475.setContent(html_2f45accd3e79162d567e9bf43465bdf3);
+            
+        
+
+        marker_e061acadbfb617dda03445572e0e9e82.bindPopup(popup_69e6dbce29465bbf6ef0ccca0499b475)
+        ;
+
+        
+    
+    
+            var marker_2feed8a00a1ca1d5d887863c2372ed40 = L.marker(
+                [37.557398, 127.03352],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_9e01b9197aca4d885c12606a7a929c95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c26ed3cda02bd3d5e95981d3594e0fd = $(`<div id="html_1c26ed3cda02bd3d5e95981d3594e0fd" style="width: 100.0%; height: 100.0%;">무학여자고등학교</div>`)[0];
+                popup_9e01b9197aca4d885c12606a7a929c95.setContent(html_1c26ed3cda02bd3d5e95981d3594e0fd);
+            
+        
+
+        marker_2feed8a00a1ca1d5d887863c2372ed40.bindPopup(popup_9e01b9197aca4d885c12606a7a929c95)
+        ;
+
+        
+    
+    
+            var marker_fec1a0e63ae5df21ffd68f30b188915b = L.marker(
+                [37.547354, 127.0105807],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_17288dd2d460e6ba1064a544c915fefa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c4d40ff00d3e2238ab027e998c985ab = $(`<div id="html_0c4d40ff00d3e2238ab027e998c985ab" style="width: 100.0%; height: 100.0%;">서울방송고등학교</div>`)[0];
+                popup_17288dd2d460e6ba1064a544c915fefa.setContent(html_0c4d40ff00d3e2238ab027e998c985ab);
+            
+        
+
+        marker_fec1a0e63ae5df21ffd68f30b188915b.bindPopup(popup_17288dd2d460e6ba1064a544c915fefa)
+        ;
+
+        
+    
+    
+            var marker_5f551766da7e3b66809b8b827d45ff55 = L.marker(
+                [37.5473571, 127.0381343],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_bf291ca67ffaba6935ece4ffad5da508 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb37ae8152cf4ecfd7d13d6ca388e866 = $(`<div id="html_cb37ae8152cf4ecfd7d13d6ca388e866" style="width: 100.0%; height: 100.0%;">성수고등학교</div>`)[0];
+                popup_bf291ca67ffaba6935ece4ffad5da508.setContent(html_cb37ae8152cf4ecfd7d13d6ca388e866);
+            
+        
+
+        marker_5f551766da7e3b66809b8b827d45ff55.bindPopup(popup_bf291ca67ffaba6935ece4ffad5da508)
+        ;
+
+        
+    
+    
+            var marker_4ca2b2b8726c5869875c9600b4ddea24 = L.marker(
+                [37.540543, 127.0514262],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_215eaaefebe05a85640c16b0dbe6ca2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87b6746ca03c2b0fd63accf4c4cc62e9 = $(`<div id="html_87b6746ca03c2b0fd63accf4c4cc62e9" style="width: 100.0%; height: 100.0%;">성수공업고등학교</div>`)[0];
+                popup_215eaaefebe05a85640c16b0dbe6ca2a.setContent(html_87b6746ca03c2b0fd63accf4c4cc62e9);
+            
+        
+
+        marker_4ca2b2b8726c5869875c9600b4ddea24.bindPopup(popup_215eaaefebe05a85640c16b0dbe6ca2a)
+        ;
+
+        
+    
+    
+            var marker_54dfb36481f11cca081f102451e13c41 = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_3297218cce3e294509ff4d0c33399030 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00ffb2e7828a1b29b050f7bc09641f17 = $(`<div id="html_00ffb2e7828a1b29b050f7bc09641f17" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속고등학교</div>`)[0];
+                popup_3297218cce3e294509ff4d0c33399030.setContent(html_00ffb2e7828a1b29b050f7bc09641f17);
+            
+        
+
+        marker_54dfb36481f11cca081f102451e13c41.bindPopup(popup_3297218cce3e294509ff4d0c33399030)
+        ;
+
+        
+    
+    
+            var marker_670a1e202dfa20642a86a379f66c29cf = L.marker(
+                [37.558667, 127.0498875],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_28122d29dcb9efd72068b40c2b8be843 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b17dc6dce47b22ef233a77d203a6dc7 = $(`<div id="html_0b17dc6dce47b22ef233a77d203a6dc7" style="width: 100.0%; height: 100.0%;">한양여자대학교</div>`)[0];
+                popup_28122d29dcb9efd72068b40c2b8be843.setContent(html_0b17dc6dce47b22ef233a77d203a6dc7);
+            
+        
+
+        marker_670a1e202dfa20642a86a379f66c29cf.bindPopup(popup_28122d29dcb9efd72068b40c2b8be843)
+        ;
+
+        
+    
+    
+            var marker_f0e4b6b97d90a30f5652e65ff67055a6 = L.marker(
+                [37.557176, 127.04540966],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_ab58dea88058c26fbe2152d6c58646b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_845a2d86fa490202ef05a428ebe88873 = $(`<div id="html_845a2d86fa490202ef05a428ebe88873" style="width: 100.0%; height: 100.0%;">한양대학교</div>`)[0];
+                popup_ab58dea88058c26fbe2152d6c58646b9.setContent(html_845a2d86fa490202ef05a428ebe88873);
+            
+        
+
+        marker_f0e4b6b97d90a30f5652e65ff67055a6.bindPopup(popup_ab58dea88058c26fbe2152d6c58646b9)
+        ;
+
+        
+    
+    
+            var marker_8e62e52d4fac37d83c6533254885f271 = L.marker(
+                [37.557153, 127.0476],
+                {}
+            ).addTo(marker_cluster_8dc7bc23c60d35243dd639d437fe3361);
+        
+    
+        var popup_2277f857b1bc8abf71472bb8f69c51e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75458c752fab4e123e89f6d09ed0332c = $(`<div id="html_75458c752fab4e123e89f6d09ed0332c" style="width: 100.0%; height: 100.0%;">한양사이버대학교</div>`)[0];
+                popup_2277f857b1bc8abf71472bb8f69c51e2.setContent(html_75458c752fab4e123e89f6d09ed0332c);
+            
+        
+
+        marker_8e62e52d4fac37d83c6533254885f271.bindPopup(popup_2277f857b1bc8abf71472bb8f69c51e2)
+        ;
+
+        
+    
+    
+            var marker_cluster_6d7329cb1f6661ee0e1151fc79455691 = L.markerClusterGroup(
+                {}
+            );
+            map_c2c9a7b07423a40c14918114ca4086c2.addLayer(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+            var marker_fe0124781b42bc3458a7a49b31102eec = L.marker(
+                [37.5429557, 127.0504631],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_8849328ffdfa0fec16cf9691e7c1b5c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a9e692ada02f913a9f8eda48e547794 = $(`<div id="html_4a9e692ada02f913a9f8eda48e547794" style="width: 100.0%; height: 100.0%;">서울경동초등학교</div>`)[0];
+                popup_8849328ffdfa0fec16cf9691e7c1b5c2.setContent(html_4a9e692ada02f913a9f8eda48e547794);
+            
+        
+
+        marker_fe0124781b42bc3458a7a49b31102eec.bindPopup(popup_8849328ffdfa0fec16cf9691e7c1b5c2)
+        ;
+
+        
+    
+    
+            var marker_1e52d77175204a4b7c3a96290fd37fbb = L.marker(
+                [37.540067, 127.058268],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_7314db5a1891819b00b33d614ed2404c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b08da8ca89ee9427899719e8f3173e52 = $(`<div id="html_b08da8ca89ee9427899719e8f3173e52" style="width: 100.0%; height: 100.0%;">서울경수초등학교</div>`)[0];
+                popup_7314db5a1891819b00b33d614ed2404c.setContent(html_b08da8ca89ee9427899719e8f3173e52);
+            
+        
+
+        marker_1e52d77175204a4b7c3a96290fd37fbb.bindPopup(popup_7314db5a1891819b00b33d614ed2404c)
+        ;
+
+        
+    
+    
+            var marker_24275e67d52f419098b018e8c1578b3e = L.marker(
+                [37.5403883, 127.0468669],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_33d4353b4805975318ecc6c24768e477 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a89f168c88d30a8466f21a988f4502d = $(`<div id="html_9a89f168c88d30a8466f21a988f4502d" style="width: 100.0%; height: 100.0%;">서울경일초등학교</div>`)[0];
+                popup_33d4353b4805975318ecc6c24768e477.setContent(html_9a89f168c88d30a8466f21a988f4502d);
+            
+        
+
+        marker_24275e67d52f419098b018e8c1578b3e.bindPopup(popup_33d4353b4805975318ecc6c24768e477)
+        ;
+
+        
+    
+    
+            var marker_4d8a6ff69be3f26b9fb16ec3041fcfea = L.marker(
+                [37.5574688, 127.0234901],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_ea7b39d05748648704cc6b547819f4ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4ac9185560bfc8fc643bb71133a7fd5 = $(`<div id="html_f4ac9185560bfc8fc643bb71133a7fd5" style="width: 100.0%; height: 100.0%;">서울금북초등학교</div>`)[0];
+                popup_ea7b39d05748648704cc6b547819f4ea.setContent(html_f4ac9185560bfc8fc643bb71133a7fd5);
+            
+        
+
+        marker_4d8a6ff69be3f26b9fb16ec3041fcfea.bindPopup(popup_ea7b39d05748648704cc6b547819f4ea)
+        ;
+
+        
+    
+    
+            var marker_8c1535179dddce0bd81efc7cd9e4d8ed = L.marker(
+                [37.5463323, 127.0174743],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_2c7601b831adb91f244cb881b846954f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcd39a87fe237385036050e2976c54f8 = $(`<div id="html_dcd39a87fe237385036050e2976c54f8" style="width: 100.0%; height: 100.0%;">서울금옥초등학교</div>`)[0];
+                popup_2c7601b831adb91f244cb881b846954f.setContent(html_dcd39a87fe237385036050e2976c54f8);
+            
+        
+
+        marker_8c1535179dddce0bd81efc7cd9e4d8ed.bindPopup(popup_2c7601b831adb91f244cb881b846954f)
+        ;
+
+        
+    
+    
+            var marker_d2180deca5665c40b18072b851b6539a = L.marker(
+                [37.5525373, 127.0201047],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_bfc8a43e276a8e394d6a344672fd3c00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_678f23161a78a8bb96c81e4cdaa33ddf = $(`<div id="html_678f23161a78a8bb96c81e4cdaa33ddf" style="width: 100.0%; height: 100.0%;">서울금호초등학교</div>`)[0];
+                popup_bfc8a43e276a8e394d6a344672fd3c00.setContent(html_678f23161a78a8bb96c81e4cdaa33ddf);
+            
+        
+
+        marker_d2180deca5665c40b18072b851b6539a.bindPopup(popup_bfc8a43e276a8e394d6a344672fd3c00)
+        ;
+
+        
+    
+    
+            var marker_3e78cbdd4c8ed6873c97c241a1fd46f2 = L.marker(
+                [37.5688411, 127.0357138],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_a5c1c6a4ee07173ac27b76aba772f19e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_610f5c2a2c71b193fecc5440519b3427 = $(`<div id="html_610f5c2a2c71b193fecc5440519b3427" style="width: 100.0%; height: 100.0%;">서울동명초등학교</div>`)[0];
+                popup_a5c1c6a4ee07173ac27b76aba772f19e.setContent(html_610f5c2a2c71b193fecc5440519b3427);
+            
+        
+
+        marker_3e78cbdd4c8ed6873c97c241a1fd46f2.bindPopup(popup_a5c1c6a4ee07173ac27b76aba772f19e)
+        ;
+
+        
+    
+    
+            var marker_c1ffa4e72d237776bc9af2df098da12d = L.marker(
+                [37.5459681, 127.0125058],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_3057f5ce6baec327c3eb5c966237120b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acdfc9c69215110704530270437abed1 = $(`<div id="html_acdfc9c69215110704530270437abed1" style="width: 100.0%; height: 100.0%;">서울동호초등학교</div>`)[0];
+                popup_3057f5ce6baec327c3eb5c966237120b.setContent(html_acdfc9c69215110704530270437abed1);
+            
+        
+
+        marker_c1ffa4e72d237776bc9af2df098da12d.bindPopup(popup_3057f5ce6baec327c3eb5c966237120b)
+        ;
+
+        
+    
+    
+            var marker_f65cfa7da3bf39215ebfeec93e9f2a92 = L.marker(
+                [37.5678414, 127.0425188],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_91693e0c33e0668c0b482a169facb1ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_171cfcb1cb3284215370fe15a9df9f59 = $(`<div id="html_171cfcb1cb3284215370fe15a9df9f59" style="width: 100.0%; height: 100.0%;">서울마장초등학교</div>`)[0];
+                popup_91693e0c33e0668c0b482a169facb1ec.setContent(html_171cfcb1cb3284215370fe15a9df9f59);
+            
+        
+
+        marker_f65cfa7da3bf39215ebfeec93e9f2a92.bindPopup(popup_91693e0c33e0668c0b482a169facb1ec)
+        ;
+
+        
+    
+    
+            var marker_2ab066f78bf167eb9bac276aa117cf66 = L.marker(
+                [37.5628695, 127.0295202],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_4bda466fd6033ecf730352781304b448 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23281258aec960f74fcd34af0edc4b8c = $(`<div id="html_23281258aec960f74fcd34af0edc4b8c" style="width: 100.0%; height: 100.0%;">서울무학초등학교</div>`)[0];
+                popup_4bda466fd6033ecf730352781304b448.setContent(html_23281258aec960f74fcd34af0edc4b8c);
+            
+        
+
+        marker_2ab066f78bf167eb9bac276aa117cf66.bindPopup(popup_4bda466fd6033ecf730352781304b448)
+        ;
+
+        
+    
+    
+            var marker_9c9867382299de7dd3707797701f63cd = L.marker(
+                [37.5628932, 127.0478174],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_11cf2b8cbdb31cb26bc2bfcf6b07439b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77e9b0b6643ba080259a8e1d808687b9 = $(`<div id="html_77e9b0b6643ba080259a8e1d808687b9" style="width: 100.0%; height: 100.0%;">서울사근초등학교</div>`)[0];
+                popup_11cf2b8cbdb31cb26bc2bfcf6b07439b.setContent(html_77e9b0b6643ba080259a8e1d808687b9);
+            
+        
+
+        marker_9c9867382299de7dd3707797701f63cd.bindPopup(popup_11cf2b8cbdb31cb26bc2bfcf6b07439b)
+        ;
+
+        
+    
+    
+            var marker_08fe8efbd390216264e87d0d3aba6021 = L.marker(
+                [37.544122, 127.063378],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_07e6fe5450ab1a19b953f8c8af97841c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_448074686bd38accedcef2a2c67cbbeb = $(`<div id="html_448074686bd38accedcef2a2c67cbbeb" style="width: 100.0%; height: 100.0%;">서울성수초등학교</div>`)[0];
+                popup_07e6fe5450ab1a19b953f8c8af97841c.setContent(html_448074686bd38accedcef2a2c67cbbeb);
+            
+        
+
+        marker_08fe8efbd390216264e87d0d3aba6021.bindPopup(popup_07e6fe5450ab1a19b953f8c8af97841c)
+        ;
+
+        
+    
+    
+            var marker_08a40cb05ba3d1cbeb9358f39fe14eff = L.marker(
+                [37.5542158, 127.0694688],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_3d0713e59e46ce7c708bfae090fdfb0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bac6a86c9d5595641d762355b9221fa7 = $(`<div id="html_bac6a86c9d5595641d762355b9221fa7" style="width: 100.0%; height: 100.0%;">서울송원초등학교</div>`)[0];
+                popup_3d0713e59e46ce7c708bfae090fdfb0e.setContent(html_bac6a86c9d5595641d762355b9221fa7);
+            
+        
+
+        marker_08a40cb05ba3d1cbeb9358f39fe14eff.bindPopup(popup_3d0713e59e46ce7c708bfae090fdfb0e)
+        ;
+
+        
+    
+    
+            var marker_4a0a14ac8656c37d26c6e34169c10970 = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_c94294104b70417b87c15ee3035e2b7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5775c789cb508a0ce187ce635bedb507 = $(`<div id="html_5775c789cb508a0ce187ce635bedb507" style="width: 100.0%; height: 100.0%;">서울숭신초등학교</div>`)[0];
+                popup_c94294104b70417b87c15ee3035e2b7f.setContent(html_5775c789cb508a0ce187ce635bedb507);
+            
+        
+
+        marker_4a0a14ac8656c37d26c6e34169c10970.bindPopup(popup_c94294104b70417b87c15ee3035e2b7f)
+        ;
+
+        
+    
+    
+            var marker_8ce90e8c06927eea48f4eb027eed87ec = L.marker(
+                [37.5459839, 127.021758],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_054521ba8421d992368655af7043f4ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cf8e3bbe6f7f79e66b7b480151e402a = $(`<div id="html_0cf8e3bbe6f7f79e66b7b480151e402a" style="width: 100.0%; height: 100.0%;">서울옥수초등학교</div>`)[0];
+                popup_054521ba8421d992368655af7043f4ce.setContent(html_0cf8e3bbe6f7f79e66b7b480151e402a);
+            
+        
+
+        marker_8ce90e8c06927eea48f4eb027eed87ec.bindPopup(popup_054521ba8421d992368655af7043f4ce)
+        ;
+
+        
+    
+    
+            var marker_4fd2780af30c664a8f6dd57bbe6849e3 = L.marker(
+                [37.5415941, 127.0156888],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_8fc6f20d52909a5dd3c729d161111b05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc73aae360cf5443e4832bb9033b2961 = $(`<div id="html_fc73aae360cf5443e4832bb9033b2961" style="width: 100.0%; height: 100.0%;">서울옥정초등학교</div>`)[0];
+                popup_8fc6f20d52909a5dd3c729d161111b05.setContent(html_fc73aae360cf5443e4832bb9033b2961);
+            
+        
+
+        marker_4fd2780af30c664a8f6dd57bbe6849e3.bindPopup(popup_8fc6f20d52909a5dd3c729d161111b05)
+        ;
+
+        
+    
+    
+            var marker_83f4e19c8c7c9c02d9a3725133ce8fb0 = L.marker(
+                [37.5607574, 127.0533645],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_da765960067cc4d94a96a8d28dd15523 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5521e559e9870dab0823da8496fdfe57 = $(`<div id="html_5521e559e9870dab0823da8496fdfe57" style="width: 100.0%; height: 100.0%;">서울용답초등학교</div>`)[0];
+                popup_da765960067cc4d94a96a8d28dd15523.setContent(html_5521e559e9870dab0823da8496fdfe57);
+            
+        
+
+        marker_83f4e19c8c7c9c02d9a3725133ce8fb0.bindPopup(popup_da765960067cc4d94a96a8d28dd15523)
+        ;
+
+        
+    
+    
+            var marker_12c03934f56781b8c673515ebbfaebc8 = L.marker(
+                [37.5501489, 127.0337423],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_9e3034c47fe19dcc5f1ce6ea4a3e2fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a370bc74e53a89ab5cabf4b8c52e6e89 = $(`<div id="html_a370bc74e53a89ab5cabf4b8c52e6e89" style="width: 100.0%; height: 100.0%;">서울응봉초등학교</div>`)[0];
+                popup_9e3034c47fe19dcc5f1ce6ea4a3e2fb7.setContent(html_a370bc74e53a89ab5cabf4b8c52e6e89);
+            
+        
+
+        marker_12c03934f56781b8c673515ebbfaebc8.bindPopup(popup_9e3034c47fe19dcc5f1ce6ea4a3e2fb7)
+        ;
+
+        
+    
+    
+            var marker_15c874e439bbcfde4203ea30f0a2899c = L.marker(
+                [37.5562315, 127.0346032],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_993afb8477a278c9640675217f503ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db3fa0f06c145f046f5d4e7d1f007a9f = $(`<div id="html_db3fa0f06c145f046f5d4e7d1f007a9f" style="width: 100.0%; height: 100.0%;">서울행당초등학교</div>`)[0];
+                popup_993afb8477a278c9640675217f503ac8.setContent(html_db3fa0f06c145f046f5d4e7d1f007a9f);
+            
+        
+
+        marker_15c874e439bbcfde4203ea30f0a2899c.bindPopup(popup_993afb8477a278c9640675217f503ac8)
+        ;
+
+        
+    
+    
+            var marker_3413226913a07f9b380b600b6455ad1e = L.marker(
+                [37.5575664, 127.0293584],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_9e68c3539a766473700d4324b1d4e84c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4330dca578ee749e91d08ed6c10cb725 = $(`<div id="html_4330dca578ee749e91d08ed6c10cb725" style="width: 100.0%; height: 100.0%;">서울행현초등학교</div>`)[0];
+                popup_9e68c3539a766473700d4324b1d4e84c.setContent(html_4330dca578ee749e91d08ed6c10cb725);
+            
+        
+
+        marker_3413226913a07f9b380b600b6455ad1e.bindPopup(popup_9e68c3539a766473700d4324b1d4e84c)
+        ;
+
+        
+    
+    
+            var marker_893ce02771cba24ed5c4ec92c21ff084 = L.marker(
+                [37.5575372, 127.0503794],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_3a8a504b1298069bdce7b56020851e62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3c4a954442c4563dda81b279d12f10e = $(`<div id="html_a3c4a954442c4563dda81b279d12f10e" style="width: 100.0%; height: 100.0%;">한양초등학교</div>`)[0];
+                popup_3a8a504b1298069bdce7b56020851e62.setContent(html_a3c4a954442c4563dda81b279d12f10e);
+            
+        
+
+        marker_893ce02771cba24ed5c4ec92c21ff084.bindPopup(popup_3a8a504b1298069bdce7b56020851e62)
+        ;
+
+        
+    
+    
+            var marker_f3305c85813bda99c8a0f057b2ece5e5 = L.marker(
+                [37.5397813, 127.0583587],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_1edc991cbae8bd6ff3742fa79040da70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7907b0af3ab133ff961927ed666a95eb = $(`<div id="html_7907b0af3ab133ff961927ed666a95eb" style="width: 100.0%; height: 100.0%;">경수중학교</div>`)[0];
+                popup_1edc991cbae8bd6ff3742fa79040da70.setContent(html_7907b0af3ab133ff961927ed666a95eb);
+            
+        
+
+        marker_f3305c85813bda99c8a0f057b2ece5e5.bindPopup(popup_1edc991cbae8bd6ff3742fa79040da70)
+        ;
+
+        
+    
+    
+            var marker_1aa8bd0e0bc866fb9b9a57b2a6402927 = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_621cf11635ce1df65661045aa7114162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ada2547eeba0e87d2a8554be637f321 = $(`<div id="html_2ada2547eeba0e87d2a8554be637f321" style="width: 100.0%; height: 100.0%;">경일중학교</div>`)[0];
+                popup_621cf11635ce1df65661045aa7114162.setContent(html_2ada2547eeba0e87d2a8554be637f321);
+            
+        
+
+        marker_1aa8bd0e0bc866fb9b9a57b2a6402927.bindPopup(popup_621cf11635ce1df65661045aa7114162)
+        ;
+
+        
+    
+    
+            var marker_5c7c799cc5c85556b96ea69d3c8798a2 = L.marker(
+                [37.5510767, 127.0338846],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_8fc7d9845afc940e2f7e1e0d7028f0af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc324fd3f03d6038ae251a44779bb015 = $(`<div id="html_dc324fd3f03d6038ae251a44779bb015" style="width: 100.0%; height: 100.0%;">광희중학교</div>`)[0];
+                popup_8fc7d9845afc940e2f7e1e0d7028f0af.setContent(html_dc324fd3f03d6038ae251a44779bb015);
+            
+        
+
+        marker_5c7c799cc5c85556b96ea69d3c8798a2.bindPopup(popup_8fc7d9845afc940e2f7e1e0d7028f0af)
+        ;
+
+        
+    
+    
+            var marker_19d61649d98327699c885c7226bd7c6a = L.marker(
+                [37.5626557, 127.0403012],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_fd1ae4502243254e43a08c7b599da26f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e5e1d47c4d031524cbcd0a279b3730c = $(`<div id="html_7e5e1d47c4d031524cbcd0a279b3730c" style="width: 100.0%; height: 100.0%;">동마중학교</div>`)[0];
+                popup_fd1ae4502243254e43a08c7b599da26f.setContent(html_7e5e1d47c4d031524cbcd0a279b3730c);
+            
+        
+
+        marker_19d61649d98327699c885c7226bd7c6a.bindPopup(popup_fd1ae4502243254e43a08c7b599da26f)
+        ;
+
+        
+    
+    
+            var marker_e5da8cc6684e556b66e25185e2aee4ed = L.marker(
+                [37.5682297, 127.042205],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_03d2e3252e7f887b554751e9f9338d1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b08c60db72bbd715c3fe5223fceea75a = $(`<div id="html_b08c60db72bbd715c3fe5223fceea75a" style="width: 100.0%; height: 100.0%;">마장중학교</div>`)[0];
+                popup_03d2e3252e7f887b554751e9f9338d1b.setContent(html_b08c60db72bbd715c3fe5223fceea75a);
+            
+        
+
+        marker_e5da8cc6684e556b66e25185e2aee4ed.bindPopup(popup_03d2e3252e7f887b554751e9f9338d1b)
+        ;
+
+        
+    
+    
+            var marker_16afbed69e4d76cffa3cdde9575f3f0a = L.marker(
+                [37.5571395, 127.0333298],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_0c6a0f05b1055a8d34fd8880f0fc5fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1014c0d7650499fd8d323b58e5b85646 = $(`<div id="html_1014c0d7650499fd8d323b58e5b85646" style="width: 100.0%; height: 100.0%;">무학중학교</div>`)[0];
+                popup_0c6a0f05b1055a8d34fd8880f0fc5fe4.setContent(html_1014c0d7650499fd8d323b58e5b85646);
+            
+        
+
+        marker_16afbed69e4d76cffa3cdde9575f3f0a.bindPopup(popup_0c6a0f05b1055a8d34fd8880f0fc5fe4)
+        ;
+
+        
+    
+    
+            var marker_fd19ecf29034327273633e4b844496cc = L.marker(
+                [37.5471818, 127.0388176],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_d15f9d3d67ace1145c840b8d9024922d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86ff10358807433960a9da2ed84e33d9 = $(`<div id="html_86ff10358807433960a9da2ed84e33d9" style="width: 100.0%; height: 100.0%;">성수중학교</div>`)[0];
+                popup_d15f9d3d67ace1145c840b8d9024922d.setContent(html_86ff10358807433960a9da2ed84e33d9);
+            
+        
+
+        marker_fd19ecf29034327273633e4b844496cc.bindPopup(popup_d15f9d3d67ace1145c840b8d9024922d)
+        ;
+
+        
+    
+    
+            var marker_7056fabdfc99d4fb736673c427744627 = L.marker(
+                [37.5391784, 127.0519631],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_a9e7b9a5732149f8d4bc569884d26759 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e5e814bb113c8e701d09d9ca197ea1b = $(`<div id="html_5e5e814bb113c8e701d09d9ca197ea1b" style="width: 100.0%; height: 100.0%;">성원중학교</div>`)[0];
+                popup_a9e7b9a5732149f8d4bc569884d26759.setContent(html_5e5e814bb113c8e701d09d9ca197ea1b);
+            
+        
+
+        marker_7056fabdfc99d4fb736673c427744627.bindPopup(popup_a9e7b9a5732149f8d4bc569884d26759)
+        ;
+
+        
+    
+    
+            var marker_bac69a1c92b92bc015e9a45c9c80ca04 = L.marker(
+                [37.5414774, 127.0125119],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_7bf019983903699514c9b373e1188e53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09b577093f29cda3dfb6e1d9c4d1af92 = $(`<div id="html_09b577093f29cda3dfb6e1d9c4d1af92" style="width: 100.0%; height: 100.0%;">옥정중학교</div>`)[0];
+                popup_7bf019983903699514c9b373e1188e53.setContent(html_09b577093f29cda3dfb6e1d9c4d1af92);
+            
+        
+
+        marker_bac69a1c92b92bc015e9a45c9c80ca04.bindPopup(popup_7bf019983903699514c9b373e1188e53)
+        ;
+
+        
+    
+    
+            var marker_d38c5ef6e1d3ab9e511c3ee7ccf96201 = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_127a2da0a4212f890e12cf01d04de033 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78fb16f7bc84756324336693450eb945 = $(`<div id="html_78fb16f7bc84756324336693450eb945" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속중학교</div>`)[0];
+                popup_127a2da0a4212f890e12cf01d04de033.setContent(html_78fb16f7bc84756324336693450eb945);
+            
+        
+
+        marker_d38c5ef6e1d3ab9e511c3ee7ccf96201.bindPopup(popup_127a2da0a4212f890e12cf01d04de033)
+        ;
+
+        
+    
+    
+            var marker_b6fb7be059e15069e75e5bcfe904421f = L.marker(
+                [37.5544241, 127.041886],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_182956e11797e483bca351cf957cb4bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10dbd5b62c995519c49a7cd9a392121c = $(`<div id="html_10dbd5b62c995519c49a7cd9a392121c" style="width: 100.0%; height: 100.0%;">행당중학교</div>`)[0];
+                popup_182956e11797e483bca351cf957cb4bc.setContent(html_10dbd5b62c995519c49a7cd9a392121c);
+            
+        
+
+        marker_b6fb7be059e15069e75e5bcfe904421f.bindPopup(popup_182956e11797e483bca351cf957cb4bc)
+        ;
+
+        
+    
+    
+            var marker_a4dd82ad62791bc7d2ba9ffa054326b5 = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_3b02cc191c87299d484202f6ba3a2d41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c8061d7149607d5bf51d31132430264 = $(`<div id="html_4c8061d7149607d5bf51d31132430264" style="width: 100.0%; height: 100.0%;">경일고등학교</div>`)[0];
+                popup_3b02cc191c87299d484202f6ba3a2d41.setContent(html_4c8061d7149607d5bf51d31132430264);
+            
+        
+
+        marker_a4dd82ad62791bc7d2ba9ffa054326b5.bindPopup(popup_3b02cc191c87299d484202f6ba3a2d41)
+        ;
+
+        
+    
+    
+            var marker_c861ee0509bf6859b382bafd573f73ce = L.marker(
+                [37.5530599, 127.0236268],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_0ddfd02b2aec5143c0bdea92604794ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_833de1bab261e23f98ed25a6a4529fb2 = $(`<div id="html_833de1bab261e23f98ed25a6a4529fb2" style="width: 100.0%; height: 100.0%;">금호고등학교</div>`)[0];
+                popup_0ddfd02b2aec5143c0bdea92604794ae.setContent(html_833de1bab261e23f98ed25a6a4529fb2);
+            
+        
+
+        marker_c861ee0509bf6859b382bafd573f73ce.bindPopup(popup_0ddfd02b2aec5143c0bdea92604794ae)
+        ;
+
+        
+    
+    
+            var marker_e4ec19747bccf01f66bb5ce089663dae = L.marker(
+                [37.5605652, 127.0363099],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_cc61a57408b0d6f4e4a0d65ad06b2ef5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1054bead23c0055ad9b2dff377cdd17 = $(`<div id="html_b1054bead23c0055ad9b2dff377cdd17" style="width: 100.0%; height: 100.0%;">덕수고등학교</div>`)[0];
+                popup_cc61a57408b0d6f4e4a0d65ad06b2ef5.setContent(html_b1054bead23c0055ad9b2dff377cdd17);
+            
+        
+
+        marker_e4ec19747bccf01f66bb5ce089663dae.bindPopup(popup_cc61a57408b0d6f4e4a0d65ad06b2ef5)
+        ;
+
+        
+    
+    
+            var marker_e5805b9f35a4b5b639020cc30a1df04b = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_5e85336d692abf175ca2e4ff52bd6c4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de4cd8f6fa79b01193e2ac9274907f13 = $(`<div id="html_de4cd8f6fa79b01193e2ac9274907f13" style="width: 100.0%; height: 100.0%;">도선고등학교</div>`)[0];
+                popup_5e85336d692abf175ca2e4ff52bd6c4e.setContent(html_de4cd8f6fa79b01193e2ac9274907f13);
+            
+        
+
+        marker_e5805b9f35a4b5b639020cc30a1df04b.bindPopup(popup_5e85336d692abf175ca2e4ff52bd6c4e)
+        ;
+
+        
+    
+    
+            var marker_6264bf78f3f8628ea195c27cbe4260ad = L.marker(
+                [37.557398, 127.03352],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_670778fa47f986ed03d819f4559b52ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1445d2907f39551770caa40d1396b2a = $(`<div id="html_d1445d2907f39551770caa40d1396b2a" style="width: 100.0%; height: 100.0%;">무학여자고등학교</div>`)[0];
+                popup_670778fa47f986ed03d819f4559b52ab.setContent(html_d1445d2907f39551770caa40d1396b2a);
+            
+        
+
+        marker_6264bf78f3f8628ea195c27cbe4260ad.bindPopup(popup_670778fa47f986ed03d819f4559b52ab)
+        ;
+
+        
+    
+    
+            var marker_6f05c2d9b90435a73d5b44348c75f357 = L.marker(
+                [37.547354, 127.0105807],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_e9c0bbf1a066de373723827fa4a91769 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc1a3632df0fa8c4ee6ed10aa59c9206 = $(`<div id="html_fc1a3632df0fa8c4ee6ed10aa59c9206" style="width: 100.0%; height: 100.0%;">서울방송고등학교</div>`)[0];
+                popup_e9c0bbf1a066de373723827fa4a91769.setContent(html_fc1a3632df0fa8c4ee6ed10aa59c9206);
+            
+        
+
+        marker_6f05c2d9b90435a73d5b44348c75f357.bindPopup(popup_e9c0bbf1a066de373723827fa4a91769)
+        ;
+
+        
+    
+    
+            var marker_6927fc9ea8a549f5839329835e74be46 = L.marker(
+                [37.5473571, 127.0381343],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_6c3f63916861807fd17da167230a63a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c6924fbafb1b55c7c35af09abd412a6 = $(`<div id="html_4c6924fbafb1b55c7c35af09abd412a6" style="width: 100.0%; height: 100.0%;">성수고등학교</div>`)[0];
+                popup_6c3f63916861807fd17da167230a63a8.setContent(html_4c6924fbafb1b55c7c35af09abd412a6);
+            
+        
+
+        marker_6927fc9ea8a549f5839329835e74be46.bindPopup(popup_6c3f63916861807fd17da167230a63a8)
+        ;
+
+        
+    
+    
+            var marker_be579c2bd53c8857b1057a7e880b3bc8 = L.marker(
+                [37.540543, 127.0514262],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_d6d5c33a1ed194008e0b000cfee76511 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61bc954a2b658f9cf44934ba2b8c12fd = $(`<div id="html_61bc954a2b658f9cf44934ba2b8c12fd" style="width: 100.0%; height: 100.0%;">성수공업고등학교</div>`)[0];
+                popup_d6d5c33a1ed194008e0b000cfee76511.setContent(html_61bc954a2b658f9cf44934ba2b8c12fd);
+            
+        
+
+        marker_be579c2bd53c8857b1057a7e880b3bc8.bindPopup(popup_d6d5c33a1ed194008e0b000cfee76511)
+        ;
+
+        
+    
+    
+            var marker_1a0fbd931e9504b9991c068fa440d31d = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_656b055dfbaf25271ecc5faa6aa4db7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_032bd9a7d2f3beb5266cb5c21dd57fb1 = $(`<div id="html_032bd9a7d2f3beb5266cb5c21dd57fb1" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속고등학교</div>`)[0];
+                popup_656b055dfbaf25271ecc5faa6aa4db7b.setContent(html_032bd9a7d2f3beb5266cb5c21dd57fb1);
+            
+        
+
+        marker_1a0fbd931e9504b9991c068fa440d31d.bindPopup(popup_656b055dfbaf25271ecc5faa6aa4db7b)
+        ;
+
+        
+    
+    
+            var marker_652d336624d16224caa09a1091c4d2f7 = L.marker(
+                [37.558667, 127.0498875],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_e9a6ccc1e82662776b2f9df0d4365538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85058e036201ba4193ab9afebe496dde = $(`<div id="html_85058e036201ba4193ab9afebe496dde" style="width: 100.0%; height: 100.0%;">한양여자대학교</div>`)[0];
+                popup_e9a6ccc1e82662776b2f9df0d4365538.setContent(html_85058e036201ba4193ab9afebe496dde);
+            
+        
+
+        marker_652d336624d16224caa09a1091c4d2f7.bindPopup(popup_e9a6ccc1e82662776b2f9df0d4365538)
+        ;
+
+        
+    
+    
+            var marker_95ea5edba01d31ac8a6b6a9afb6a574f = L.marker(
+                [37.557176, 127.04540966],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_e6be616f39fafd220a706c04b1e195ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_109373eb2952e054c25549e54a3af173 = $(`<div id="html_109373eb2952e054c25549e54a3af173" style="width: 100.0%; height: 100.0%;">한양대학교</div>`)[0];
+                popup_e6be616f39fafd220a706c04b1e195ee.setContent(html_109373eb2952e054c25549e54a3af173);
+            
+        
+
+        marker_95ea5edba01d31ac8a6b6a9afb6a574f.bindPopup(popup_e6be616f39fafd220a706c04b1e195ee)
+        ;
+
+        
+    
+    
+            var marker_0558867e3c738c73d8954b084bc8c476 = L.marker(
+                [37.557153, 127.0476],
+                {}
+            ).addTo(marker_cluster_6d7329cb1f6661ee0e1151fc79455691);
+        
+    
+        var popup_d1f56a10aea4a01d24a0504f48409f6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60da28ddcc67c1b0e08921c03dedf1aa = $(`<div id="html_60da28ddcc67c1b0e08921c03dedf1aa" style="width: 100.0%; height: 100.0%;">한양사이버대학교</div>`)[0];
+                popup_d1f56a10aea4a01d24a0504f48409f6f.setContent(html_60da28ddcc67c1b0e08921c03dedf1aa);
+            
+        
+
+        marker_0558867e3c738c73d8954b084bc8c476.bindPopup(popup_d1f56a10aea4a01d24a0504f48409f6f)
+        ;
+
+        
+    
+    
+            var marker_cluster_2ff489091e5e501ac62a8e7d943e7201 = L.markerClusterGroup(
+                {}
+            );
+            map_c2c9a7b07423a40c14918114ca4086c2.addLayer(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+            var marker_7d02e9560c8071cfbac5af2eb5c4d9a4 = L.marker(
+                [37.5429557, 127.0504631],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_8b54a66791e4eb7bb7b8795833356924 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7c3fc938bb2cfc5799dde12b6a51ab4 = $(`<div id="html_e7c3fc938bb2cfc5799dde12b6a51ab4" style="width: 100.0%; height: 100.0%;">서울경동초등학교</div>`)[0];
+                popup_8b54a66791e4eb7bb7b8795833356924.setContent(html_e7c3fc938bb2cfc5799dde12b6a51ab4);
+            
+        
+
+        marker_7d02e9560c8071cfbac5af2eb5c4d9a4.bindPopup(popup_8b54a66791e4eb7bb7b8795833356924)
+        ;
+
+        
+    
+    
+            var marker_aa7eb0ce487ad8bc7279409080aae638 = L.marker(
+                [37.540067, 127.058268],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_f8fca15726ca9b8f2892d392b6d08613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbefe75e2073390e6421145ef88d16a2 = $(`<div id="html_dbefe75e2073390e6421145ef88d16a2" style="width: 100.0%; height: 100.0%;">서울경수초등학교</div>`)[0];
+                popup_f8fca15726ca9b8f2892d392b6d08613.setContent(html_dbefe75e2073390e6421145ef88d16a2);
+            
+        
+
+        marker_aa7eb0ce487ad8bc7279409080aae638.bindPopup(popup_f8fca15726ca9b8f2892d392b6d08613)
+        ;
+
+        
+    
+    
+            var marker_6b938492185a6128e5aba111e9fdfc1d = L.marker(
+                [37.5403883, 127.0468669],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_6772d1f66a952d95b7ee58013802c67d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3d7e34c03dae37a89a4198a6a732f2f = $(`<div id="html_f3d7e34c03dae37a89a4198a6a732f2f" style="width: 100.0%; height: 100.0%;">서울경일초등학교</div>`)[0];
+                popup_6772d1f66a952d95b7ee58013802c67d.setContent(html_f3d7e34c03dae37a89a4198a6a732f2f);
+            
+        
+
+        marker_6b938492185a6128e5aba111e9fdfc1d.bindPopup(popup_6772d1f66a952d95b7ee58013802c67d)
+        ;
+
+        
+    
+    
+            var marker_e908a84c69a4f8b7467f2de88ff504a4 = L.marker(
+                [37.5574688, 127.0234901],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_331902a5fe5df9fb37717de6a3f7ee93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bc6e99432b411641b8cee832be1e3b2 = $(`<div id="html_3bc6e99432b411641b8cee832be1e3b2" style="width: 100.0%; height: 100.0%;">서울금북초등학교</div>`)[0];
+                popup_331902a5fe5df9fb37717de6a3f7ee93.setContent(html_3bc6e99432b411641b8cee832be1e3b2);
+            
+        
+
+        marker_e908a84c69a4f8b7467f2de88ff504a4.bindPopup(popup_331902a5fe5df9fb37717de6a3f7ee93)
+        ;
+
+        
+    
+    
+            var marker_08eed588218bfbd32379c930b7adcdf6 = L.marker(
+                [37.5463323, 127.0174743],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_abfb938c832b0a370baf3f7f305ce2c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c047beb9bd11f5d199773ffe13cd94a5 = $(`<div id="html_c047beb9bd11f5d199773ffe13cd94a5" style="width: 100.0%; height: 100.0%;">서울금옥초등학교</div>`)[0];
+                popup_abfb938c832b0a370baf3f7f305ce2c9.setContent(html_c047beb9bd11f5d199773ffe13cd94a5);
+            
+        
+
+        marker_08eed588218bfbd32379c930b7adcdf6.bindPopup(popup_abfb938c832b0a370baf3f7f305ce2c9)
+        ;
+
+        
+    
+    
+            var marker_e9090f99dd53f408bf138d27ea0a1dc9 = L.marker(
+                [37.5525373, 127.0201047],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_d6c87bff15a0f68f46a56d5e31f6b87b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2db36fab90522f361f5ca20b5b363a63 = $(`<div id="html_2db36fab90522f361f5ca20b5b363a63" style="width: 100.0%; height: 100.0%;">서울금호초등학교</div>`)[0];
+                popup_d6c87bff15a0f68f46a56d5e31f6b87b.setContent(html_2db36fab90522f361f5ca20b5b363a63);
+            
+        
+
+        marker_e9090f99dd53f408bf138d27ea0a1dc9.bindPopup(popup_d6c87bff15a0f68f46a56d5e31f6b87b)
+        ;
+
+        
+    
+    
+            var marker_a80d2bf3852bf7cee297ce2a82f02242 = L.marker(
+                [37.5688411, 127.0357138],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_52c21ab5279965bdad566cc92f715ea5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f64cd7e97ffb2ff324887d94613df7bd = $(`<div id="html_f64cd7e97ffb2ff324887d94613df7bd" style="width: 100.0%; height: 100.0%;">서울동명초등학교</div>`)[0];
+                popup_52c21ab5279965bdad566cc92f715ea5.setContent(html_f64cd7e97ffb2ff324887d94613df7bd);
+            
+        
+
+        marker_a80d2bf3852bf7cee297ce2a82f02242.bindPopup(popup_52c21ab5279965bdad566cc92f715ea5)
+        ;
+
+        
+    
+    
+            var marker_7b32421dcefd6e09edc17eef5d8d478f = L.marker(
+                [37.5459681, 127.0125058],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_ec04253318c1016c9cfed091e2bb19bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_368d81624c18c64df3897bea58e8818f = $(`<div id="html_368d81624c18c64df3897bea58e8818f" style="width: 100.0%; height: 100.0%;">서울동호초등학교</div>`)[0];
+                popup_ec04253318c1016c9cfed091e2bb19bb.setContent(html_368d81624c18c64df3897bea58e8818f);
+            
+        
+
+        marker_7b32421dcefd6e09edc17eef5d8d478f.bindPopup(popup_ec04253318c1016c9cfed091e2bb19bb)
+        ;
+
+        
+    
+    
+            var marker_f3597c1551c507e42c1cd1e96713f04d = L.marker(
+                [37.5678414, 127.0425188],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_971528452b5688884943484d5e5e83d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77238693240b21ec47c14e8b75b8aa25 = $(`<div id="html_77238693240b21ec47c14e8b75b8aa25" style="width: 100.0%; height: 100.0%;">서울마장초등학교</div>`)[0];
+                popup_971528452b5688884943484d5e5e83d8.setContent(html_77238693240b21ec47c14e8b75b8aa25);
+            
+        
+
+        marker_f3597c1551c507e42c1cd1e96713f04d.bindPopup(popup_971528452b5688884943484d5e5e83d8)
+        ;
+
+        
+    
+    
+            var marker_8a6da14c0a83994b80d967134bd0e51c = L.marker(
+                [37.5628695, 127.0295202],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_d91d63948ed29103ef080393ba926639 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_736fa764d34411eaf976d01b92fe5c4c = $(`<div id="html_736fa764d34411eaf976d01b92fe5c4c" style="width: 100.0%; height: 100.0%;">서울무학초등학교</div>`)[0];
+                popup_d91d63948ed29103ef080393ba926639.setContent(html_736fa764d34411eaf976d01b92fe5c4c);
+            
+        
+
+        marker_8a6da14c0a83994b80d967134bd0e51c.bindPopup(popup_d91d63948ed29103ef080393ba926639)
+        ;
+
+        
+    
+    
+            var marker_052c07de9c13759544cef012c6f3cfc6 = L.marker(
+                [37.5628932, 127.0478174],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_ee06acb3b2e201a762aeab5ea45d5eb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_877a164f0dc1112686fb01bc32d01fd5 = $(`<div id="html_877a164f0dc1112686fb01bc32d01fd5" style="width: 100.0%; height: 100.0%;">서울사근초등학교</div>`)[0];
+                popup_ee06acb3b2e201a762aeab5ea45d5eb8.setContent(html_877a164f0dc1112686fb01bc32d01fd5);
+            
+        
+
+        marker_052c07de9c13759544cef012c6f3cfc6.bindPopup(popup_ee06acb3b2e201a762aeab5ea45d5eb8)
+        ;
+
+        
+    
+    
+            var marker_ce0e518e8dd3e9aa57b60acb36580ebb = L.marker(
+                [37.544122, 127.063378],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_c58941d4d1f374815b7adb6c7da086e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81598944f55fc67d0c5090db4ef55144 = $(`<div id="html_81598944f55fc67d0c5090db4ef55144" style="width: 100.0%; height: 100.0%;">서울성수초등학교</div>`)[0];
+                popup_c58941d4d1f374815b7adb6c7da086e6.setContent(html_81598944f55fc67d0c5090db4ef55144);
+            
+        
+
+        marker_ce0e518e8dd3e9aa57b60acb36580ebb.bindPopup(popup_c58941d4d1f374815b7adb6c7da086e6)
+        ;
+
+        
+    
+    
+            var marker_9dc408a110ea3448872df7918c8f7561 = L.marker(
+                [37.5542158, 127.0694688],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_be357c0e51ec634fc6a8c5090b7d7a54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b39709cb45027ad7f410fb2774a57c6 = $(`<div id="html_4b39709cb45027ad7f410fb2774a57c6" style="width: 100.0%; height: 100.0%;">서울송원초등학교</div>`)[0];
+                popup_be357c0e51ec634fc6a8c5090b7d7a54.setContent(html_4b39709cb45027ad7f410fb2774a57c6);
+            
+        
+
+        marker_9dc408a110ea3448872df7918c8f7561.bindPopup(popup_be357c0e51ec634fc6a8c5090b7d7a54)
+        ;
+
+        
+    
+    
+            var marker_160ff1bab781590d74ff17560ae3e422 = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_fff0c75577e08b271fac6d62bc56532c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2bf76c04a01e7729201d97ed45c51f8 = $(`<div id="html_d2bf76c04a01e7729201d97ed45c51f8" style="width: 100.0%; height: 100.0%;">서울숭신초등학교</div>`)[0];
+                popup_fff0c75577e08b271fac6d62bc56532c.setContent(html_d2bf76c04a01e7729201d97ed45c51f8);
+            
+        
+
+        marker_160ff1bab781590d74ff17560ae3e422.bindPopup(popup_fff0c75577e08b271fac6d62bc56532c)
+        ;
+
+        
+    
+    
+            var marker_c101df3acf3c8fe61e528f963aedf74d = L.marker(
+                [37.5459839, 127.021758],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_d18aafa8ffbe05138da69a8f392610de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22d0edcc184e3e508f3d11ae6bbad4a6 = $(`<div id="html_22d0edcc184e3e508f3d11ae6bbad4a6" style="width: 100.0%; height: 100.0%;">서울옥수초등학교</div>`)[0];
+                popup_d18aafa8ffbe05138da69a8f392610de.setContent(html_22d0edcc184e3e508f3d11ae6bbad4a6);
+            
+        
+
+        marker_c101df3acf3c8fe61e528f963aedf74d.bindPopup(popup_d18aafa8ffbe05138da69a8f392610de)
+        ;
+
+        
+    
+    
+            var marker_cba3cae3a7a50d5d6d119b310e54ec18 = L.marker(
+                [37.5415941, 127.0156888],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_1da4206ad4928dc8a3f009779bf3476a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a11bba838f7228e060229d31bf70a66 = $(`<div id="html_4a11bba838f7228e060229d31bf70a66" style="width: 100.0%; height: 100.0%;">서울옥정초등학교</div>`)[0];
+                popup_1da4206ad4928dc8a3f009779bf3476a.setContent(html_4a11bba838f7228e060229d31bf70a66);
+            
+        
+
+        marker_cba3cae3a7a50d5d6d119b310e54ec18.bindPopup(popup_1da4206ad4928dc8a3f009779bf3476a)
+        ;
+
+        
+    
+    
+            var marker_6f0c1970a3fa6ad6b70af066decedb0d = L.marker(
+                [37.5607574, 127.0533645],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_85c83279a6c82a0c07138ce1d16abec8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f569365a89c843ae1c30191e4402169f = $(`<div id="html_f569365a89c843ae1c30191e4402169f" style="width: 100.0%; height: 100.0%;">서울용답초등학교</div>`)[0];
+                popup_85c83279a6c82a0c07138ce1d16abec8.setContent(html_f569365a89c843ae1c30191e4402169f);
+            
+        
+
+        marker_6f0c1970a3fa6ad6b70af066decedb0d.bindPopup(popup_85c83279a6c82a0c07138ce1d16abec8)
+        ;
+
+        
+    
+    
+            var marker_bf48c70d6e76ce3b4856978db819ec6d = L.marker(
+                [37.5501489, 127.0337423],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_97873c52e380d07e68a5968630b56779 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35d5bd0667629b879c449f6153198111 = $(`<div id="html_35d5bd0667629b879c449f6153198111" style="width: 100.0%; height: 100.0%;">서울응봉초등학교</div>`)[0];
+                popup_97873c52e380d07e68a5968630b56779.setContent(html_35d5bd0667629b879c449f6153198111);
+            
+        
+
+        marker_bf48c70d6e76ce3b4856978db819ec6d.bindPopup(popup_97873c52e380d07e68a5968630b56779)
+        ;
+
+        
+    
+    
+            var marker_2757cdf24e36280bc5a6ed05d2ccd681 = L.marker(
+                [37.5562315, 127.0346032],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_7b2f98f0958c777cb9075dcb020cab9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e10360597e7764c0a279f45a3eb4821 = $(`<div id="html_5e10360597e7764c0a279f45a3eb4821" style="width: 100.0%; height: 100.0%;">서울행당초등학교</div>`)[0];
+                popup_7b2f98f0958c777cb9075dcb020cab9b.setContent(html_5e10360597e7764c0a279f45a3eb4821);
+            
+        
+
+        marker_2757cdf24e36280bc5a6ed05d2ccd681.bindPopup(popup_7b2f98f0958c777cb9075dcb020cab9b)
+        ;
+
+        
+    
+    
+            var marker_e990a767af697811fd0fbd0016f1ae4a = L.marker(
+                [37.5575664, 127.0293584],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_885f43b1d64a087ac1bf25ad32920b3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbde5d58f66c7e6f4a2cc78abe9aa8d5 = $(`<div id="html_cbde5d58f66c7e6f4a2cc78abe9aa8d5" style="width: 100.0%; height: 100.0%;">서울행현초등학교</div>`)[0];
+                popup_885f43b1d64a087ac1bf25ad32920b3e.setContent(html_cbde5d58f66c7e6f4a2cc78abe9aa8d5);
+            
+        
+
+        marker_e990a767af697811fd0fbd0016f1ae4a.bindPopup(popup_885f43b1d64a087ac1bf25ad32920b3e)
+        ;
+
+        
+    
+    
+            var marker_92d71dbd8e91fad30a14774e48692dc2 = L.marker(
+                [37.5575372, 127.0503794],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_a1629521baf2210c1be5552b9a19842a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d0a3d7482fc5d7377f12164a0c2a5f7 = $(`<div id="html_8d0a3d7482fc5d7377f12164a0c2a5f7" style="width: 100.0%; height: 100.0%;">한양초등학교</div>`)[0];
+                popup_a1629521baf2210c1be5552b9a19842a.setContent(html_8d0a3d7482fc5d7377f12164a0c2a5f7);
+            
+        
+
+        marker_92d71dbd8e91fad30a14774e48692dc2.bindPopup(popup_a1629521baf2210c1be5552b9a19842a)
+        ;
+
+        
+    
+    
+            var marker_5d07ba83bd4051177cbf87685dc6263d = L.marker(
+                [37.5397813, 127.0583587],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_1755d2c53407eb704b9a862516cabc50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c551b10301593c5080c5fa7b78cb57be = $(`<div id="html_c551b10301593c5080c5fa7b78cb57be" style="width: 100.0%; height: 100.0%;">경수중학교</div>`)[0];
+                popup_1755d2c53407eb704b9a862516cabc50.setContent(html_c551b10301593c5080c5fa7b78cb57be);
+            
+        
+
+        marker_5d07ba83bd4051177cbf87685dc6263d.bindPopup(popup_1755d2c53407eb704b9a862516cabc50)
+        ;
+
+        
+    
+    
+            var marker_0a69862fc8a9b763c4d5efc32d835cde = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_b057a9e2a239c734f0be339d7a74b90f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f808f58f3047cb7b60c57b38233c1aee = $(`<div id="html_f808f58f3047cb7b60c57b38233c1aee" style="width: 100.0%; height: 100.0%;">경일중학교</div>`)[0];
+                popup_b057a9e2a239c734f0be339d7a74b90f.setContent(html_f808f58f3047cb7b60c57b38233c1aee);
+            
+        
+
+        marker_0a69862fc8a9b763c4d5efc32d835cde.bindPopup(popup_b057a9e2a239c734f0be339d7a74b90f)
+        ;
+
+        
+    
+    
+            var marker_f1b5ef2548fc4526abfd0c962ee43540 = L.marker(
+                [37.5510767, 127.0338846],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_2aa388b37273512ba95ca042d38bc8b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b8772411bc0e76d6f0f1e451591f70d = $(`<div id="html_7b8772411bc0e76d6f0f1e451591f70d" style="width: 100.0%; height: 100.0%;">광희중학교</div>`)[0];
+                popup_2aa388b37273512ba95ca042d38bc8b7.setContent(html_7b8772411bc0e76d6f0f1e451591f70d);
+            
+        
+
+        marker_f1b5ef2548fc4526abfd0c962ee43540.bindPopup(popup_2aa388b37273512ba95ca042d38bc8b7)
+        ;
+
+        
+    
+    
+            var marker_b25398d3986c585d3f2c07b90cdd0a90 = L.marker(
+                [37.5626557, 127.0403012],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_9f5dab3168820ce71be017f8844816b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b15c091d80138b3567d68ad7b6a4059 = $(`<div id="html_2b15c091d80138b3567d68ad7b6a4059" style="width: 100.0%; height: 100.0%;">동마중학교</div>`)[0];
+                popup_9f5dab3168820ce71be017f8844816b2.setContent(html_2b15c091d80138b3567d68ad7b6a4059);
+            
+        
+
+        marker_b25398d3986c585d3f2c07b90cdd0a90.bindPopup(popup_9f5dab3168820ce71be017f8844816b2)
+        ;
+
+        
+    
+    
+            var marker_337e759973015120cd0ef2b532f6db36 = L.marker(
+                [37.5682297, 127.042205],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_88224f151f56837d97343a357776a4c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c22103c0c7fd6521297d6ed071ff14c1 = $(`<div id="html_c22103c0c7fd6521297d6ed071ff14c1" style="width: 100.0%; height: 100.0%;">마장중학교</div>`)[0];
+                popup_88224f151f56837d97343a357776a4c4.setContent(html_c22103c0c7fd6521297d6ed071ff14c1);
+            
+        
+
+        marker_337e759973015120cd0ef2b532f6db36.bindPopup(popup_88224f151f56837d97343a357776a4c4)
+        ;
+
+        
+    
+    
+            var marker_52da72078e6e6a9d1920ccd47c33ac34 = L.marker(
+                [37.5571395, 127.0333298],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_616cf8cee3b5e8a5c9db93a3e095c085 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e15afee34830d8f51442e491dbec0f22 = $(`<div id="html_e15afee34830d8f51442e491dbec0f22" style="width: 100.0%; height: 100.0%;">무학중학교</div>`)[0];
+                popup_616cf8cee3b5e8a5c9db93a3e095c085.setContent(html_e15afee34830d8f51442e491dbec0f22);
+            
+        
+
+        marker_52da72078e6e6a9d1920ccd47c33ac34.bindPopup(popup_616cf8cee3b5e8a5c9db93a3e095c085)
+        ;
+
+        
+    
+    
+            var marker_c713410d5bc55d63239a104270c2e7bd = L.marker(
+                [37.5471818, 127.0388176],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_86f51f61a76da422ab6706841435bf46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cdafe27f3046f02b119cdde69002f54 = $(`<div id="html_0cdafe27f3046f02b119cdde69002f54" style="width: 100.0%; height: 100.0%;">성수중학교</div>`)[0];
+                popup_86f51f61a76da422ab6706841435bf46.setContent(html_0cdafe27f3046f02b119cdde69002f54);
+            
+        
+
+        marker_c713410d5bc55d63239a104270c2e7bd.bindPopup(popup_86f51f61a76da422ab6706841435bf46)
+        ;
+
+        
+    
+    
+            var marker_b05e80c4608fa62cf6d6e46a39869584 = L.marker(
+                [37.5391784, 127.0519631],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_9f88329fecb2bcfb3434e7e204e63ab6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b064b643ed7c95f88cdd0faf25d051a8 = $(`<div id="html_b064b643ed7c95f88cdd0faf25d051a8" style="width: 100.0%; height: 100.0%;">성원중학교</div>`)[0];
+                popup_9f88329fecb2bcfb3434e7e204e63ab6.setContent(html_b064b643ed7c95f88cdd0faf25d051a8);
+            
+        
+
+        marker_b05e80c4608fa62cf6d6e46a39869584.bindPopup(popup_9f88329fecb2bcfb3434e7e204e63ab6)
+        ;
+
+        
+    
+    
+            var marker_1dc7d114627d2a3d1e5265e042176509 = L.marker(
+                [37.5414774, 127.0125119],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_d600180b08d39d888cb7677fe871fa15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c1d36256a541514acd5322d713ba133 = $(`<div id="html_8c1d36256a541514acd5322d713ba133" style="width: 100.0%; height: 100.0%;">옥정중학교</div>`)[0];
+                popup_d600180b08d39d888cb7677fe871fa15.setContent(html_8c1d36256a541514acd5322d713ba133);
+            
+        
+
+        marker_1dc7d114627d2a3d1e5265e042176509.bindPopup(popup_d600180b08d39d888cb7677fe871fa15)
+        ;
+
+        
+    
+    
+            var marker_55c2fb5cc4b62d195254884c1224c562 = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_3496299a2bf9a4f7686733d48f4b8fe2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b8bdd6269cafb22b02f116b6f6d6ccf = $(`<div id="html_2b8bdd6269cafb22b02f116b6f6d6ccf" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속중학교</div>`)[0];
+                popup_3496299a2bf9a4f7686733d48f4b8fe2.setContent(html_2b8bdd6269cafb22b02f116b6f6d6ccf);
+            
+        
+
+        marker_55c2fb5cc4b62d195254884c1224c562.bindPopup(popup_3496299a2bf9a4f7686733d48f4b8fe2)
+        ;
+
+        
+    
+    
+            var marker_67d2bfb335dc29009e51df289a9e1a51 = L.marker(
+                [37.5544241, 127.041886],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_1f7230ba5d786b7524108785437931f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48be4a880bfaa13d9f6c61d923008b81 = $(`<div id="html_48be4a880bfaa13d9f6c61d923008b81" style="width: 100.0%; height: 100.0%;">행당중학교</div>`)[0];
+                popup_1f7230ba5d786b7524108785437931f8.setContent(html_48be4a880bfaa13d9f6c61d923008b81);
+            
+        
+
+        marker_67d2bfb335dc29009e51df289a9e1a51.bindPopup(popup_1f7230ba5d786b7524108785437931f8)
+        ;
+
+        
+    
+    
+            var marker_5eec01b1af2178a715184538f1d545f4 = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_483b573f84c97d4a2380b7511c13b87d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_053a681817358f04587232df29de75c9 = $(`<div id="html_053a681817358f04587232df29de75c9" style="width: 100.0%; height: 100.0%;">경일고등학교</div>`)[0];
+                popup_483b573f84c97d4a2380b7511c13b87d.setContent(html_053a681817358f04587232df29de75c9);
+            
+        
+
+        marker_5eec01b1af2178a715184538f1d545f4.bindPopup(popup_483b573f84c97d4a2380b7511c13b87d)
+        ;
+
+        
+    
+    
+            var marker_47e176c71038cd5813c16899b003b063 = L.marker(
+                [37.5530599, 127.0236268],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_e59dbe94386268b9e0cdf5c119b65aae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc42a82186f877d2fda89ecb2cdfc503 = $(`<div id="html_dc42a82186f877d2fda89ecb2cdfc503" style="width: 100.0%; height: 100.0%;">금호고등학교</div>`)[0];
+                popup_e59dbe94386268b9e0cdf5c119b65aae.setContent(html_dc42a82186f877d2fda89ecb2cdfc503);
+            
+        
+
+        marker_47e176c71038cd5813c16899b003b063.bindPopup(popup_e59dbe94386268b9e0cdf5c119b65aae)
+        ;
+
+        
+    
+    
+            var marker_96d0f844f538b4d8a687d88c01cd1aea = L.marker(
+                [37.5605652, 127.0363099],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_f2e53e47096a731e9eb7369bda704dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0612c99499f8f975acf97d4ce6828714 = $(`<div id="html_0612c99499f8f975acf97d4ce6828714" style="width: 100.0%; height: 100.0%;">덕수고등학교</div>`)[0];
+                popup_f2e53e47096a731e9eb7369bda704dc3.setContent(html_0612c99499f8f975acf97d4ce6828714);
+            
+        
+
+        marker_96d0f844f538b4d8a687d88c01cd1aea.bindPopup(popup_f2e53e47096a731e9eb7369bda704dc3)
+        ;
+
+        
+    
+    
+            var marker_17f619cb1a91af41f9fc42bffc4321f7 = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_1db926ffe22a2a7ad6cc73d8e8b81bd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c9a6f9092f59a4f1f08a614cb75e43e = $(`<div id="html_8c9a6f9092f59a4f1f08a614cb75e43e" style="width: 100.0%; height: 100.0%;">도선고등학교</div>`)[0];
+                popup_1db926ffe22a2a7ad6cc73d8e8b81bd1.setContent(html_8c9a6f9092f59a4f1f08a614cb75e43e);
+            
+        
+
+        marker_17f619cb1a91af41f9fc42bffc4321f7.bindPopup(popup_1db926ffe22a2a7ad6cc73d8e8b81bd1)
+        ;
+
+        
+    
+    
+            var marker_d486bc1e9f707be76fb8fea45b31458b = L.marker(
+                [37.557398, 127.03352],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_038555e34ce4d4a31df5d0ed61645892 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73e608f2cc42ed3f43f8605b32858e04 = $(`<div id="html_73e608f2cc42ed3f43f8605b32858e04" style="width: 100.0%; height: 100.0%;">무학여자고등학교</div>`)[0];
+                popup_038555e34ce4d4a31df5d0ed61645892.setContent(html_73e608f2cc42ed3f43f8605b32858e04);
+            
+        
+
+        marker_d486bc1e9f707be76fb8fea45b31458b.bindPopup(popup_038555e34ce4d4a31df5d0ed61645892)
+        ;
+
+        
+    
+    
+            var marker_c11ced26221d8cb131beb58735c10200 = L.marker(
+                [37.547354, 127.0105807],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_b06ba9eb206190233e2f52c224716964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fa621809e95067883e66753cdacd360 = $(`<div id="html_4fa621809e95067883e66753cdacd360" style="width: 100.0%; height: 100.0%;">서울방송고등학교</div>`)[0];
+                popup_b06ba9eb206190233e2f52c224716964.setContent(html_4fa621809e95067883e66753cdacd360);
+            
+        
+
+        marker_c11ced26221d8cb131beb58735c10200.bindPopup(popup_b06ba9eb206190233e2f52c224716964)
+        ;
+
+        
+    
+    
+            var marker_464958985289b951ec42cb0c9e1fbb82 = L.marker(
+                [37.5473571, 127.0381343],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_9bd3f366d8c26efb9470b8f0caf65f76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a9c5089fc0fd6b200605bb128cb4bff = $(`<div id="html_7a9c5089fc0fd6b200605bb128cb4bff" style="width: 100.0%; height: 100.0%;">성수고등학교</div>`)[0];
+                popup_9bd3f366d8c26efb9470b8f0caf65f76.setContent(html_7a9c5089fc0fd6b200605bb128cb4bff);
+            
+        
+
+        marker_464958985289b951ec42cb0c9e1fbb82.bindPopup(popup_9bd3f366d8c26efb9470b8f0caf65f76)
+        ;
+
+        
+    
+    
+            var marker_8a29d652570bc70e5aa7aa5a86817ba4 = L.marker(
+                [37.540543, 127.0514262],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_5430e42660cebb859786267153b95c99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_150e5bfef1a4c69aabf0dd763b03e6b1 = $(`<div id="html_150e5bfef1a4c69aabf0dd763b03e6b1" style="width: 100.0%; height: 100.0%;">성수공업고등학교</div>`)[0];
+                popup_5430e42660cebb859786267153b95c99.setContent(html_150e5bfef1a4c69aabf0dd763b03e6b1);
+            
+        
+
+        marker_8a29d652570bc70e5aa7aa5a86817ba4.bindPopup(popup_5430e42660cebb859786267153b95c99)
+        ;
+
+        
+    
+    
+            var marker_390c7d98fd4a1a47d0a84110e8aae8ba = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_6606f09f0cc55d9e141902cf5a2289a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a50dc811b1c419e82f712d5ba25f2c3 = $(`<div id="html_7a50dc811b1c419e82f712d5ba25f2c3" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속고등학교</div>`)[0];
+                popup_6606f09f0cc55d9e141902cf5a2289a6.setContent(html_7a50dc811b1c419e82f712d5ba25f2c3);
+            
+        
+
+        marker_390c7d98fd4a1a47d0a84110e8aae8ba.bindPopup(popup_6606f09f0cc55d9e141902cf5a2289a6)
+        ;
+
+        
+    
+    
+            var marker_5ea89382301d3d772697195937fd2b66 = L.marker(
+                [37.558667, 127.0498875],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_830012065d6bc9124891562c57a08ce0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9cb35d011ace763b1612eedbe37684e = $(`<div id="html_e9cb35d011ace763b1612eedbe37684e" style="width: 100.0%; height: 100.0%;">한양여자대학교</div>`)[0];
+                popup_830012065d6bc9124891562c57a08ce0.setContent(html_e9cb35d011ace763b1612eedbe37684e);
+            
+        
+
+        marker_5ea89382301d3d772697195937fd2b66.bindPopup(popup_830012065d6bc9124891562c57a08ce0)
+        ;
+
+        
+    
+    
+            var marker_02f15882978e661efafba4e23135c370 = L.marker(
+                [37.557176, 127.04540966],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_4ceaa2b406ab6eed86c9839ad17098b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eeba546c1cfb17dd1342c3145a740dfe = $(`<div id="html_eeba546c1cfb17dd1342c3145a740dfe" style="width: 100.0%; height: 100.0%;">한양대학교</div>`)[0];
+                popup_4ceaa2b406ab6eed86c9839ad17098b0.setContent(html_eeba546c1cfb17dd1342c3145a740dfe);
+            
+        
+
+        marker_02f15882978e661efafba4e23135c370.bindPopup(popup_4ceaa2b406ab6eed86c9839ad17098b0)
+        ;
+
+        
+    
+    
+            var marker_1503efe33e57564f5facbc5916c96bda = L.marker(
+                [37.557153, 127.0476],
+                {}
+            ).addTo(marker_cluster_2ff489091e5e501ac62a8e7d943e7201);
+        
+    
+        var popup_0cd8a0b1be6ce7d8d21d582f205e63d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_924248a97e4a213b4644000399080800 = $(`<div id="html_924248a97e4a213b4644000399080800" style="width: 100.0%; height: 100.0%;">한양사이버대학교</div>`)[0];
+                popup_0cd8a0b1be6ce7d8d21d582f205e63d9.setContent(html_924248a97e4a213b4644000399080800);
+            
+        
+
+        marker_1503efe33e57564f5facbc5916c96bda.bindPopup(popup_0cd8a0b1be6ce7d8d21d582f205e63d9)
+        ;
+
+        
+    
+    
+            var marker_cluster_746391617f7d7fadbb440cd6c90b488e = L.markerClusterGroup(
+                {}
+            );
+            map_c2c9a7b07423a40c14918114ca4086c2.addLayer(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+            var marker_555c34d020f35f0b837d4f28c309397d = L.marker(
+                [37.5429557, 127.0504631],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_2217e2e9d74a6e72e7fd7e0f0c97e111 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ead489430f3f9d57d9cd2e7e6b74b27 = $(`<div id="html_4ead489430f3f9d57d9cd2e7e6b74b27" style="width: 100.0%; height: 100.0%;">서울경동초등학교</div>`)[0];
+                popup_2217e2e9d74a6e72e7fd7e0f0c97e111.setContent(html_4ead489430f3f9d57d9cd2e7e6b74b27);
+            
+        
+
+        marker_555c34d020f35f0b837d4f28c309397d.bindPopup(popup_2217e2e9d74a6e72e7fd7e0f0c97e111)
+        ;
+
+        
+    
+    
+            var marker_b5420c869fb6254655048ad9618c632c = L.marker(
+                [37.540067, 127.058268],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_e721a0547e13cd49c14386d9d1f270ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66e4a5a876f92b9c702a9e0e7cc25798 = $(`<div id="html_66e4a5a876f92b9c702a9e0e7cc25798" style="width: 100.0%; height: 100.0%;">서울경수초등학교</div>`)[0];
+                popup_e721a0547e13cd49c14386d9d1f270ce.setContent(html_66e4a5a876f92b9c702a9e0e7cc25798);
+            
+        
+
+        marker_b5420c869fb6254655048ad9618c632c.bindPopup(popup_e721a0547e13cd49c14386d9d1f270ce)
+        ;
+
+        
+    
+    
+            var marker_78c5a0de38dcde45fe8bb216ca71350e = L.marker(
+                [37.5403883, 127.0468669],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_8809f6911117d265ab56f2b05aed82d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf2764b8d417ae6f4d2d6357fd346e73 = $(`<div id="html_bf2764b8d417ae6f4d2d6357fd346e73" style="width: 100.0%; height: 100.0%;">서울경일초등학교</div>`)[0];
+                popup_8809f6911117d265ab56f2b05aed82d8.setContent(html_bf2764b8d417ae6f4d2d6357fd346e73);
+            
+        
+
+        marker_78c5a0de38dcde45fe8bb216ca71350e.bindPopup(popup_8809f6911117d265ab56f2b05aed82d8)
+        ;
+
+        
+    
+    
+            var marker_ab2d4a9c7a7ede59463c63b8a64fd652 = L.marker(
+                [37.5574688, 127.0234901],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_13a39a52416da26f195c9f8502e41b8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5465fdba4863e50fd542c5efcb4ffa57 = $(`<div id="html_5465fdba4863e50fd542c5efcb4ffa57" style="width: 100.0%; height: 100.0%;">서울금북초등학교</div>`)[0];
+                popup_13a39a52416da26f195c9f8502e41b8e.setContent(html_5465fdba4863e50fd542c5efcb4ffa57);
+            
+        
+
+        marker_ab2d4a9c7a7ede59463c63b8a64fd652.bindPopup(popup_13a39a52416da26f195c9f8502e41b8e)
+        ;
+
+        
+    
+    
+            var marker_55051558751ed4be1f717ff7155774af = L.marker(
+                [37.5463323, 127.0174743],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_b65f8824a7d0a9ff671ec6d64152073a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9adb0f80bd82523b58e54551188de3f = $(`<div id="html_e9adb0f80bd82523b58e54551188de3f" style="width: 100.0%; height: 100.0%;">서울금옥초등학교</div>`)[0];
+                popup_b65f8824a7d0a9ff671ec6d64152073a.setContent(html_e9adb0f80bd82523b58e54551188de3f);
+            
+        
+
+        marker_55051558751ed4be1f717ff7155774af.bindPopup(popup_b65f8824a7d0a9ff671ec6d64152073a)
+        ;
+
+        
+    
+    
+            var marker_ddf6e0d0f137ba37b713899ee561eefc = L.marker(
+                [37.5525373, 127.0201047],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_9732a541ec4fd12b05d025c934e3a1d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61204f593fadb38789281854f022ec30 = $(`<div id="html_61204f593fadb38789281854f022ec30" style="width: 100.0%; height: 100.0%;">서울금호초등학교</div>`)[0];
+                popup_9732a541ec4fd12b05d025c934e3a1d5.setContent(html_61204f593fadb38789281854f022ec30);
+            
+        
+
+        marker_ddf6e0d0f137ba37b713899ee561eefc.bindPopup(popup_9732a541ec4fd12b05d025c934e3a1d5)
+        ;
+
+        
+    
+    
+            var marker_ca9f33cf3533bf8f6eff61c1b32c81af = L.marker(
+                [37.5688411, 127.0357138],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_bf7d75fdb8f8e4f7935848f6251240b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a4835ffb6e65669411d8af04e8eef45 = $(`<div id="html_7a4835ffb6e65669411d8af04e8eef45" style="width: 100.0%; height: 100.0%;">서울동명초등학교</div>`)[0];
+                popup_bf7d75fdb8f8e4f7935848f6251240b2.setContent(html_7a4835ffb6e65669411d8af04e8eef45);
+            
+        
+
+        marker_ca9f33cf3533bf8f6eff61c1b32c81af.bindPopup(popup_bf7d75fdb8f8e4f7935848f6251240b2)
+        ;
+
+        
+    
+    
+            var marker_075deb932eac9708387a9a192e9ec557 = L.marker(
+                [37.5459681, 127.0125058],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_56a31b8fbd32768024766b95b3eabe5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29ca4da8f37f0471ae63a25a1f821556 = $(`<div id="html_29ca4da8f37f0471ae63a25a1f821556" style="width: 100.0%; height: 100.0%;">서울동호초등학교</div>`)[0];
+                popup_56a31b8fbd32768024766b95b3eabe5c.setContent(html_29ca4da8f37f0471ae63a25a1f821556);
+            
+        
+
+        marker_075deb932eac9708387a9a192e9ec557.bindPopup(popup_56a31b8fbd32768024766b95b3eabe5c)
+        ;
+
+        
+    
+    
+            var marker_3c8564346631e6d55f3e0c77aff5a21d = L.marker(
+                [37.5678414, 127.0425188],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_fec33e9f8b48d62e1a749c070447b0a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e4e847f86579a476e3efcf72e96bae1 = $(`<div id="html_0e4e847f86579a476e3efcf72e96bae1" style="width: 100.0%; height: 100.0%;">서울마장초등학교</div>`)[0];
+                popup_fec33e9f8b48d62e1a749c070447b0a1.setContent(html_0e4e847f86579a476e3efcf72e96bae1);
+            
+        
+
+        marker_3c8564346631e6d55f3e0c77aff5a21d.bindPopup(popup_fec33e9f8b48d62e1a749c070447b0a1)
+        ;
+
+        
+    
+    
+            var marker_46f4ead723622b7bb501980ce0dd0931 = L.marker(
+                [37.5628695, 127.0295202],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_e600f208844b5845c3a717247289a9f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8437f357aef5261408f9bd1604796b6d = $(`<div id="html_8437f357aef5261408f9bd1604796b6d" style="width: 100.0%; height: 100.0%;">서울무학초등학교</div>`)[0];
+                popup_e600f208844b5845c3a717247289a9f5.setContent(html_8437f357aef5261408f9bd1604796b6d);
+            
+        
+
+        marker_46f4ead723622b7bb501980ce0dd0931.bindPopup(popup_e600f208844b5845c3a717247289a9f5)
+        ;
+
+        
+    
+    
+            var marker_c15c90b70c034d3067f6201d9a62b3d4 = L.marker(
+                [37.5628932, 127.0478174],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_c517fa738703f210b6df7e81f6f67c5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90b3f95a6530625bcbf8321301b47df9 = $(`<div id="html_90b3f95a6530625bcbf8321301b47df9" style="width: 100.0%; height: 100.0%;">서울사근초등학교</div>`)[0];
+                popup_c517fa738703f210b6df7e81f6f67c5b.setContent(html_90b3f95a6530625bcbf8321301b47df9);
+            
+        
+
+        marker_c15c90b70c034d3067f6201d9a62b3d4.bindPopup(popup_c517fa738703f210b6df7e81f6f67c5b)
+        ;
+
+        
+    
+    
+            var marker_a4f4008612b51094791fcfd4a4824a15 = L.marker(
+                [37.544122, 127.063378],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_3d77bac6703466c962a9d3cbafbbdbd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ed436925c4913541a8af70c7ce7427d = $(`<div id="html_4ed436925c4913541a8af70c7ce7427d" style="width: 100.0%; height: 100.0%;">서울성수초등학교</div>`)[0];
+                popup_3d77bac6703466c962a9d3cbafbbdbd7.setContent(html_4ed436925c4913541a8af70c7ce7427d);
+            
+        
+
+        marker_a4f4008612b51094791fcfd4a4824a15.bindPopup(popup_3d77bac6703466c962a9d3cbafbbdbd7)
+        ;
+
+        
+    
+    
+            var marker_d346ba969ed5bb0df3b7f3d82595ef43 = L.marker(
+                [37.5542158, 127.0694688],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_7ee31da93d6ff77b48784a548834dcbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dae744c893bcf4f0092a95cea75aa66f = $(`<div id="html_dae744c893bcf4f0092a95cea75aa66f" style="width: 100.0%; height: 100.0%;">서울송원초등학교</div>`)[0];
+                popup_7ee31da93d6ff77b48784a548834dcbb.setContent(html_dae744c893bcf4f0092a95cea75aa66f);
+            
+        
+
+        marker_d346ba969ed5bb0df3b7f3d82595ef43.bindPopup(popup_7ee31da93d6ff77b48784a548834dcbb)
+        ;
+
+        
+    
+    
+            var marker_602f1799b587d081e022f6918d99d501 = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_62094e718dfec896b39b842cf2e7a938 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c999ab9def37d04e705437847b2a5e8b = $(`<div id="html_c999ab9def37d04e705437847b2a5e8b" style="width: 100.0%; height: 100.0%;">서울숭신초등학교</div>`)[0];
+                popup_62094e718dfec896b39b842cf2e7a938.setContent(html_c999ab9def37d04e705437847b2a5e8b);
+            
+        
+
+        marker_602f1799b587d081e022f6918d99d501.bindPopup(popup_62094e718dfec896b39b842cf2e7a938)
+        ;
+
+        
+    
+    
+            var marker_99651b25ec74bc60b0f17cb4cbb6d913 = L.marker(
+                [37.5459839, 127.021758],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_7c18beabac4735ca59a88fe50cc63d00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_929034145f2382b6f92564c2e2a29c4e = $(`<div id="html_929034145f2382b6f92564c2e2a29c4e" style="width: 100.0%; height: 100.0%;">서울옥수초등학교</div>`)[0];
+                popup_7c18beabac4735ca59a88fe50cc63d00.setContent(html_929034145f2382b6f92564c2e2a29c4e);
+            
+        
+
+        marker_99651b25ec74bc60b0f17cb4cbb6d913.bindPopup(popup_7c18beabac4735ca59a88fe50cc63d00)
+        ;
+
+        
+    
+    
+            var marker_0138866b7628c52660b8e34008158918 = L.marker(
+                [37.5415941, 127.0156888],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_1b7145d61e08ad6e4ba4ae72e6828855 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9df7f70824a9a98be2de469489c6fcae = $(`<div id="html_9df7f70824a9a98be2de469489c6fcae" style="width: 100.0%; height: 100.0%;">서울옥정초등학교</div>`)[0];
+                popup_1b7145d61e08ad6e4ba4ae72e6828855.setContent(html_9df7f70824a9a98be2de469489c6fcae);
+            
+        
+
+        marker_0138866b7628c52660b8e34008158918.bindPopup(popup_1b7145d61e08ad6e4ba4ae72e6828855)
+        ;
+
+        
+    
+    
+            var marker_5a3e9ed8ad60b17a5a1e5f85fb0043a4 = L.marker(
+                [37.5607574, 127.0533645],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_88fcc7ab1b6862b8f0c7eea12ca5b7c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f05e8609a031fa92fb180f9cc21d6537 = $(`<div id="html_f05e8609a031fa92fb180f9cc21d6537" style="width: 100.0%; height: 100.0%;">서울용답초등학교</div>`)[0];
+                popup_88fcc7ab1b6862b8f0c7eea12ca5b7c2.setContent(html_f05e8609a031fa92fb180f9cc21d6537);
+            
+        
+
+        marker_5a3e9ed8ad60b17a5a1e5f85fb0043a4.bindPopup(popup_88fcc7ab1b6862b8f0c7eea12ca5b7c2)
+        ;
+
+        
+    
+    
+            var marker_17d400d3c0b2ba633b5c8a125bd2e8bc = L.marker(
+                [37.5501489, 127.0337423],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_d87263ab6dd3fce95264559d1c46a9cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f441739ca608c95280214926beebec80 = $(`<div id="html_f441739ca608c95280214926beebec80" style="width: 100.0%; height: 100.0%;">서울응봉초등학교</div>`)[0];
+                popup_d87263ab6dd3fce95264559d1c46a9cf.setContent(html_f441739ca608c95280214926beebec80);
+            
+        
+
+        marker_17d400d3c0b2ba633b5c8a125bd2e8bc.bindPopup(popup_d87263ab6dd3fce95264559d1c46a9cf)
+        ;
+
+        
+    
+    
+            var marker_8f53b6603855af94b8959a7e9e9329f8 = L.marker(
+                [37.5562315, 127.0346032],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_199af511256537da8b79c1a695b55208 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15321c3d9b4b304923bfe9ca24bd08de = $(`<div id="html_15321c3d9b4b304923bfe9ca24bd08de" style="width: 100.0%; height: 100.0%;">서울행당초등학교</div>`)[0];
+                popup_199af511256537da8b79c1a695b55208.setContent(html_15321c3d9b4b304923bfe9ca24bd08de);
+            
+        
+
+        marker_8f53b6603855af94b8959a7e9e9329f8.bindPopup(popup_199af511256537da8b79c1a695b55208)
+        ;
+
+        
+    
+    
+            var marker_b173e0a09a496857898ad7eadac3ca48 = L.marker(
+                [37.5575664, 127.0293584],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_8010de98723bb4dd4104b7ef33158e91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_530a0554792f41348b867c118659144c = $(`<div id="html_530a0554792f41348b867c118659144c" style="width: 100.0%; height: 100.0%;">서울행현초등학교</div>`)[0];
+                popup_8010de98723bb4dd4104b7ef33158e91.setContent(html_530a0554792f41348b867c118659144c);
+            
+        
+
+        marker_b173e0a09a496857898ad7eadac3ca48.bindPopup(popup_8010de98723bb4dd4104b7ef33158e91)
+        ;
+
+        
+    
+    
+            var marker_d25cea06aefd3e73f43636f7d5350a6b = L.marker(
+                [37.5575372, 127.0503794],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_c7166b7acb681b2c0c644365a0f286b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9ca448b7f0b3837c091fb17803b95d1 = $(`<div id="html_e9ca448b7f0b3837c091fb17803b95d1" style="width: 100.0%; height: 100.0%;">한양초등학교</div>`)[0];
+                popup_c7166b7acb681b2c0c644365a0f286b2.setContent(html_e9ca448b7f0b3837c091fb17803b95d1);
+            
+        
+
+        marker_d25cea06aefd3e73f43636f7d5350a6b.bindPopup(popup_c7166b7acb681b2c0c644365a0f286b2)
+        ;
+
+        
+    
+    
+            var marker_be041a4a9d39d101000c66b465e287fd = L.marker(
+                [37.5397813, 127.0583587],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_fa6b24494ce58024620d180f2ebb4a27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dbaaf47ab2b28d534c95fdb5aa85ad3 = $(`<div id="html_7dbaaf47ab2b28d534c95fdb5aa85ad3" style="width: 100.0%; height: 100.0%;">경수중학교</div>`)[0];
+                popup_fa6b24494ce58024620d180f2ebb4a27.setContent(html_7dbaaf47ab2b28d534c95fdb5aa85ad3);
+            
+        
+
+        marker_be041a4a9d39d101000c66b465e287fd.bindPopup(popup_fa6b24494ce58024620d180f2ebb4a27)
+        ;
+
+        
+    
+    
+            var marker_0198af7af6ec3c21ac02c45fbd390de5 = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_0cad8af57d3dd7c541a4ddcff6717565 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb5911f006c6237f47293d00838204d7 = $(`<div id="html_cb5911f006c6237f47293d00838204d7" style="width: 100.0%; height: 100.0%;">경일중학교</div>`)[0];
+                popup_0cad8af57d3dd7c541a4ddcff6717565.setContent(html_cb5911f006c6237f47293d00838204d7);
+            
+        
+
+        marker_0198af7af6ec3c21ac02c45fbd390de5.bindPopup(popup_0cad8af57d3dd7c541a4ddcff6717565)
+        ;
+
+        
+    
+    
+            var marker_c081d5b44f6bb884a68563ef91134185 = L.marker(
+                [37.5510767, 127.0338846],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_904f53517ab5a97ec6e853a83252aced = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_179642c8d3f253b5b64950d33b29019d = $(`<div id="html_179642c8d3f253b5b64950d33b29019d" style="width: 100.0%; height: 100.0%;">광희중학교</div>`)[0];
+                popup_904f53517ab5a97ec6e853a83252aced.setContent(html_179642c8d3f253b5b64950d33b29019d);
+            
+        
+
+        marker_c081d5b44f6bb884a68563ef91134185.bindPopup(popup_904f53517ab5a97ec6e853a83252aced)
+        ;
+
+        
+    
+    
+            var marker_e798400bd331fe6e9e2593fd3918daa8 = L.marker(
+                [37.5626557, 127.0403012],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_5e0149150a35a25455fe59591d2d4da0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a385ea19cd2d2c3f55e6de9286708dae = $(`<div id="html_a385ea19cd2d2c3f55e6de9286708dae" style="width: 100.0%; height: 100.0%;">동마중학교</div>`)[0];
+                popup_5e0149150a35a25455fe59591d2d4da0.setContent(html_a385ea19cd2d2c3f55e6de9286708dae);
+            
+        
+
+        marker_e798400bd331fe6e9e2593fd3918daa8.bindPopup(popup_5e0149150a35a25455fe59591d2d4da0)
+        ;
+
+        
+    
+    
+            var marker_0569380ab55e8f45ddd08360ed6f0468 = L.marker(
+                [37.5682297, 127.042205],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_23c691f1477c5fa32e0ce878d2f22cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_152bc499f4380667950dfd23c70748fc = $(`<div id="html_152bc499f4380667950dfd23c70748fc" style="width: 100.0%; height: 100.0%;">마장중학교</div>`)[0];
+                popup_23c691f1477c5fa32e0ce878d2f22cc2.setContent(html_152bc499f4380667950dfd23c70748fc);
+            
+        
+
+        marker_0569380ab55e8f45ddd08360ed6f0468.bindPopup(popup_23c691f1477c5fa32e0ce878d2f22cc2)
+        ;
+
+        
+    
+    
+            var marker_090e909c3c397e131729b24e2bda1abf = L.marker(
+                [37.5571395, 127.0333298],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_7f8c13bba61d832e9d8c1fe174ff02d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_613ecb5c1c33a3ab3199aaa5fd103ba9 = $(`<div id="html_613ecb5c1c33a3ab3199aaa5fd103ba9" style="width: 100.0%; height: 100.0%;">무학중학교</div>`)[0];
+                popup_7f8c13bba61d832e9d8c1fe174ff02d5.setContent(html_613ecb5c1c33a3ab3199aaa5fd103ba9);
+            
+        
+
+        marker_090e909c3c397e131729b24e2bda1abf.bindPopup(popup_7f8c13bba61d832e9d8c1fe174ff02d5)
+        ;
+
+        
+    
+    
+            var marker_cc4619e0184174289a05759b43e8b1e7 = L.marker(
+                [37.5471818, 127.0388176],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_13bdf9c25f7274fad6df7b1c42bca96a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a21b7357e6cdbb2852643c0778cbee5 = $(`<div id="html_9a21b7357e6cdbb2852643c0778cbee5" style="width: 100.0%; height: 100.0%;">성수중학교</div>`)[0];
+                popup_13bdf9c25f7274fad6df7b1c42bca96a.setContent(html_9a21b7357e6cdbb2852643c0778cbee5);
+            
+        
+
+        marker_cc4619e0184174289a05759b43e8b1e7.bindPopup(popup_13bdf9c25f7274fad6df7b1c42bca96a)
+        ;
+
+        
+    
+    
+            var marker_1f5a1c366e0df752191bcd5d405e76af = L.marker(
+                [37.5391784, 127.0519631],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_dc511b9536d1a2913538e9c9812cb56b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22edc76358dc9613edca14038d43bc64 = $(`<div id="html_22edc76358dc9613edca14038d43bc64" style="width: 100.0%; height: 100.0%;">성원중학교</div>`)[0];
+                popup_dc511b9536d1a2913538e9c9812cb56b.setContent(html_22edc76358dc9613edca14038d43bc64);
+            
+        
+
+        marker_1f5a1c366e0df752191bcd5d405e76af.bindPopup(popup_dc511b9536d1a2913538e9c9812cb56b)
+        ;
+
+        
+    
+    
+            var marker_9e10d72c95f47f46df95544ef32a07c1 = L.marker(
+                [37.5414774, 127.0125119],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_91f3317fd80d40f49482fe7aaebfd964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e94fd98900cf65237638899b9b4f8fe = $(`<div id="html_4e94fd98900cf65237638899b9b4f8fe" style="width: 100.0%; height: 100.0%;">옥정중학교</div>`)[0];
+                popup_91f3317fd80d40f49482fe7aaebfd964.setContent(html_4e94fd98900cf65237638899b9b4f8fe);
+            
+        
+
+        marker_9e10d72c95f47f46df95544ef32a07c1.bindPopup(popup_91f3317fd80d40f49482fe7aaebfd964)
+        ;
+
+        
+    
+    
+            var marker_f183962c084cac6ee55e475c8e6ad2bc = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_985a380dce0ef503082fb5fd50e5527d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08dc6025fc739ff9a0bcf56c4d27957f = $(`<div id="html_08dc6025fc739ff9a0bcf56c4d27957f" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속중학교</div>`)[0];
+                popup_985a380dce0ef503082fb5fd50e5527d.setContent(html_08dc6025fc739ff9a0bcf56c4d27957f);
+            
+        
+
+        marker_f183962c084cac6ee55e475c8e6ad2bc.bindPopup(popup_985a380dce0ef503082fb5fd50e5527d)
+        ;
+
+        
+    
+    
+            var marker_4791f84e38bfb1311889072187f4c648 = L.marker(
+                [37.5544241, 127.041886],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_8a613ab292d9c74cee675f6e1f99be6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ff65f1b4a054dd46f895a2d44fbf928 = $(`<div id="html_8ff65f1b4a054dd46f895a2d44fbf928" style="width: 100.0%; height: 100.0%;">행당중학교</div>`)[0];
+                popup_8a613ab292d9c74cee675f6e1f99be6e.setContent(html_8ff65f1b4a054dd46f895a2d44fbf928);
+            
+        
+
+        marker_4791f84e38bfb1311889072187f4c648.bindPopup(popup_8a613ab292d9c74cee675f6e1f99be6e)
+        ;
+
+        
+    
+    
+            var marker_5fe9ee82025d7bd9916f55621e04a0de = L.marker(
+                [37.5435875, 127.0480483],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_3ec2edde90956e5cfa1bb4d45db5707a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15dbee72fb8cfb50f0ff3c9b07b9571b = $(`<div id="html_15dbee72fb8cfb50f0ff3c9b07b9571b" style="width: 100.0%; height: 100.0%;">경일고등학교</div>`)[0];
+                popup_3ec2edde90956e5cfa1bb4d45db5707a.setContent(html_15dbee72fb8cfb50f0ff3c9b07b9571b);
+            
+        
+
+        marker_5fe9ee82025d7bd9916f55621e04a0de.bindPopup(popup_3ec2edde90956e5cfa1bb4d45db5707a)
+        ;
+
+        
+    
+    
+            var marker_87a47dd0b2bddba463035930b9a2ede2 = L.marker(
+                [37.5530599, 127.0236268],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_08e8122e5b09d3b1dcce9ad246a290c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53eb4f83464dc2ed98e06708ad760028 = $(`<div id="html_53eb4f83464dc2ed98e06708ad760028" style="width: 100.0%; height: 100.0%;">금호고등학교</div>`)[0];
+                popup_08e8122e5b09d3b1dcce9ad246a290c0.setContent(html_53eb4f83464dc2ed98e06708ad760028);
+            
+        
+
+        marker_87a47dd0b2bddba463035930b9a2ede2.bindPopup(popup_08e8122e5b09d3b1dcce9ad246a290c0)
+        ;
+
+        
+    
+    
+            var marker_31b9a854d7c6ee91e2973b93ae1eb940 = L.marker(
+                [37.5605652, 127.0363099],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_ba7aa2e9d9db4f1654f50fa31974ce84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79b37795a899ee5ae42a0639611a4724 = $(`<div id="html_79b37795a899ee5ae42a0639611a4724" style="width: 100.0%; height: 100.0%;">덕수고등학교</div>`)[0];
+                popup_ba7aa2e9d9db4f1654f50fa31974ce84.setContent(html_79b37795a899ee5ae42a0639611a4724);
+            
+        
+
+        marker_31b9a854d7c6ee91e2973b93ae1eb940.bindPopup(popup_ba7aa2e9d9db4f1654f50fa31974ce84)
+        ;
+
+        
+    
+    
+            var marker_2240c240b13a031cb27cadd29a8bd642 = L.marker(
+                [37.5663079, 127.0369547],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_9c0446266c6af62cf88c01ef5baf5160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e956c679f5cabc3c7aeac7c4400f9307 = $(`<div id="html_e956c679f5cabc3c7aeac7c4400f9307" style="width: 100.0%; height: 100.0%;">도선고등학교</div>`)[0];
+                popup_9c0446266c6af62cf88c01ef5baf5160.setContent(html_e956c679f5cabc3c7aeac7c4400f9307);
+            
+        
+
+        marker_2240c240b13a031cb27cadd29a8bd642.bindPopup(popup_9c0446266c6af62cf88c01ef5baf5160)
+        ;
+
+        
+    
+    
+            var marker_0c9fb6e20e93b131f282a16a7c3a68a7 = L.marker(
+                [37.557398, 127.03352],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_4aca587fe311978d919be1d7548b5286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e66d3e66765d91d77678f71ddd8412b = $(`<div id="html_4e66d3e66765d91d77678f71ddd8412b" style="width: 100.0%; height: 100.0%;">무학여자고등학교</div>`)[0];
+                popup_4aca587fe311978d919be1d7548b5286.setContent(html_4e66d3e66765d91d77678f71ddd8412b);
+            
+        
+
+        marker_0c9fb6e20e93b131f282a16a7c3a68a7.bindPopup(popup_4aca587fe311978d919be1d7548b5286)
+        ;
+
+        
+    
+    
+            var marker_7c0b4fda8118531fb2eb57fcac8bfd2d = L.marker(
+                [37.547354, 127.0105807],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_05aebb5979351de6f7fb2e2a98629598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea0580c751c6c3d3f31f94ef90058af8 = $(`<div id="html_ea0580c751c6c3d3f31f94ef90058af8" style="width: 100.0%; height: 100.0%;">서울방송고등학교</div>`)[0];
+                popup_05aebb5979351de6f7fb2e2a98629598.setContent(html_ea0580c751c6c3d3f31f94ef90058af8);
+            
+        
+
+        marker_7c0b4fda8118531fb2eb57fcac8bfd2d.bindPopup(popup_05aebb5979351de6f7fb2e2a98629598)
+        ;
+
+        
+    
+    
+            var marker_62d9f33cb453fb4ffeae9f9a4bac0574 = L.marker(
+                [37.5473571, 127.0381343],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_72565045b361bed327ab7e78de9dc750 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_450210872c4437be0ee58fc3662e3938 = $(`<div id="html_450210872c4437be0ee58fc3662e3938" style="width: 100.0%; height: 100.0%;">성수고등학교</div>`)[0];
+                popup_72565045b361bed327ab7e78de9dc750.setContent(html_450210872c4437be0ee58fc3662e3938);
+            
+        
+
+        marker_62d9f33cb453fb4ffeae9f9a4bac0574.bindPopup(popup_72565045b361bed327ab7e78de9dc750)
+        ;
+
+        
+    
+    
+            var marker_116f161f25dd885e971c45cee9013e94 = L.marker(
+                [37.540543, 127.0514262],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_70e82ec592df9d7345bbe84c54e51344 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8411b0436bccf261b4bc619645c71d4a = $(`<div id="html_8411b0436bccf261b4bc619645c71d4a" style="width: 100.0%; height: 100.0%;">성수공업고등학교</div>`)[0];
+                popup_70e82ec592df9d7345bbe84c54e51344.setContent(html_8411b0436bccf261b4bc619645c71d4a);
+            
+        
+
+        marker_116f161f25dd885e971c45cee9013e94.bindPopup(popup_70e82ec592df9d7345bbe84c54e51344)
+        ;
+
+        
+    
+    
+            var marker_fa6d80d9f168301c3c9ef3157164fed4 = L.marker(
+                [37.5624663, 127.0467249],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_022d0a38e434746944183349905d3d7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c84cdce1f8815dfd683e5a7012aaf15d = $(`<div id="html_c84cdce1f8815dfd683e5a7012aaf15d" style="width: 100.0%; height: 100.0%;">한양대학교사범대학부속고등학교</div>`)[0];
+                popup_022d0a38e434746944183349905d3d7e.setContent(html_c84cdce1f8815dfd683e5a7012aaf15d);
+            
+        
+
+        marker_fa6d80d9f168301c3c9ef3157164fed4.bindPopup(popup_022d0a38e434746944183349905d3d7e)
+        ;
+
+        
+    
+    
+            var marker_dba64d12f3b607a41c60f02f8f7fd9bb = L.marker(
+                [37.558667, 127.0498875],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_674f459779068cd674fbf64c6ca294f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e63be0517d78876fba4395f8ee8e88d = $(`<div id="html_2e63be0517d78876fba4395f8ee8e88d" style="width: 100.0%; height: 100.0%;">한양여자대학교</div>`)[0];
+                popup_674f459779068cd674fbf64c6ca294f7.setContent(html_2e63be0517d78876fba4395f8ee8e88d);
+            
+        
+
+        marker_dba64d12f3b607a41c60f02f8f7fd9bb.bindPopup(popup_674f459779068cd674fbf64c6ca294f7)
+        ;
+
+        
+    
+    
+            var marker_1aaaf5d4ad336fb94f6e7a7cee576b7d = L.marker(
+                [37.557176, 127.04540966],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_e4179802a3a81572043644ebe3aed179 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b20ab1c9a0f79a9fb89616f8f6764b80 = $(`<div id="html_b20ab1c9a0f79a9fb89616f8f6764b80" style="width: 100.0%; height: 100.0%;">한양대학교</div>`)[0];
+                popup_e4179802a3a81572043644ebe3aed179.setContent(html_b20ab1c9a0f79a9fb89616f8f6764b80);
+            
+        
+
+        marker_1aaaf5d4ad336fb94f6e7a7cee576b7d.bindPopup(popup_e4179802a3a81572043644ebe3aed179)
+        ;
+
+        
+    
+    
+            var marker_598747aec8e925aed712f1db04fd03e5 = L.marker(
+                [37.557153, 127.0476],
+                {}
+            ).addTo(marker_cluster_746391617f7d7fadbb440cd6c90b488e);
+        
+    
+        var popup_f3066bd8f00c0548d84a9ae61db59358 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ec795ccb5dce9efa774e1e272857672 = $(`<div id="html_3ec795ccb5dce9efa774e1e272857672" style="width: 100.0%; height: 100.0%;">한양사이버대학교</div>`)[0];
+                popup_f3066bd8f00c0548d84a9ae61db59358.setContent(html_3ec795ccb5dce9efa774e1e272857672);
+            
+        
+
+        marker_598747aec8e925aed712f1db04fd03e5.bindPopup(popup_f3066bd8f00c0548d84a9ae61db59358)
+        ;
+
+        
+    
+</script>
+</html>
