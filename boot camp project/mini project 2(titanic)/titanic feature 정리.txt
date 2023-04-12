@@ -1,0 +1,96 @@
+타이타닉 경진대회 의미있는 결과들 정리
+
+전체적인 확인 
+-> fare에 따른 pclass 상관관계 (0.54)
+-> age에 따른 pclass 상관관계 (0.38)
+
+-> pclass에 따른 survived (0.3)
+-> fare 에 따른 survived (0.23)
+
+-> sibsp에 따른 age (0.25)
+-> sibsp 에 따른 fare(0.18)
+ 
+-> age 에 따른 fare (0.13)
+
+
+<model - 4>
+age - survived 
+---> 5살이하 / 5살이상  feature 만듬 
+
+- 여자가 남자보다 생존이 높음 
+---> 5살이하 남자 / 5살이하 여자 / 5살이상 남자 / 5살이하 남자 feature 
+
+- 5살이하에 대한 pclass 
+---> 5살이하  pcalss 1,2 / 5살이하 pcalss 3 / 5살이상 pcalss 1,2 / 5살이상 pclass 3 feature 
+
+- age 나이대별로 분류
+----> age 를 유아(5살이하)/어린이(5~12)/청소년(12~18)/성인(18~39)
+/중년(39~49)/장년(49~64)/노인(64이상) 으로 구분되는 new_age feature 만듬
+
+-age 사회초년분류
+----> age를 19이하 어린 , 20~39 사회초년생 , 나머지는 사회인으로 하는 social feature만듬
+----> new age랑 성별을 합쳐서 gender_new_age feature 만듬
+----> new age랑 pclass 합쳐서 pclass_new_age feature 만듬
+
+
+fare - survived
+----> fare 51이상이면 high fare , fare 51이하이면 low fare 인 fare_level  feature 
+----> gender + fare_level 을 해서 gender_fare_level  feature 
+----> fare_level + pclass_1(1/2,3) feature만듬 
+----> fare_level + pcalss_3(1,2/3) feature만듬
+----> fare_level + new_age feature만듬 
+----> fare_level + social 만듬 
+
+- pclass 등급 1등급(높은) , 2,3등급(낮은)으로 나누고 성별로 구분  
+----> pclass 높은등급 male / pclass 높은등급 female  / pclass 낮은등급 male / pclass 낮은등급 female feature 
+----> pclass 1,2 / pclass 3 등급을 나눈 pclass_3 만듬
+----> pclass 2,3 / pclass 1 등급을 나눈 pclass_1 만듬
+----> pclass pclass_3 + gender feature 
+
+
+sibsp
+----> sibsp + parch를 합치고+1을 해서 family  feature만듬 
+----> family를 lone / small family / high family 로 구분해서 feature만듬
+----> family를 2,3,4(general family) / 나머지(not general family)
+----> new age랑 sibsp_2_high 합쳐서 sibsp_2_high_new_age feature 만듬
+----> infant랑 sibsp_2_high 합쳐서 sibsp_2_high_infant
+
+
+name
+----> Mr,Miss,Mrs,Master 랑 그외 로 구분되는 initial_name feature
+----> initial_name 으로 결혼 / 미혼 / 아기 / 판단불가로 구분해 marriage feature 
+
+
+
+
+연속형 : fare  , age
+일반 수치형 : pclass , sibsp , parch
+범주형 : gender , embakred 
+텍스트형 : name , ticket
+
+
+많은 feature를 뽑을때는 desessiontree로 돌리고 feature를 뽑았으면 -> 
+xgboost , light gvm , cat boost 를 사용해서 가장 괜찮은거 찾고(이때 평가지표는 auc사용) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> 찾았으면 hyperparameter 튜닝

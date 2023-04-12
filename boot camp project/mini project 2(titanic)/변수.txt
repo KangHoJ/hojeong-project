@@ -1,0 +1,23 @@
+visual studio extention
+
+ident-rainbow 
+matiral icon-color
+
+
+
+# 'pclass_1_fare_level_low pcalss(2,3)_1' -> FP 2 증가
+# sibsp_0 지운다 -> 그대로 
+#sibsp_1 지운다 -> FN 2 증가 FP 9증가
+#'pclass_2' 지운다 -> FN 1 증가 FP 1증가
+#'parch_0' 지운다 -> FN 2 증가 
+# 'new_age_정상나이' -> FN 2증가 FP 1증가
+# 'social_ohters' -> FN 1 증가 FP 2증가 
+# 'name_len_group_2 -> FN 1감소 FP1증가 -> 뺴는것도 괜찮
+# 'pclass_1_fare_level_high pclass(1)_1', -> FN 1증가 FP 3증가
+# name_len_group_0' ;
+# 'name_len_group_1', 
+#  'name_len_group_3'
+# 'pclass_3',
+# age 
+#fare
+# 'sib_female_others',

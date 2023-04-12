@@ -1,0 +1,19 @@
+# drop_tr = enc_tr[['sib_female_others', 'age', 'gender_female', 'fare', 'gender_male',
+#        'name_len', 'name_len_group', 
+male_add_pclass_1_2,3등급 남자 -> pricision이 1 올라감 v
+'social_ohters',]] -> recall 1내려감 
+'low_pclass_gender_ohters', -> pricision 1 내려감 
+'male_add_pclass_1_ohters',  -> pricision 1 내려감 
+'pclass_1_fare_level_low pcalss(2,3)_low fare' -> 올라감 v
+;perch' -> pricision 1 내려감
+'pclass_1_high pclass(1)' -> pricision 1 내려감
+'low_pclass_gender_1,2등급 여자' -> pricision 내려감
+'family' -> recall 1올라감 v 
+'sibsp'-> recall 2 내려감 , pricision1 올라감
+'pclass', -> recall 2 올라감
+'sib_female_sibsp 2명이하 여자' -> pricision 1 내려감 recall 2 내려감
+name len ->  pricision1올라감
+
+
+죽었다고 예측했는데 실제로 살았던 사람이 많았음
+-> 죽었다고 잘 예측해야함
